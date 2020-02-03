@@ -260,6 +260,7 @@ station_researchers = {
 
 	generate_mult_modifiers = {
 		produces
+		cost
 	}
 }
 
@@ -409,6 +410,18 @@ planet_districts_cities = {
 	generate_add_modifiers = {
 		produces
 		upkeep
+	}
+
+	generate_mult_modifiers = {
+		cost
+	}
+}
+
+planet_districts_farming = {
+	parent = planet_structures
+
+	generate_add_modifiers = {
+		produces
 	}
 
 	generate_mult_modifiers = {
