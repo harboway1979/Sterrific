@@ -1,0 +1,256 @@
+@movable_editors = no
+@sub_window_pos_x = -515
+@sub_window_pos_y = -150
+@sub_window_height = 650
+@sub_window_pos_x_1200 = -363
+@sub_window_pos_y_1440 = -250
+@sub_window_height_1440 = 850
+guiTypes = {
+	#######################
+	# empire flag
+	#######################
+	containerWindowType = {
+		name = "empire_flag_editor"
+		moveable = @movable_editors
+		position = { x = @sub_window_pos_x y = @sub_window_pos_y }
+		size = { width = 1030 height = @sub_window_height }
+		if_resolution = {
+			max_width = 1600
+			position = { x = @sub_window_pos_x_1200 y = @sub_window_pos_y }
+		}
+		if_resolution = {
+			min_height = 1440
+			position = { x = @sub_window_pos_x y = @sub_window_pos_y_1440 }
+			size = { width = 1030 height = @sub_window_height_1440 }
+		}
+		orientation = center
+		background = {
+			name = "background"
+			spriteType = "GFX_subwindow_tile_plain_solid"
+		}
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = -10 y = -8 }
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line"
+			position = { x = 6 y = 26 }
+		}
+		instantTextBoxType = {
+			name = "label"
+			font = "malgun_goth_24"
+			position = { x = 16 y = 7 }
+			maxWidth = 230
+			text = "empire_flag_editor"
+			format = left
+			alwaysTransparent = yes
+		}
+		containerWindowType = {
+			name = "categories_background"
+			position = { x = 5 y = 45 }
+			size = { width = 160 height = 540 }
+			background = |
+				name = "background"
+				spriteType = "GFX_tiles_frame_light"
+				alwaysTransparent = yes
+			}
+		}
+		smoothListboxType = {
+			name = "categories"
+			position = { x = 10 y = 50 }
+			size = { x = 150 y = 550 }
+			if_resolution = {
+				min_height = 1440
+				size = { x = 150 y = 750 }
+			}
+			scrollbarType = "standardlistbox_slider_thick"
+			borderSize = { x = 1 y = 0 }
+			spacing = 0
+		}
+		containerWindowType = {
+			name = "symbols_window"
+			position = { x = 165 y = 45 }
+			size = { width = 380 height = 350 }
+			if_resolution = {
+				min_height = 1440
+				size = { width = 380 height = 760 }
+			}
+			orientation = upper_left
+			margin = { top = 6 bottom = 6 }
+			backGround = {
+				name = "bg"
+				spriteType = "GFX_tiles_frame_light"
+			}
+			gridBoxType = {
+				name = "symbols"
+				position = { x = 10 y = 8 }
+				size = { width = 360 height = 320 }
+				if_resolution = {
+					min_height = 1440
+					size = { width = 360 height = 730 }
+				}
+				slotSize = { width = 60 height = 60 }
+				scrollbartype = "standardlistbox_slider_thick"
+				max_slots_horizontal = 6
+				format = UPPER_LEFT
+			}
+		}
+		containerWindowType = {
+			name = "colors_background"
+			position = { x = 545 y = 85 }
+			size = { width = 480 height = 408 }
+			background = |
+				name = "background"
+				spriteType = "GFX_tiles_frame_light"
+				alwaysTransparent = yes
+			}
+		}
+		gridBoxType = {
+			name = "colors"
+			position = { x = 560 y = 100 }
+			size = { width = 465 height = 398 }
+			slotSize = { width = 9 height = 9 }
+			max_slots_horizontal = 50
+			format = UPPER_LEFT
+		}
+		buttonType = {
+			name = "primary_color"
+			font = "cg_16b"
+			spriteType = "GFX_standard_button_200_24"
+			buttonText = "PRIMARY_COLOR"
+			position = { x = 552 y = 55 }
+			clicksound = click_outliner
+		}
+		buttonType = {
+			name = "secondary_color"
+			font = "cg_16b"
+			spriteType = "GFX_standard_button_200_24"
+			buttonText = "SECONDARY_COLOR"
+			position = { x = 772 y = 55 }
+			clicksound = click_outliner
+		}
+		containerWindowType = {
+			name = "patterns_window"
+			position = { x = 165 y = 395 }
+			size = { width = 380 height = 210 }
+			if_resolution = {
+				min_height = 1440
+				position = { x = 545 y = 525 }
+				size = { width = 475 height = 280 }
+			}
+			orientation = upper_left
+			margin = { top = 6 bottom = 6 }
+			backGround = {
+				name = "bg"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_tiles_frame_light"
+			}
+			gridBoxType = {
+				name = "patterns"
+				position = { x = 32 y = 5 }
+				size = { width = 316 height = 188 }
+				slotSize = { width = 64 height = 64 }
+				scrollbartype = "standardlistbox_slider_thick"
+				max_slots_horizontal = 5
+				if_resolution = {
+					min_height = 1440
+					position = { x = 15 y = 13 }
+					size = { width = 411 height = 270 }
+					max_slots_horizontal = 7
+				}
+				format = UPPER_LEFT
+			}
+		}
+		buttonType = {
+			name = "cancel"
+			quadTextureSprite = "GFX_close"
+			position = { x = -45 y = 8 }
+			Orientation = "UPPER_RIGHT"
+			shortCut = "ESCAPE"
+			pdx_tooltip = "CLOSE_TITLE"
+			clicksound = "back_click"
+		}
+		buttonType = {
+			name = "back"
+			font = "cg_16b"
+			spriteType = "GFX_standard_button_240_34_button"
+			buttonText = "BACK"
+			position = { x = 0 y = -60 }
+			orientation = LOWER_LEFT
+			shortcut = "BACKSPACE"
+			clicksound = back_click
+		}
+		buttonType = {
+			name = "apply_and_close"
+			font = "cg_16b"
+			spriteType = "GFX_standard_button_240_34_button"
+			buttonText = "NEXT"
+			position = { x = -262 y = -60 }
+			orientation = LOWER_RIGHT
+			#shortcut = "RETURN"
+			clicksound = confirm_click
+		}
+	}
+	###
+	containerWindowType = {
+		name = "flag_symbol_category_entry"
+		size = { width = 150 height = 30 }
+		backGround = {
+			name = "bg"
+			spriteType = "GFX_invisible"
+			clicksound = "click_outliner"
+		}
+		instantTextBoxType = {
+			name = "name"
+			font = "malgun_goth_24"
+			position = { x = 10 y = 3 }
+			maxWidth = 140
+			text = "CATEGORY"
+			format = left
+			alwaysTransparent = yes
+		}
+		containerWindowType = {
+			name = "selected"
+			size = { width = 150 height = 35 }
+			backGround = {
+				name = "bg"
+				spriteType = "GFX_glow_tile_orange"
+			}
+		}
+	}
+	###
+	containerWindowType = {
+		name = "flag_texture_entry"
+		size = { width = 60 height = 60 }
+		buttonType = {
+			name = "flag"
+			quadTextureSprite = "GFX_flag_no_mask"
+			scale = 5
+			clicksound = "select_click"
+		}
+		iconType = {
+			name = "highlight"
+			spriteType = "GFX_flag_highlight"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+			scale = 0.6
+		}
+	}
+	###
+	containerWindowType = {
+		name = "color_entry"
+		buttonType = {
+			name = "select_color"
+			quadTextureSprite = "GFX_ui_gamesetup_colorpicker"
+			clicksound = "select_click"
+		}
+		iconType = {
+			name = "highlight"
+			spriteType = "GFX_ui_gamesetup_colorpicker_highlight"
+			alwaystransparent = yes
+		}
+	}
+}
