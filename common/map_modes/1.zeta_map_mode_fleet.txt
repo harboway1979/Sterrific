@@ -1,0 +1,131 @@
+zeta_map_mode_fleet = {
+	icon = zeta_map_mode_fleet
+	enable_terra_incognita = no
+	shortcut = "CTRL+f"
+
+	color = {
+		value = hsv { 0.6 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_2000000
+		condition = {
+			fleet_power > 2000000
+		}
+	}
+######
+	color = {
+		value = hsv { 0.57 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_1500000
+		condition = {
+			fleet_power > 1500000
+		}
+	}	
+	color = {
+		value = hsv { 0.54 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_1000000
+		condition = {
+			fleet_power > 1000000
+		}
+	}	
+	color = {
+		value = hsv { 0.51 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_750000
+		condition = {
+			fleet_power > 750000
+		}
+	}
+######
+	color = {
+		value = hsv { 0.48 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_500000
+		condition = {
+			fleet_power > 500000
+		}
+	}	
+	color = {
+		value = hsv { 0.45 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_400000
+		condition = {
+			fleet_power > 400000
+		}
+	}
+	color = {
+		value = hsv { 0.42 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_300000
+		condition = {
+			fleet_power > 300000
+		}
+	}
+######
+	color = {
+		value = hsv { 0.39 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_200000
+		condition = {
+			fleet_power > 200000
+		}
+	}
+	color = {
+		value = hsv { 0.36 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_100000
+		condition = {
+			fleet_power > 100000
+		}
+	}	
+	color = {
+		value = hsv { 0.33 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_50000
+		condition = {
+			fleet_power > 50000
+		}
+	}
+######
+	color = {
+		value = hsv { 0.3 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_25000
+		condition = {
+			fleet_power > 25000
+		}
+	}
+	color = {
+		value = hsv { 0.27 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_10000
+		condition = {
+			fleet_power > 10000
+		}
+	}
+	color = {
+		value = hsv { 0.24 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_5000
+		condition = {
+			fleet_power > 5000
+		}
+	}
+######
+	color = {
+		value = hsv { 0.21 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_2500
+		condition = {
+			fleet_power > 2500
+		}
+	}
+	color = {
+		value = hsv { 0.19 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_1000
+		condition = {
+			fleet_power > 1000
+		}
+	}
+	color = {
+		value = hsv { 0.16 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_fleet_10
+		condition = {
+			fleet_power > 10
+		}
+	}
+######
+	color = {
+		value = hsv { 0 0 0.5 1 }
+		custom_tooltip = zeta_map_mode_fleet_negligible
+		condition = {
+			always = yes
+		}
+	}
+}

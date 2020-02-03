@@ -1,0 +1,70 @@
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_fleet
+		texturefile = "gfx/interface/icons/zeta_map_mode_fleet.dds"
+		noOfFrames = 2
+	}	
+}
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_economy
+		texturefile = "gfx/interface/icons/zeta_map_mode_economy.dds"
+		noOfFrames = 2
+	}	
+}
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_science
+		texturefile = "gfx/interface/icons/zeta_map_mode_science.dds"
+		noOfFrames = 2
+	}	
+}	
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_wp
+		texturefile = "gfx/interface/icons/zeta_map_mode_wp.dds"
+		noOfFrames = 2
+	}	
+}
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_pers
+		texturefile = "gfx/interface/icons/zeta_map_mode_pers.dds"
+		noOfFrames = 2
+	}	
+}
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_pop
+		texturefile = "gfx/interface/icons/zeta_map_mode_pop.dds"
+		noOfFrames = 2
+	}	
+}
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_trade
+		texturefile = "gfx/interface/icons/zeta_map_mode_trade.dds"
+		noOfFrames = 2
+	}	
+}
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_claims
+		texturefile = "gfx/interface/icons/zeta_map_mode_claims.dds"
+		noOfFrames = 2
+	}	
+}
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_minerals
+		texturefile = "gfx/interface/icons/zeta_map_mode_minerals.dds"
+		noOfFrames = 2
+	}	
+}
+spriteTypes = {
+	spriteType = {
+		name = zeta_map_mode_authority
+		texturefile = "gfx/interface/icons/zeta_map_mode_authority.dds"
+		noOfFrames = 2
+	}	
+}

@@ -1,0 +1,66 @@
+zeta_map_mode_authority = {
+	icon = zeta_map_mode_authority
+	enable_terra_incognita = no
+	shortcut = "CTRL+g"
+
+	color = {
+		value = hsv { 0.32 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_authority_democratic
+		condition = {
+			has_authority = auth_democratic
+		}
+	} 
+	color = {
+		value = hsv { 0.24 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_authority_oligarchic
+		condition = {
+			has_authority = auth_oligarchic
+		}
+	}
+	color = {
+		value = hsv { 0.16 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_authority_dictatorial
+		condition = {
+			has_authority = auth_dictatorial
+		}
+	}
+	color = {
+		value = hsv { 0.08 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_authority_imperial
+		condition = {
+			has_authority = auth_imperial
+		}
+	}
+	color = {
+		value = hsv { 0.72 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_authority_corporate
+		condition = {
+			has_authority = auth_corporate
+		}
+	}
+	color = {
+		value = hsv { 0.8 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_authority_hiveMind
+		condition = {
+			has_authority = auth_hive_mind
+		}
+	}
+	color = {
+		value = hsv { 0.64 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_authority_machineIntelligence
+		condition = {
+			or = {
+				has_authority = auth_machine_intelligence
+				has_authority = auth_ancient_machine_intelligence
+			}
+		}
+	} 
+######
+	color = {
+		value = hsv { 0 0 0.5 1 }
+		custom_tooltip = zeta_map_mode_authority_unknown
+		condition = {
+			always = yes
+		}
+	}
+}

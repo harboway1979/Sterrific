@@ -1,0 +1,45 @@
+zeta_map_mode_claims = {
+	icon = zeta_map_mode_claims
+	enable_terra_incognita = no
+	display_claims = yes
+	shortcut = "CTRL+k"
+######
+	color = {
+		value = hsv { 0.32 0.9 1 1 }
+		custom_tooltip = DIPLOMATIC_MAP_MODE_SAME_EMPIRE
+		condition = {
+			is_same_empire = FROM
+		}
+	}
+######
+	color = {
+		value = hsv { 0.88 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_claims_both
+		condition = {
+			FROM = { has_claim = PREV }
+			has_claim = FROM
+		}
+	} 
+	color = {
+		value = hsv { 0.56 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_claims_ours
+		condition = { 
+			FROM = { has_claim = PREV }
+		}
+	}
+	color = {
+		value = hsv { 0.04 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_claims_their
+		condition = { 
+			has_claim = FROM
+		}
+	}
+######
+	color = {
+		value = hsv { 0 0 0.5 1 }
+		custom_tooltip = zeta_map_mode_claims_none
+		condition = {
+			always = yes
+		}
+	}
+}
