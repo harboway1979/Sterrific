@@ -1,0 +1,173 @@
+namespace = kiyo_diplo_influence_events
+
+# (ON_MONTHLY_PULSE)
+# Trigger the "kiyo_diplo_influence_events.1" event
+event = {
+	id = kiyo_diplo_influence_events.0
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			any_country = { kiyo_diplo_influence_has_added_influence = yes }
+			any_country = { NOT = { has_modifier = kiyo_diplo_influence_enabled } }
+		}
+	}
+	
+	immediate = {
+		every_country = { limit = { kiyo_diplo_influence_has_added_influence = yes }
+			country_event = { id = kiyo_diplo_influence_events.1 }
+		}
+		every_country = { limit = { NOT = { has_modifier = kiyo_diplo_influence_enabled } }
+			add_modifier = { modifier = kiyo_diplo_influence_enabled days = -1 }
+		}
+	}
+}
+
+# Set influence values and add deposit if NOT there OR remove deposit if value is 0
+country_event = {
+	id = kiyo_diplo_influence_events.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		# Reset vars to 0 
+		set_variable = { which = kiyo_diplo_influence value = 0 }
+		set_variable = { which = kiyo_diplo_influence_looper value = 0 }
+		set_variable = { which = kiyo_diplo_nap value = 0 }
+		set_variable = { which = kiyo_diplo_guarantee value = 0 }
+		remove_country_flag = kiyo_diplo_influence_64
+		remove_country_flag = kiyo_diplo_influence_32
+		remove_country_flag = kiyo_diplo_influence_16
+		remove_country_flag = kiyo_diplo_influence_8
+		remove_country_flag = kiyo_diplo_influence_4
+		remove_country_flag = kiyo_diplo_influence_2
+		remove_country_flag = kiyo_diplo_influence_1
+		remove_country_flag = kiyo_diplo_influence_05
+		remove_country_flag = kiyo_diplo_influence_025
+		
+		# Remove existing modifiers
+		remove_modifier = kiyo_diplo_influence_nap_1
+		remove_modifier = kiyo_diplo_influence_nap_2
+		remove_modifier = kiyo_diplo_influence_nap_3
+		remove_modifier = kiyo_diplo_influence_nap_4
+		remove_modifier = kiyo_diplo_influence_nap_5
+		remove_modifier = kiyo_diplo_influence_nap_6
+		remove_modifier = kiyo_diplo_influence_nap_7
+		remove_modifier = kiyo_diplo_influence_nap_8
+		remove_modifier = kiyo_diplo_influence_nap_9
+		remove_modifier = kiyo_diplo_influence_nap_10
+		
+		remove_modifier = kiyo_diplo_influence_guarantee_1
+		remove_modifier = kiyo_diplo_influence_guarantee_2
+		remove_modifier = kiyo_diplo_influence_guarantee_3
+		remove_modifier = kiyo_diplo_influence_guarantee_4
+		remove_modifier = kiyo_diplo_influence_guarantee_5
+		remove_modifier = kiyo_diplo_influence_guarantee_6
+		remove_modifier = kiyo_diplo_influence_guarantee_7
+		remove_modifier = kiyo_diplo_influence_guarantee_8
+		remove_modifier = kiyo_diplo_influence_guarantee_9
+		remove_modifier = kiyo_diplo_influence_guarantee_10
+		
+		every_country = { limit = { root = { kiyo_diplo_influence_has_added_influence = yes } }
+			
+			# ADD Modifiers
+			if = {
+				limit = {
+					root = { is_guaranteeing = prev }
+					NOT = { is_guaranteeing = root }
+				}
+				root = {
+					change_variable = { which = kiyo_diplo_influence_looper value = 0.5 }
+					change_variable = { which = kiyo_diplo_guarantee_looper value = 1 }
+				}
+			}
+			if = { limit = { OR = { has_non_aggression_pact = root has_association_status = root } }
+				root = { change_variable = { which = kiyo_diplo_nap_looper value = 1 } }
+			}
+			
+			# MULT Modifiers post-add
+			if = { limit = { is_neighbor_of = root }
+				root = {
+					multiply_variable = { which = kiyo_diplo_guarantee_looper value = 2 }
+					multiply_variable = { which = kiyo_diplo_nap_looper value = 2 }
+				}
+			}
+			
+			# Add looper var to total var and reset looper vars
+			root = {
+				change_variable = { which = kiyo_diplo_guarantee value = kiyo_diplo_guarantee_looper }
+				change_variable = { which = kiyo_diplo_nap value = kiyo_diplo_nap_looper }
+				set_variable = { which = kiyo_diplo_guarantee_looper value = 0 }
+				set_variable = { which = kiyo_diplo_nap_looper value = 0 }
+			}
+			
+		}
+		
+		### Flags/Vars for triggering the deposit gains ###
+		
+		# NAP Gains
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value = 1 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_1 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value = 2 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_2 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value = 3 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_3 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value = 4 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_4 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value = 5 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_5 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value = 6 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_6 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value = 7 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_7 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value = 8 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_8 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value = 9 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_9 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_nap value >= 10 } }
+			add_modifier = { modifier = kiyo_diplo_influence_nap_10 days = -1 }
+		}
+		
+		# One-Way Guarantee Gains
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value = 1 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_1 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value = 2 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_2 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value = 3 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_3 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value = 4 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_4 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value = 5 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_5 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value = 6 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_6 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value = 7 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_7 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value = 8 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_8 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value = 9 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_9 days = -1 }
+		}
+		if = { limit = { check_variable = { which = kiyo_diplo_guarantee value >= 10 } }
+			add_modifier = { modifier = kiyo_diplo_influence_guarantee_10 days = -1 }
+		}
+	}
+}
