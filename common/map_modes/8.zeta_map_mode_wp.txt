@@ -1,0 +1,209 @@
+zeta_map_mode_wp= {
+	icon = zeta_map_mode_wp
+	enable_terra_incognita = no
+	shortcut = "CTRL+w"
+######
+	color = {
+		value = hsv { 0 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_crisis_war
+		condition = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = extradimensional
+				is_country_type = extradimensional_2
+				is_country_type = extradimensional_3
+				is_country_type = ai_empire
+				is_country_type = sentinels
+			}
+		}
+	}
+######
+	color = {
+		value = hsv { 0.2 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_neutral
+		condition = {
+			is_country_type = caravaneer_home
+		}
+	}
+######
+	color = {
+		value = hsv { 0.16 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_marauder_dormant
+		condition = {
+			is_country_type = dormant_marauders
+		}
+	}
+	color = {
+		value = hsv { 0.16 0.9 0.5 1 }
+		custom_tooltip = zeta_map_mode_wp_marauder_ruined
+		condition = {
+			is_country_type = ruined_marauders
+		}
+	}
+	color = {
+		value = hsv { 0.92 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_marauder_awakened
+		condition = {
+			is_country_type = awakened_marauders
+		}
+	}
+######
+	color = {
+		value = hsv { 0.44 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_wp_fallen_federation_peaceLeader
+		condition = {
+			has_federation = yes
+			is_federation_leader = yes
+			is_at_war = no
+			
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.44 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_fallen_federation_peace
+		condition = {
+			has_federation = yes
+			is_at_war = no
+			
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.88 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_wp_fallen_federation_warLeader
+		condition = {
+			is_war_leader = yes
+			has_federation = yes
+			is_at_war = yes
+			
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.88 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_fallen_federation_war
+		condition = {
+			has_federation = yes
+			is_at_war = yes
+			
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+######
+	color = {
+		value = hsv { 0.4 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_fallen_peace
+		condition = {
+			is_at_war = no
+			
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.84 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_wp_fallen_warLeader
+		condition = {
+			is_at_war = yes
+			is_war_leader = yes
+			
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.84 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_fallen_war
+		condition = {
+			is_at_war = yes
+			
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+######
+	color = {
+		value = hsv { 0.32 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_wp_country_federation_peaceLeader
+		condition = {
+			has_federation = yes
+			is_federation_leader = yes
+			is_at_war = no
+		}
+	}
+	color = {
+		value = hsv { 0.32 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_country_federation_peace
+		condition = {
+			has_federation = yes
+			is_at_war = no
+		}
+	}
+	color = {
+		value = hsv { 0.04 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_wp_country_federation_warLeader
+		condition = {
+			has_federation = yes
+			is_at_war = yes
+			is_war_leader = yes
+		}
+	}	
+	color = {
+		value = hsv { 0.04 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_country_federation_war
+		condition = {
+			has_federation = yes
+			is_at_war = yes
+		}
+	}
+######
+	color = {
+		value = hsv { 0.28 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_country_peace
+		condition = {
+			is_at_war = no
+		}
+	}
+	color = {
+		value = hsv { 0.08 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_wp_country_warLeader
+		condition = {
+			is_at_war = yes
+			is_war_leader = yes
+		}
+	}
+	color = {
+		value = hsv { 0.08 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_wp_country_war
+		condition = {
+			is_at_war = yes
+		}
+	}
+######
+	color = {
+		value = hsv { 0 0 0.5 1 }
+		custom_tooltip = zeta_map_mode_wp_unknown
+		condition = {
+			always = yes
+		}
+	}
+}

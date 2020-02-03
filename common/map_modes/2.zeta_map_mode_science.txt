@@ -1,0 +1,103 @@
+zeta_map_mode_science = {
+	icon = zeta_map_mode_science
+	enable_terra_incognita = no
+	shortcut = "CTRL+s"
+
+	color = {
+		value = hsv { 0.32 0.9 1 1 }
+		custom_tooltip = DIPLOMATIC_MAP_MODE_SAME_EMPIRE
+		condition = {
+			is_same_empire = from
+		}
+	}
+###### more
+	color = {
+		value = hsv { 0.64 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_science_more_4
+		condition = {
+			tech_unlocked_ratio = {
+				who = from
+				ratio > 5
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.56 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_science_more_3
+		condition = {
+			tech_unlocked_ratio = {
+				who = from
+				ratio > 3
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.48 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_science_more_2
+		condition = {
+			tech_unlocked_ratio = {
+				who = from
+				ratio > 1.75
+			}
+		}
+	}	
+	color = {
+		value = hsv { 0.4 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_science_more_1
+		condition = {
+			tech_unlocked_ratio = {
+				who = from
+				ratio > 1.15
+			}
+		}
+	}
+###### equal
+	color = {
+		value = hsv { 0.32 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_science_equal
+		condition = {
+			tech_unlocked_ratio = {
+				who = from
+				ratio > 0.85
+			}
+		}
+	}
+###### less
+	color = {
+		value = hsv { 0.24 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_science_less_1
+		condition = {
+			tech_unlocked_ratio = {
+				who = from
+				ratio > 0.5
+			}
+		}
+	}	
+	color = {
+		value = hsv { 0.16 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_science_less_2
+		condition = {
+			tech_unlocked_ratio = {
+				who = from
+				ratio > 0.25
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.08 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_science_less_3
+		condition = {
+			tech_unlocked_ratio = {
+				who = from
+				ratio > 0.1
+			}
+		}
+	}
+	color = {
+		value = hsv { 0 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_science_less_4
+		condition = {
+			always = yes
+		}
+	}
+}

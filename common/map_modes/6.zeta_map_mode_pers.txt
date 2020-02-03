@@ -1,0 +1,193 @@
+zeta_map_mode_pers = {
+	icon = zeta_map_mode_pers
+	enable_terra_incognita = no
+	shortcut = "CTRL+p"
+######
+	color = {
+		value = hsv { 0.08 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_pers_aggressive
+		condition = {
+			is_country_type = default
+		
+			or = {
+				has_ai_personality  = honorbound_warriors
+				has_ai_personality  = evangelising_zealots
+				has_ai_personality  = hegemonic_imperialists
+				has_ai_personality  = slaving_despots
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.08 0.9 0.5 1 }
+		custom_tooltip = zeta_map_mode_pers_aggressive_isolationist
+		condition = {
+			is_country_type = default
+		
+			or = {
+				has_ai_personality  = fanatic_purifiers
+				has_ai_personality  = hive_mind
+				has_ai_personality  = metalhead
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.08 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_pers_aggressive_ai
+		condition = {
+			is_country_type = default
+			
+			or = {
+				has_ai_personality  = exterminators
+				has_ai_personality  = assimilators
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.12 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_pers_aggressive_cooperator
+		condition = {
+			is_country_type = default
+			
+			or = {
+				has_ai_personality  = fanatic_befrienders	
+			}
+		}
+	}
+	color = {
+		value = hsv { 0 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_pers_aggressive_crisis
+		condition = {
+			or = {
+				is_country_type = swarm
+				is_country_type = extradimensional
+				is_country_type = extradimensional_2	
+				is_country_type = extradimensional_3
+				is_country_type = ai_empire
+				#is_country_type = sentinels	
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.04 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_pers_aggressive_marauder
+		condition = {
+			is_country_type = awakened_marauders
+		}
+	}
+######
+	######
+		color = {
+			value = hsv { 0.16 0.9 0.75 1 }
+			custom_tooltip = zeta_map_mode_pers_neutral_marauder
+			condition = {
+				is_country_type = dormant_marauders
+			}
+		}
+		color = {
+			value = hsv { 0.16 0.9 0.75 1 }
+			custom_tooltip = zeta_map_mode_pers_neutral_marauder_ruined
+			condition = {
+				is_country_type = ruined_marauders
+			}
+		}
+	######
+	color = {
+		value = hsv { 0.16 0.9 0.5 1 }
+		custom_tooltip = zeta_map_mode_pers_neutral_caravaneer
+		condition = {
+			is_country_type = caravaneer_home
+		}
+	}
+######
+	color = {
+		value = hsv { 0.32 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_pers_peaceful
+		condition = {
+			is_country_type = default
+			
+			or = {
+				has_ai_personality  = erudite_explorers
+				has_ai_personality  = spiritual_seekers
+				has_ai_personality  = ruthless_capitalists	
+				has_ai_personality  = peaceful_traders	
+				has_ai_personality  = harmonious_hierarchy	
+				has_ai_personality  = federation_builders	
+				has_ai_personality  = migrating_flock	
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.32 0.9 0.5 1 }
+		custom_tooltip = zeta_map_mode_pers_peaceful_isolationist
+		condition = {
+			is_country_type = default
+			
+			or = {
+				has_ai_personality  = decadent_hierarchy
+				has_ai_personality  = xenophobic_isolationists
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.32 0.9 1 1 }
+		custom_tooltip = zeta_map_mode_pers_peaceful_ai
+		condition = {
+			is_country_type = default
+			
+			or = {
+				has_ai_personality  = machine_intelligence
+				has_ai_personality  = servitors
+			}
+		}
+	}
+	color = {
+		value = hsv { 0.28 0.9 0.75 1 }
+		custom_tooltip = zeta_map_mode_pers_peaceful_liberator
+		condition = {
+			is_country_type = default
+		
+			or = {
+				has_ai_personality  = democratic_crusaders
+			}
+		}
+	}
+######
+	color = {
+		value = hsv { 0.56 0.9 0.5 1 }
+		custom_tooltip = zeta_map_mode_pers_fallen
+		condition = {
+			is_country_type = fallen_empire
+			
+			#or = {
+			#	has_ai_personality  = fallen_empire_spiritualist
+			#	has_ai_personality  = fallen_empire_materialist
+			#	has_ai_personality  = fallen_empire_xenophobe
+			#	has_ai_personality  = fallen_empire_xenophile
+			#	has_ai_personality  = fallen_empire_machine
+			#}
+		}
+	}
+	color = {
+		value = hsv { 0.6 0.9 0.5 1 }
+		custom_tooltip = zeta_map_mode_pers_fallen_awakened
+		condition = {
+			is_country_type = awakened_fallen_empire
+		
+			#or = {
+			#	has_ai_personality  = awakened_fallen_empire_spiritualist
+			#	has_ai_personality  = awakened_fallen_empire_materialist
+			#	has_ai_personality  = awakened_fallen_empire_xenophobe
+			#	has_ai_personality  = awakened_fallen_empire_xenophile
+			#	has_ai_personality  = awakened_fallen_empire_machine
+			#}
+		}
+	}
+######	
+	color = {
+		value = hsv { 0 0 0.5 1 }
+		custom_tooltip = zeta_map_mode_pers_unknown
+		condition = {
+			always = yes
+		}
+	}
+}
