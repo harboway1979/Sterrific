@@ -1,0 +1,108 @@
+﻿l_simp_chinese:
+ job_mining_drone_effect_desc:0 "£job_mining_drone£ $job_mining_drone_plural$ 生产§G+4§! £minerals£ §Y$minerals$§!"
+ 
+ job_warrior_drone_effect_desc:0 "£job_warrior_drone£ $job_warrior_drone_plural$ 增加了£mod_country_naval_cap_add£ §G+4§! §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!并繁殖出§G+3§! £defense_army£ §Y防御军团§!"
+ 
+ job_crystal_mining_drone_effect_desc:0 "£job_crystal_mining_drone£ $job_crystal_mining_drone_plural$生产§G+2§! £rare_crystals£ §Y$rare_crystals$§!并花费§R-1§! £energy£ §Y$energy$§!"
+ 
+ job_mote_harvesting_drone_effect_desc:1 "£job_mote_harvesting_drone£ $job_mote_harvesting_drone_plural$生产§G+2§! £volatile_motes£ §Y$volatile_motes$§!并花费§R-1§! £energy£ §Y$energy$§!"
+ 
+ job_gas_extraction_drone_effect_desc:0 "£job_gas_extraction_drone£ $job_gas_extraction_drone_plural$生产§G+4§! £exotic_gases£ §Y$exotic_gases$§!并花费§R-1§! £energy£ §Y$energy$§!"
+ 
+ job_agri_drone_effect_desc:0 "£job_agri_drone£ $job_agri_drone_plural$生产§G+6§! £food£ §Y$food$§!"
+ 
+ job_technician_drone_effect_desc:0 "£job_technician_drone£ $job_technician_drone_plural$生产§G+6§! £energy£ §Y$energy$§!"
+ 
+ job_spawning_drone_effect_desc:0 "£job_spawning_drone£ $job_spawning_drone_plural$增加§G+5§! £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§!和§G+25%§! £mod_pop_growth_speed£ §Y$MOD_POP_GROWTH_SPEED$§!"
+ 
+ job_replicator_effect_desc:1 "£job_replicator£ $job_replicator_plural$增加§G+5§! £mod_planet_amenities_no_happiness_add£并将§R-5§! £minerals£ §Y$minerals$§!变成新的§G+1§! £pop£ §Y机械人口§!"
+ 
+ job_synapse_drone_effect_desc:0 "£job_synapse_drone£ $job_synapse_drone_plural$将§R-2§! £energy£ §Y$energy$§!和§R-2§! £food£ §Y$food$§!变为§G+3§! £unity£ §Y$unity$§!和§G+3§! £society£ §Y$society_research$§!"
+ 
+ job_coordinator_effect_desc:0 "£job_coordinator£ $job_coordinator_plural$生产§G+3§! £unity£ §Y$unity$§!和§G+3§! £society£ §Y$society_research$§!并花费§R-3§! £energy£ §Y$energy$§!"
+ 
+ job_maintenance_drone_effect_desc:0 "£job_maintenance_drone£ $job_maintenance_drone_plural$增加§G+5§! £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_brain_drone_effect_desc:1 "£job_brain_drone£ $job_brain_drone_plural$将§R-6§! £minerals£ §Y$minerals$§!变为§G+4§! £physics£ £society£ £engineering£ §Y研究点数§!，用于新科技"
+ 
+ job_calculator_effect_desc:1 "£job_calculator£ $job_calculator_plural$将§R-6§! £minerals£ §Y$minerals$§!变成§G+4§! £physics£ £society£ £engineering£ §Y研究点数§!，用于新科技"
+ 
+ job_fabricator_effect_desc:0 "£job_fabricator£ $job_fabricator_plural$将§R-6§! £minerals£ §Y$minerals$§!变为§G+3§! £alloys£ §Y$alloys$§!"
+ 
+ job_artisan_drone_effect_desc:1 "£job_artisan_drone£ $job_artisan_drone_plural$加工§R-6§! £minerals£ §Y$minerals$§!成为§G+6§! £consumer_goods£ §Y$consumer_goods$§!"
+ 
+ job_alloy_drone_effect_desc:0 "£job_alloy_drone£ $job_alloy_drone_plural$将§R-6§! £minerals£ §Y$minerals$§!变为§G+3§! £alloys£ §Y$alloys$§!"
+ 
+ job_patrol_drone_effect_desc:0 "£job_patrol_drone£ $job_patrol_drone_plural$减少§G-20§! £crime£ §Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§!并繁殖出§G+2§! £defense_army£ §Y防御军团§!"
+ 
+ job_chemist_drone_effect_desc:0 "£job_chemist_drone£ $job_chemist_drone_plural$将§R-10§! £minerals£ §Y$minerals$§!变为§G+2§! £volatile_motes£ §Y$volatile_motes$§!"
+ 
+ job_translucer_drone_effect_desc:0 "£job_translucer_drone£ $job_translucer_drone_plural$将§R-10§! £minerals£ §Y$minerals$§!变为§G+2§! £rare_crystals£ §Y$rare_crystals$§!"
+ 
+ job_gas_refiner_drone_effect_desc:0 "£job_gas_refiner_drone£ $job_gas_refiner_drone_plural$将§R-10§! £minerals£ §Y$minerals$§!变为§G+2§! £exotic_gases£ §Y$exotic_gases$§!"
+ 
+ job_colonist_effect_desc:0 "£job_colonist£ $job_colonist_plural$生产§G+1§! £food£ §Y$food$§!, §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!并繁殖出§G+1§! £defense_army£ §Y防御军团§!"
+ 
+ job_miner_effect_desc:0 "£job_miner£ $job_miner_plural$生产§G+4§! £minerals£ §Y$minerals$§!"
+ 
+ job_crystal_miner_effect_desc:0 "£job_crystal_miner£ $job_crystal_miner_plural$生产§G+2§! £rare_crystals£ §Y$rare_crystals$§!"
+ 
+ job_mote_harvester_effect_desc:1 "£job_mote_harvester£ $job_mote_harvester_plural$产出§G+2§! £volatile_motes£ §Y$volatile_motes$§!"
+ 
+ job_gas_extractor_effect_desc:1 "£job_gas_extractor£ $job_gas_extractor_plural$产出§G+2§! £exotic_gases£ §Y$exotic_gases$§!"
+ 
+ job_farmer_effect_desc:0 "£job_farmer£ $job_farmer_plural$生产§G+6§! £food£ §Y$food$§!"
+ 
+ job_technician_effect_desc:0 "£job_technician£ $job_technician_plural$生产§G+4§! £energy£ §Y$energy$§!"
+ 
+ job_clerk_effect_desc:0 "£job_clerk£ $job_clerk_plural$生产§G+2§! £mod_trade_value_add£ §Y$TRADE_VALUE$§!和§G+2§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_preacher_effect_desc:0 "£job_preacher£ $job_preacher_plural$会产出§G+1§! £unity£ §Y$unity$§!, §G+3§! £mod_trade_value_add£ §Y$TRADE_VALUE$§!以及§G+3§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_foundry_effect_desc:0 "£job_foundry£ $job_foundry_plural$将§R-6§! £minerals£ §Y$minerals$§!变为§G+3§! £alloys£ §Y$alloys$§!"
+ 
+ job_enforcer_effect_desc:1 "£job_enforcer£ $job_enforcer_plural$生产§G+1§! £unity£ §Y$unity$§!，降低 §G-25§! £crime£ §Y$PLANET_CRIME_TITLE$§!并生成§G+2§! £defense_army£ §Y防御军队§!"
+ 
+ job_slave_overseer_effect_desc:0 "£job_slave_overseer£ $job_slave_overseer_plural$减少§G-25§! £crime£ §Y$PLANET_CRIME_TITLE$§!并生成§G+2§! £defense_army£ §Y防御军队§!"
+ 
+ job_telepath_effect_desc:0 "£job_telepath£ $job_telepath_plural$生产§G+3§! £unity£ §Y$unity$§!并减少§G-352§! £crime£ §Y$PLANET_CRIME_TITLE$§!"
+ 
+ job_soldier_effect_desc:0 "£job_soldier£ $job_soldier_plural$增加§G+2§! £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!并生成§G+3§! £defense_army£ §Y防御军团§!"
+ 
+ job_artisan_effect_desc:1 "£job_artisan£ $job_artisan_plural$加工§R-6§! £minerals£ §Y$minerals$§!变其变成§G+6§! £consumer_goods£ §Y$consumer_goods$§!"
+ 
+ job_entertainer_effect_desc:0 "£job_entertainer£ $job_entertainer_plural$将§R-1§! £consumer_goods£ §Y$consumer_goods$§!变为§G+2§! £unity£ §Y$unity$§!和§G+10§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_healthcare_effect_desc:0 "£job_healthcare£ $job_healthcare_plural$将§R-1§! £consumer_goods£ §Y$consumer_goods$§!变为§G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!和§G+5%§! £mod_pop_growth_speed£ §Y$MOD_POP_GROWTH_SPEED$§!"
+ 
+ job_culture_worker_effect_desc:0 "£job_culture_worker£ $job_culture_worker_plural$将§R-2§! £consumer_goods£ §Y$consumer_goods$§!变为§G+3§! £unity£ §Y$unity$§!和§G+3§! £society£ §Y$society_research$§!"
+ 
+ job_head_researcher_effect_desc:1 "£job_head_researcher $job_head_researcher_plural$生产§G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!和§G+5§! £physics£ £society£ £engineering£ §Y研究点数§!，用于研发新科技"
+ 
+ job_researcher_effect_desc:0 "£job_researcher£ $job_researcher_plural$将§R-2§! £consumer_goods£ §Y$consumer_goods$§!变为§G+4§! £physics£ £society£ £engineering£ §Y研究点数§!，然后将其用于新科技"
+ 
+ job_high_priest_effect_desc:0 "£job_high_priest£ $job_high_priest_plural$生产§G+5§! £unity£ §Y$unity$§!和§G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_priest_effect_desc:0 "£job_priest£ $job_priest_plural$将£consumer_goods£ §Y$consumer_goods$§!变为§G+3§! £unity£ §Y$unity$§!, §G+2§! £society£ §Y$society_research$§!和§G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_chemist_effect_desc:0 "£job_chemist£ $job_chemist_plural$将§R-10§! £minerals£ §Y$minerals$§!变为§G+2§! £volatile_motes£ §Y$volatile_motes$§!"
+ 
+ job_translucer_effect_desc:0 "£job_translucer£ $job_translucer_plural$将§R-10§! £minerals£ §Y$minerals$§!变为§G+2§! £rare_crystals£ §Y$rare_crystals$§!"
+ 
+ job_gas_refiner_effect_desc:0 "£job_gas_refiner£ $job_gas_refiner_plural$将§R-10§! £minerals£ §Y$minerals$§!变为§G+2§! £exotic_gases£ §Y$exotic_gases$§!"
+ 
+ job_roboticist_effect_desc:0 "£job_roboticist£ $job_roboticist_plural$将§R-6§! £minerals£ §Y$minerals$§!变为新的§G+2§! £pop£ §Y机器人人口§!"
+ 
+ job_manager_effect_desc:1 "£job_manager£ $job_manager_plural$会加工§R-2§! £consumer_goods£ §Y$consumer_goods$§!将其变成§G+3§! £unity£ §Y$unity$§!, §G+2§! £mod_trade_value_add£ §Y$TRADE_VALUE$§!以及§G+2§! £society£ §Y$society_research$§!"
+ 
+ job_administrator_effect_desc:0 "£job_administrator£ $job_administrator_plural$生产§G+3§! £unity£ §Y$unity$§!和§G+8§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_noble_effect_desc:0 "£job_noble£ $job_noble_plural$生产§G+5§! £mod_planet_stability_add£ §Y$PLANET_STABILITY_TITLE$§!和§G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_merchant_effect_desc:0 "£job_merchant£ $job_merchant_plural$生产§G+8§! £mod_trade_value_add£ §Y$TRADE_VALUE$§!和§G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_executive_effect_desc:1 "£job_executive£ $job_executive_plural$生产§G+2§! £unity£ §Y$unity$§!, §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!以及§G+4§! £mod_trade_value_add£ §Y$TRADE_VALUE$§!"
+ 
+ building_overseer_homes_desc:0 "这些住宅是为有些特权的奴隶监督者们准备的。 £job_slave_overseer£ $job_slave_overseer_plural$减少§G-25§! £crime£ §Y$PLANET_CRIME_TITLE$§!并生产出§G+2§! £defense_army£ §Y防御军团§!"
+ 
+ job_duelist_effect_desc:0 "£job_duelist£ $job_duelist_plural$将§R-1§!£alloys£ §Y$alloys$§!转化为§G+3§!£unity£ §Y$unity$§!、§G+12§!£mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!和§G+2§!£mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!"
