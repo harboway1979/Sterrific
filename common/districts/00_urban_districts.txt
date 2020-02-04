@@ -26,6 +26,7 @@ district_city = {
 		NOT = { is_planet_class = pc_fhab }
 		NOT = { is_planet_class = pc_fmhab }
 		NOT = { is_planet_class = pc_mehab }
+		NOT = { is_planet_class = pc_mem_vazuran_habitat }
 	}
 	
 	potential = {
@@ -49,6 +50,7 @@ district_city = {
 		NOT = { is_planet_class = pc_fhab }
 		NOT = { is_planet_class = pc_fmhab }
 		NOT = { is_planet_class = pc_mehab }
+		NOT = { is_planet_class = pc_mem_vazuran_habitat }
 	}
 	
 	allow = {
@@ -245,6 +247,7 @@ district_hive = {
 		NOT = { is_planet_class = pc_fhab }
 		NOT = { is_planet_class = pc_fmhab }
 		NOT = { is_planet_class = pc_mehab }
+		NOT = { is_planet_class = pc_mem_vazuran_habitat }
 	}
 	
 	potential = {
@@ -267,6 +270,7 @@ district_hive = {
 		NOT = { is_planet_class = pc_fhab }
 		NOT = { is_planet_class = pc_fmhab }
 		NOT = { is_planet_class = pc_mehab }
+		NOT = { is_planet_class = pc_mem_vazuran_habitat }
 	}
 	
 	allow = {
@@ -413,6 +417,7 @@ district_nexus = {
 		NOT = { is_planet_class = pc_fhab }
 		NOT = { is_planet_class = pc_fmhab }
 		NOT = { is_planet_class = pc_mehab }
+		NOT = { is_planet_class = pc_mem_vazuran_habitat }
 	}
 	
 	potential = {
@@ -434,6 +439,7 @@ district_nexus = {
 		NOT = { is_planet_class = pc_fhab }
 		NOT = { is_planet_class = pc_fmhab }
 		NOT = { is_planet_class = pc_mehab }
+		NOT = { is_planet_class = pc_mem_vazuran_habitat }
 	}
 	
 	allow = {
