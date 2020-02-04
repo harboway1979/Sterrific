@@ -1,0 +1,5 @@
+﻿l_german:
+  
+ ARTILLERY_BEHAVIOR_DESC:1 "§HArtillerie-Taktik:§! Das Schiff bleibt auf langer Distanz (§Y14§!) und feuert seine Langstrecken-Waffen auf das Ziel ab."
+ LINE_BEHAVIOR_DESC:1 "§HLinien-Taktik:§! Das Schiff bleibt auf mittlerer Distanz (§Y8§!) und hält die Formation."
+ PICKET_BEHAVIOR_DESC:1 "§HVorposten-Taktik:§! Das Schiff fliegt auf kurze Distanz (§Y5§!), um feindliche Schiffe abzufangen."

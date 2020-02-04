@@ -1,0 +1,5 @@
+﻿l_french:
+  
+ ARTILLERY_BEHAVIOR_DESC:1 "§HTactiques d'artillerie :§! le vaisseau s'éloigne mais reste suffisamment proche pour faire feu sur les cibles avec son armement à longue portée (§Y14§!)."
+ LINE_BEHAVIOR_DESC:1 "§HTactique de ligne :§! le vaisseau s'avance à moyenne portée (§Y8§!) et tient la formation."
+ PICKET_BEHAVIOR_DESC:1 "§HTactiques de pointe :§! le vaisseau s'approche jusqu'à courte distance (§Y5§!) pour tenter d'intercepter les vaisseaux ennemis."

@@ -1,0 +1,5 @@
+﻿l_spanish:
+  
+ ARTILLERY_BEHAVIOR_DESC:1 "§HTácticas de artillería:§! la nave se mantiene a gran distancia (§Y14§!) y dispara las armas de largo alcance al objetivo."
+ LINE_BEHAVIOR_DESC:1 "§HTácticas de línea:§! la nave detendrá el avance a media distancia (§Y8§!) y mantendrá la formación."
+ PICKET_BEHAVIOR_DESC:1 "§HTácticas de vigilancia:§! la nave se acercará a poca distancia (§Y5§!) e intentará interceptar al enemigo."

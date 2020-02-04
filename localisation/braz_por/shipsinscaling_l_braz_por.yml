@@ -1,0 +1,5 @@
+﻿l_braz_por:
+
+  ARTILLERY_BEHAVIOR_DESC:1 "§HTáticas de Artilharia:§! A nave permanecerá a longa distância (§Y14§!), disparando suas armas de longo alcance no alvo."
+  LINE_BEHAVIOR_DESC:1 "§HTáticas de Fila:§! A nave avançará até meia distância (§Y8§!) e manterá a formação."
+  PICKET_BEHAVIOR_DESC:1 "§HTáticas de Interceptação:§! A nave tentará avançar para uma distância próxima (§Y5§!) e tentará interceptar o inimigo."

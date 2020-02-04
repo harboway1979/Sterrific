@@ -1,0 +1,5 @@
+﻿l_english:
+
+ ARTILLERY_BEHAVIOR_DESC:1 "§HArtillery Tactics:§! The ship will stay at long (§Y14§!) range and fire its long range weapons on the target."
+ LINE_BEHAVIOR_DESC:1 "§HLine Tactics:§! The ship will hold advance to medium (§Y8§!) range and hold formation."
+ PICKET_BEHAVIOR_DESC:1 "§HPicket Tactics:§! The ship will advance to close (§Y5§!) range and attempt to intercept the enemy."

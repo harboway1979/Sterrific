@@ -1,0 +1,5 @@
+﻿l_polish:
+  
+ ARTILLERY_BEHAVIOR_DESC:1 "§HTaktyka artyleryjska -§! okręt będzie trzymał się na dalekim zasięgu (§Y14§!) i ostrzeliwał cel z broni dalekiego zasięgu."
+ LINE_BEHAVIOR_DESC:1 "§HTaktyka liniowa -§! okręt podejdzie na średni zasięg (§Y8§!) i będzie utrzymywać szyk."
+ PICKET_BEHAVIOR_DESC:1 "§HTaktyka eskorty -§! okręt wejdzie w bliski zasięg (§Y5§!) i spróbuje przechwycić wroga."
