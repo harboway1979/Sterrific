@@ -1,3 +1,3 @@
 name="Sterrific"
-version="1.1"
+version="1.2"
 supported_version="2.5.*"
