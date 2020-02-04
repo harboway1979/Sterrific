@@ -1,15 +1,13 @@
 ship_behavior = {
 	name = "swarm"
-	preferred_attack_range = 30
-	formation_distance = 30
-	return_to_formation_distance = 60
-	source_target_anchor_factor = 1.0
-	combat_target_anchor = root
-
-	collision_awareness = 0.5
-	collision_strafe = 1.0
-	collision_radius = 1.0
-	attack_move_pattern = orbit
+	preferred_attack_range = 10
+	formation_distance = 10
+	return_to_formation_distance = 10
+	
+	collision_awareness = 1.5
+	collision_strafe = 1.0	
+	collision_radius = 0.5 #1.0
+	attack_move_pattern = charge
 	passive_move_pattern = charge
 
 	desc = "SWARM_BEHAVIOR_DESC"
@@ -17,13 +15,13 @@ ship_behavior = {
 ship_behavior = {
 	name = "picket"
 	
-	preferred_attack_range = 60
-	formation_distance = 60
-	return_to_formation_distance = 60
+	preferred_attack_range = 20
+	formation_distance = 20
+	return_to_formation_distance = 20
 	
 	collision_awareness = 1.5		
 	collision_strafe = 2.0			
-	collision_radius = 1.5 #1.0
+	collision_radius = 0.5 #1.0
 	
 	attack_move_pattern = stay_at_range
 	passive_move_pattern = charge
@@ -33,16 +31,16 @@ ship_behavior = {
 
 ship_behavior = {
 	name = "line"
-	preferred_attack_range = 110
+	preferred_attack_range = 26
 	
-	formation_distance = 110
-	return_to_formation_distance = 110
+	formation_distance = 26
+	return_to_formation_distance = 26
 	
 	collision_awareness = 0.7		
-	collision_radius = 2.0				
-	collision_strafe = 0.7				
+	collision_radius = 0.66				
+	collision_strafe = 0.7		
 	
-	attack_move_pattern = stay_at_range
+	attack_move_pattern = stay_at_range     
 	passive_move_pattern = charge
 	
 	desc = "LINE_BEHAVIOR_DESC"
@@ -50,13 +48,13 @@ ship_behavior = {
 
 ship_behavior = {
 	name = "artillery"
-	preferred_attack_range = 130
-	formation_distance = 130
-	return_to_formation_distance = 130
+	preferred_attack_range = 33
+	formation_distance = 33
+	return_to_formation_distance = 33
 
 	collision_awareness = 0.3		
-	collision_radius = 1.0				
-	collision_strafe = 4.0					
+	collision_radius = 0.33				
+	collision_strafe = 4.0				
 	attack_move_pattern = stay_at_range 
 	passive_move_pattern = charge
 	
@@ -72,7 +70,7 @@ ship_behavior = {
 	collision_radius = 1.0					
 	collision_strafe = 2.5					
 	
-	attack_move_pattern = stationary
+	attack_move_pattern = none
 	passive_move_pattern = none
 	
 	desc = "PLATFORM_BEHAVIOR_DESC"
