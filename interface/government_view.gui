@@ -176,20 +176,21 @@ guiTypes = {
 		###############################
 		containerWindowType = {
 			name = "government_window"
-			position = { x = 0 y = 0 }
-			size = { width = 974 height = 785 }
+			position = { x = 11 y = 45 }
+			size = { width = 952 height = 740 }
 			moveable = no
-			clipping = yes
+			dontRender = ""
 			# The Info sub window
 			containerWindowType = {
 				name = "info_window"
-				position = { x = 11 y = 45 }
-				size = { width = 952 height = 740 }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 				moveable = no
+				dontRender = ""
 				containerWindowType = {
 					name = "portrait_window"
 					position = { x = 0 y = 0 }
-					size = { width = 952 height = 350 }
+					size = { width = 964 height = 350 }
 					moveable = no
 					clipping = yes
 					iconType = {
@@ -249,24 +250,25 @@ guiTypes = {
 						fixedSize = yes
 						format = left
 					}
+					iconType = {
+						name = "ruler_skill"
+						spriteType = "GFX_leader_skill"
+						position = { x = 5 y = 88 }
+						scale = 1
+						frame = 5
+					}
 					containerWindowType = {
 						name = "traits_bg"
-						position = { x = -2 y = 267 }
-						size = { width = 200 height = 62 }
+						position = { x = -2 y = 274 }
+						size = { width = 170 height = 55 }
 						background = {
 							name = "traits_bg"
 							spriteType = "GFX_tiles_dark_area_cut_8"
 						}
 					}
-					iconType = {
-						name = "ruler_skill"
-						spriteType = "GFX_leader_skill"
-						position = { x = 168 y = 272 }
-						frame = 5
-					}
 					instantTextBoxType = {
 						name = "traits_label"
-						position = { x = 3 y = 273 }
+						position = { x = 3 y = 276 }
 						font = "cg_16b"
 						maxWidth = 230
 						maxHeight = 20
@@ -279,7 +281,7 @@ guiTypes = {
 					overlappingElementsBoxType = {
 						name = "leader_traits"
 						position = { x = 3 y = 295 }
-						size = { x = 190 y = 330 }
+						size = { x = 160 y = 330 }
 					}
 				}
 				buttonType = {
@@ -299,28 +301,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				iconType = {
-					name = "authority_hex_bg"
-					spriteType = "GFX_hex_center_bg"
-					position = { x = -118 y = 332 }
-					alwaysTransparent = yes
-				}
-				instantTextBoxType = {
-					name = "authority_label"
-					position = { x = 0 y = 350 }
-					font = "malgun_goth_24"
-					text = "GOVERNMENT_AUTHORITY"
-					maxWidth = 310
-					maxHeight = 22
-					fixedSize = yes
-					format = center
-				}
-				iconType = {
-					name = "government_header_line"
-					spriteType = "GFX_line_center_short"
-					position = { x = -1 y = 368 }
-					alwaysTransparent = yes
-				}
 				instantTextBoxType = {
 					name = "government_title"
 					position = { x = 75 y = 407 }
@@ -330,6 +310,12 @@ guiTypes = {
 					maxHeight = 22
 					fixedSize = yes
 					format = left
+				}
+				iconType = {
+					name = "species_header_line"
+					spriteType = "GFX_line_center_short"
+					position = { x = -1 y = 368 }
+					alwaysTransparent = yes
 				}
 				containerWindowType = {
 					name = "imperium_window"
@@ -443,13 +429,6 @@ guiTypes = {
 						name = "election_window"
 						size = { width = 314 height = 50 }
 						position = { x = 1 y = -40 }
-						iconType = {
-							name = "election_hex_bg"
-							spriteType = "GFX_hex_center_bg"
-							position = { x = -273 y = -18 }
-							orientation = center_up
-							alwaysTransparent = yes
-						}
 						instantTextBoxType = {
 							name = "next_election_label"
 							position = { x = 2 y = 0 }
@@ -461,10 +440,9 @@ guiTypes = {
 							format = center
 						}
 						iconType = {
-							name = "election_header_line"
+							name = "species_header_line"
 							spriteType = "GFX_line_center_short"
-							position = { x = -155 y = 18 }
-							orientation = center_up
+							position = { x = 2 y = 18 }
 							alwaysTransparent = yes
 						}
 						containerWindowType = {
@@ -479,14 +457,14 @@ guiTypes = {
 						}
 						instantTextBoxType = {
 							name = "next_election"
-							position = { x = -105 y = 57 }
+							position = { x = -110 y = 57 }
 							orientation = center_up
 							font = "malgun_goth_24"
 							text = "NEVER"
-							maxWidth = 250
+							maxWidth = 220
 							maxHeight = 22
 							#fixedSize = yes
-							format = left
+							format = center
 							text_color_code = "H"
 						}
 						buttonType = {
@@ -501,17 +479,10 @@ guiTypes = {
 						name = "heir_window"
 						size = { width = 314 height = 380 }
 						position = { x = 0 y = -40 }
-						clipping = no
+						clipping = yes
 						background = {
 							name = "authority_hidden"
 							spriteType = "GFX_invisible"
-							alwaysTransparent = yes
-						}
-						iconType = {
-							name = "election_hex_bg"
-							spriteType = "GFX_hex_center_bg"
-							position = { x = -273 y = -18 }
-							orientation = center_up
 							alwaysTransparent = yes
 						}
 						containerWindowType = {
@@ -525,14 +496,6 @@ guiTypes = {
 								alwaysTransparent = yes
 							}
 						}
-						iconType = {
-							name = "heir_portrait"
-							quadTextureSprite = "GFX_portrait_character"
-							position = { x = -157 y = -250 }
-							orientation = center_down
-							scale = 0.66
-							#alwaysTransparent = yes
-						}
 						instantTextBoxType = {
 							name = "heir_label"
 							position = { x = 2 y = 0 }
@@ -544,53 +507,62 @@ guiTypes = {
 							format = center
 						}
 						iconType = {
-							name = "election_header_line"
+							name = "species_header_line"
 							spriteType = "GFX_line_center_short"
-							position = { x = -155 y = 18 }
-							orientation = center_up
+							position = { x = 2 y = 18 }
 							alwaysTransparent = yes
 						}
-						containerWindowType = {
-							name = "heir_frame"
-							size = { width = 298 height = 73 }
-							position = { x = 8 y = 48 }
-							background = {
-								name = "heir_frame"
-								quadTextureSprite = "GFX_tiles_dark_area_cut_8"
-							}
+						iconType = {
+							name = "heir_portrait"
+							quadTextureSprite = "GFX_portrait_character"
+							position = { x = -60 y = -304 }
+							orientation = lower_left
+							scale = 0.80
+							alwaysTransparent = yes
 						}
 						instantTextBoxType = {
 							name = "heir_name"
-							position = { x = 8 y = 52 }
+							position = { x = 15 y = 50 }
 							font = "malgun_goth_24"
 							text = ""
-							maxWidth = 298
+							maxWidth = 284
 							maxHeight = 22
 							#fixedSize = yes
-							format = center
+							format = left
 							alwaystransparent = yes
 							#text_color_code = "E"
 						}
 						buttonType = {
 							name = "rename_heir"
 							spriteType = "GFX_invisible"
-							position = { x = 8 y = 52 }
-							size = { x = 298 y = 25 }
+							position = { x = 15 y = 50 }
+							size = { x = 284 y = 25 }
 							orientation = left
 						}
 						iconType = {
 							name = "heir_skill"
 							spriteType = "GFX_leader_skill"
-							position = { x = 15 y = 82 }
+							position = { x = 15 y = 83 }
+							scale = 1
 							frame = 5
 						}
 						overlappingElementsBoxType = {
 							name = "traits"
-							position = { x = 8 y = 82 }
-							size = { x = 298 y = 32 }
-							#spacing = 5
-							format = center
+							position = { x = 43 y = 80 }
+							size = { x = 260 y = 32 }
+							spacing = 5
+							format = left
 						}
+					}
+					instantTextBoxType = {
+						name = "authority_label"
+						position = { x = -320 y = -40 }
+						font = "malgun_goth_24"
+						text = "GOVERNMENT_AUTHORITY"
+						maxWidth = 310
+						maxHeight = 22
+						fixedSize = yes
+						format = center
 					}
 					# Government
 					iconType = {
@@ -605,13 +577,6 @@ guiTypes = {
 					size = { width = 310 height = 380 }
 					orientation = lower_right
 					moveable = no
-					iconType = {
-						name = "modifiers_hex_bg"
-						spriteType = "GFX_hex_center_bg"
-						position = { x = -273 y = -18 }
-						orientation = center_up
-						alwaysTransparent = yes
-					}
 					instantTextBoxType = {
 						name = "modifiers_label"
 						position = { x = 0 y = 0 }
@@ -623,7 +588,7 @@ guiTypes = {
 						format = center
 					}
 					iconType = {
-						name = "modifiers_header_line"
+						name = "species_header_line"
 						spriteType = "GFX_line_center_short"
 						position = { x = 0 y = 18 }
 						alwaysTransparent = yes
@@ -660,20 +625,14 @@ guiTypes = {
 			###############################
 			containerWindowType = {
 				name = "demographics_window"
-				position = { x = 11 y = 45 }
-				size = { width = 952 height = 740 }
-				iconType = {
-					name = "population_hex_bg"
-					spriteType = "GFX_hex_center_bg"
-					position = { x = 48 y = -18 }
-					alwaysTransparent = yes
-				}
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 				instantTextBoxType = {
 					name = "population_label"
 					font = "malgun_goth_24"
 					text = "POPULATION"
-					position = { x = 0 y = 0 }
-					maxWidth = 642
+					position = { x = -6 y = 0 }
+					maxWidth = 654
 					maxHeight = 20
 					fixedSize = yes
 					format = center
@@ -687,19 +646,10 @@ guiTypes = {
 						name = "empire_background"
 						spriteType = "GFX_tiles_frame_light"
 					}
-					containerWindowType = {
-						name = "species_leader_box"
-						position = { x = 147 y = 133 }
-						size = { width = 487 height = 392 }
-						background = {
-							name = "species_leader_frame"
-							spriteType = "GFX_tiles_frame_light"
-						}
-					}
 					iconType = {
 						name = "species_leader_image"
 						quadTextureSprite = "GFX_portrait_character"
-						position = { x = 153 y = 139 }
+						position = { x = 152 y = 150 }
 						scale = 1
 					}
 					containerWindowType = {
@@ -847,13 +797,6 @@ guiTypes = {
 						size = { x = 110 y = 665 }
 						scrollbartype = "standardlistbox_slider_thick"					}
 				}
-				iconType = {
-					name = "pop_effects_hex_bg"
-					spriteType = "GFX_hex_center_bg"
-					position = { x = -422 y = -18 }
-					orientation = upper_right
-					alwaysTransparent = yes
-				}
 				instantTextBoxType = {
 					name = "pop_effects_label"
 					font = "malgun_goth_24"
@@ -915,15 +858,8 @@ guiTypes = {
 			###############################
 			containerWindowType = {
 				name = "advisor_window"
-				position = { x = 11 y = 45 }
-				size = { width = 952 height = 740 }
-				iconType = {
-					name = "header_hex_bg"
-					spriteType = "GFX_hex_center_bg"
-					position = { x = -273 y = -18 }
-					orientation = center_up
-					alwaysTransparent = yes
-				}
+				size = { width = 100% height = 100% }
+				position = { x = 0 y = 0 }
 				instantTextBoxType = {
 					name = "header"
 					font = "malgun_goth_24"
@@ -938,13 +874,8 @@ guiTypes = {
 				containerWindowType = {
 					name = "voice_modes"
 					position = { x = -280 y = 30 }
-					size = { width = 560 height = 90 }
+					size = { width = 560 height = 176 }
 					orientation = center_up
-					background = {
-						name = "background"
-						spriteType = "GFX_tiles_dark_area_cut_8"
-						alwaysTransparent = yes
-					}
 					containerWindowType = {
 						name = "automatic"
 						position = { x = 0 y = 0 }
@@ -1032,15 +963,9 @@ guiTypes = {
 						}
 					}
 				}
-				iconType = {
-					name = "voice_separator_line"
-					quadTextureSprite = "GFX_line_center"
-					position = { x = -256 y = 123 }
-					orientation = center_up
-				}
 				containerWindowType = {
 					name = "voice_types"
-					position = { x = -376 y = 151 }
+					position = { x = -376 y = 140 }
 					size = { width = 752 height = 570 }
 					orientation = center_up
 					clipping = yes
@@ -1226,7 +1151,7 @@ guiTypes = {
 		background = {
 			name = "background"
 			quadTextureSprite = "GFX_interface_list_light"
-			#alwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType = {
 			name = "icon"
