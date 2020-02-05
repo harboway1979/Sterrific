@@ -1558,7 +1558,10 @@ machinedlcmod_event_pop_district_adjustment = {
 	}
 	#event machinedlc.16
 	if = {
-		limit = { has_valid_civic = civic_machine_heritage }
+		limit = { OR = {
+			has_valid_civic = civic_machine_heritage
+			has_valid_civic = civic_machine_world	
+		} }
 		random_owned_planet = {
 			limit = { is_capital = yes }
 			set_planet_size = 25
@@ -1587,7 +1590,10 @@ machinedlcmod_event_pop_district_adjustment = {
 				has_valid_civic = civic_machine_clockwork
 				has_valid_civic = civic_machine_rock_body
 			}
-			NOT = { has_valid_civic = civic_machine_heritage }
+			NOT = { OR = {
+			has_valid_civic = civic_machine_heritage
+			has_valid_civic = civic_machine_world	
+		} }
 		}
 		random_owned_planet = {
 			limit = { is_capital = yes }
@@ -1627,14 +1633,20 @@ machinedlcmod_event_pop_district_adjustment = {
 				while = { create_pop = { species = owner.species } count = 4 }
 			}
 			if = {
-				limit = { NOT = { has_valid_civic = civic_machine_heritage } }
+				limit = { NOT = { OR = {
+			has_valid_civic = civic_machine_heritage
+			has_valid_civic = civic_machine_world	
+		} } }
 				random_owned_planet = {
 					limit = { is_capital = yes }
 					add_district = district_mining
 				}
 			}
 			if = {
-				limit = { has_valid_civic = civic_machine_heritage }
+				limit = { OR = {
+			has_valid_civic = civic_machine_heritage
+			has_valid_civic = civic_machine_world	
+		} }
 				random_owned_planet = {
 					limit = { is_capital = yes }
 					add_district = district_mining_uncapped

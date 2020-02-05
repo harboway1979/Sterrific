@@ -21,6 +21,7 @@ country_event = {
 						NOR = {
 							has_valid_civic = civic_machine_trader
 							has_valid_civic = civic_machine_heritage
+							has_valid_civic = civic_machine_world
 							has_valid_civic = civic_machine_clockwork
 							has_valid_civic = civic_machine_rock_body
 							has_valid_civic = civic_machine_synth_skin

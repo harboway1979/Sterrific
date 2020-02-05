@@ -1133,7 +1133,11 @@ country_event = {
     is_triggered_only = yes
 	 
 	trigger = {
-		has_valid_civic = civic_machine_heritage
+		OR = {
+			has_valid_civic = civic_machine_heritage
+			has_valid_civic = civic_machine_world
+		}
+
 	}
 
     immediate = {
