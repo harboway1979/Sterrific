@@ -33,8 +33,9 @@ country_event = {
         }
     }
     immediate = {
-        set_global_flag = menu_attempted
-        country_event = { id = independentstartup.001 }
+        # set_global_flag = menu_attempted
+        # country_event = { id = independentstartup.001 }
+        set_global_flag = independent_low_selection
     }
 }
 
