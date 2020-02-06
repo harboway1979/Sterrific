@@ -61,7 +61,11 @@ event = {
 	
 	immediate = {
 		set_global_flag = gpm_initialisation_menu
-		country_event = { id = gpm_start_menu.1 }
+		# country_event = { id = gpm_start_menu.1 }
+		set_global_flag = gpm_modifier_amount_normal
+		hidden_effect = {
+			country_event = { id = gpm_spawn_engine.0 days = 1 }
+		}
 		country_event = { id = gpm_game_start.9999 days = 1 } 		# temp event to set global flag for PD
 	}
 }

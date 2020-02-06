@@ -455,7 +455,7 @@ event = {
 				is_ai = no
 			}
 			#country_event = { id = realspace.205 }
-			country_event = { id = realspace.206 }
+			# country_event = { id = realspace.206 }
 		}
 	}
 }
