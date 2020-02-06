@@ -596,6 +596,36 @@ guiTypes = {
 			}
 
 			containerWindowType = {
+				name = "tb_processing_power_group"
+				size = { width = 74 height = 35 }
+				position = { x = 1010 y = 0 }
+
+				background = {
+					name = "background"
+					spriteType = "GFX_invisible"
+				}
+
+				iconType = {
+					name = "icon"
+					spriteType = "GFX_resource_processing_power"
+					position = { x = 30 y = 2 }
+					tooltip_mode_enabled = yes
+					alwaysTransparent = yes
+				}
+
+				instantTextBoxType={
+					name = "amount"
+					font = "cg_16b"
+					position = { x = 2 y = 16 }
+					maxWidth = 70
+					maxHeight = 16
+					text = "0 / 0"
+					format = center
+					alwaysTransparent = yes
+				}
+			}
+
+			containerWindowType = {
 				name = "tb_unity_group"
 				size = { width = 74 height = 35 }
 				position = { x = 477 y = 0 }
