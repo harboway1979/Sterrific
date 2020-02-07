@@ -1,21 +1,19 @@
 #Entry Position
-@entries_row1_y = 60
-@entries_row2_y = 257
-@entries_row3_y = 454
-@entries_row4_y = 651
-@entries_row5_y = 848
-@entries_row6_y = 1045
-@entries_row7_y = 1242
-@entries_row8_y = 1439
+@entries_row1_y = 50
+@entries_row2_y = 247
+@entries_row3_y = 444
+@entries_row4_y = 641
+@entries_row5_y = 838
+@entries_row6_y = 1035
+@entries_row7_y = 1232
+@entries_row8_y = 1429
 @entries_column1 = 11
 @entries_column2 = 325
 @entries_column3 = 640
 @entries_column4 = 954
-
 #Entry Size
 @entry_h = 185
 @entry_w = 308
-
 #Tradition Icon Position
 @x_1 = 61
 @x_2 = 96
@@ -24,7 +22,6 @@
 @x_5 = 201
 @y_1 = 55
 @y_2 = 125
-
 #Arrow Positions
 @x_arrow_down_1 = 77
 @x_arrow_down_2 = 147
@@ -36,7 +33,6 @@
 @x_arrow_split_2 = 111
 @x_arrow_split_3 = 146
 @x_arrow_merge_wide = 82
-
 @y_arrow_down = 100
 @y_arrow_side_lower = 70
 @y_arrow_side = 140
@@ -44,243 +40,285 @@
 @x_arrow_right_2 = 176
 @x_arrow_left_1 = 108
 @x_arrow_left_2 = 178
-
 @y_arrow_split_wide = 100
 @x_arrow_split_wide = 77
-
 #Old Entry Size (not used)
 @entry_h_old = 260
 guiTypes = {
-
 	################################################################
 	# TRADITION ENTRY POSITIONS
 	################################################################
-	
 	#####   #####   #####
 	#61 #   #131#   #201#
 	#####   #####   #####
-	
 		##### 	#####
 		#96 # 	#166#
 	    ##### 	#####
-	
 	positionType = { name = "tr_est_academy_1"					  			position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_academy_2"		  						position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_academy_3"			  					position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_academy_4"		  						position = { x = @x_5 y = @y_2 } }
 	positionType = { name = "tr_est_academy_5"			 					position = { x = @x_3 y = @y_1 } }
-	
 	positionType = { name = "tr_est_administratum_1"					  	position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_administratum_2"		  				position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_administratum_3"			  			position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_administratum_4"		  				position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_administratum_5"			 			position = { x = @x_3 y = @y_2 } }
-	
 	positionType = { name = "tr_est_aesthetics_1"					  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_aesthetics_2"		  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_aesthetics_3"			  				position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_aesthetics_4"		  					position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_aesthetics_5"			 				position = { x = @x_4 y = @y_2 } }
-	
 	positionType = { name = "tr_est_archivist_1"					  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_archivist_2"		  					position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_archivist_3"			  				position = { x = @x_5 y = @y_2 } }
 	positionType = { name = "tr_est_archivist_4"		  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_archivist_5"				 			position = { x = @x_3 y = @y_2 } }
-	
 	positionType = { name = "tr_est_chivalry_1"						  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_chivalry_2"		  						position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_chivalry_3"			  					position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_chivalry_4"		  						position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_chivalry_5"					 			position = { x = @x_1 y = @y_2 } }
-	
 	positionType = { name = "tr_est_commerce_1"					  			position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_commerce_2"		  						position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_commerce_3"			  					position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_commerce_4"		  						position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_commerce_5"			 					position = { x = @x_3 y = @y_2 } }
-	
 	positionType = { name = "tr_est_cybernetics_1"					  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_cybernetics_2"		  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_cybernetics_3"			  				position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_cybernetics_4"		  					position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_cybernetics_5"			 				position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_diplomacy_the_federation"			  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_diplomacy_entente_coordination"		  		position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_diplomacy_open_markets"				  		position = { x = @x_4 y = @y_1 } }
 	positionType = { name = "tr_diplomacy_insider_trading"			  		position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_diplomacy_secure_shipping"			  		position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_discovery_to_boldly_go"            	  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_discovery_databank_uplinks"  	  			position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_discovery_science_division"        	  		position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_discovery_polytechnic_education"   	  		position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_discovery_faith_in_science"        	  		position = { x = @x_5 y = @y_2 } }
-
 	positionType = { name = "tr_domination_colonial_viceroys"         		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_domination_imperious_architecture"     		position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_domination_grand_council"         			position = { x = @x_2 y = @y_2 } }
 	positionType = { name = "tr_domination_judgment_corps"     	 			position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_domination_workplace_motivators"      		position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_expansion_reach_for_the_stars"        		position = { x = @x_2 y = @y_1 } }
 	positionType = { name = "tr_expansion_courier_network"            		position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_expansion_galactic_ambition" 		  		position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_expansion_colonization_fever"         		position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_expansion_a_new_life"                 		position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_faith_1"					  			position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_faith_2"		  						position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_faith_3"			  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_faith_4"		  						position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_faith_5"			 					position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_foundation_1"					  		position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_foundation_2"		  					position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_foundation_3"			  				position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_foundation_4"		  					position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_foundation_5"			 				position = { x = @x_5 y = @y_1 } }
-	
 	positionType = { name = "tr_est_friendship_1"					  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_friendship_2"		  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_friendship_3"			  				position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_friendship_4"		  					position = { x = @x_5 y = @y_2 } }
 	positionType = { name = "tr_est_friendship_5"			 				position = { x = @x_3 y = @y_2 } }
-	
 	positionType = { name = "tr_harmony_the_greater_good"             		position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_harmony_kinship"    			      		position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_harmony_utopian_dream" 		          		position = { x = @x_5 y = @y_2 } }
 	positionType = { name = "tr_harmony_bulwark_of_harmony"           		position = { x = @x_2 y = @y_2 } }
 	positionType = { name = "tr_harmony_mind_and_body"                		position = { x = @x_1 y = @y_1 } }
-	
 	positionType = { name = "tr_est_greed_1"					  			position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_greed_2"		  						position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_greed_3"			  					position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_greed_4"		  						position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_greed_5"			 					position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_industry_1"					  			position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_industry_2"		  						position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_industry_3"			  					position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_industry_4"		  						position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_industry_5"			 					position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_isolation_1"					  		position = { x = @x_2 y = @y_1 } }
 	positionType = { name = "tr_est_isolation_2"		  					position = { x = @x_4 y = @y_1 } }
 	positionType = { name = "tr_est_isolation_3"			  				position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_isolation_4"		  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_isolation_5"			 				position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_justice_1"					  			position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_justice_2"		  						position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_justice_3"			  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_justice_4"		  						position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_justice_5"			 					position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_liberty_1"					  			position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_liberty_2"		  						position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_liberty_3"			  					position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_liberty_4"		  						position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_liberty_5"			 					position = { x = @x_3 y = @y_1 } }
-	
 	positionType = { name = "tr_est_mechanicum_1"					  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_mechanicum_2"		  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_mechanicum_3"			  				position = { x = @x_4 y = @y_1 } }
 	positionType = { name = "tr_est_mechanicum_4"		  					position = { x = @x_5 y = @y_2 } }
 	positionType = { name = "tr_est_mechanicum_5"			 				position = { x = @x_3 y = @y_2 } }
-	
 	positionType = { name = "tr_est_militarism_1"					  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_militarism_2"		  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_militarism_3"			  				position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_militarism_4"		  					position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_militarism_5"			 				position = { x = @x_5 y = @y_1 } }
-	
 	positionType = { name = "tr_est_mysticism_1"					  		position = { x = @x_2 y = @y_1 } }
 	positionType = { name = "tr_est_mysticism_2"		  					position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_mysticism_3"			  				position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_mysticism_4"		  					position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_mysticism_5"			 				position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_natural_1"					  			position = { x = @x_2 y = @y_1 } }
 	positionType = { name = "tr_est_natural_2"		  						position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_natural_3"			  					position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_natural_4"		  						position = { x = @x_4 y = @y_1 } }
 	positionType = { name = "tr_est_natural_5"			 					position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_order_1"					  			position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_order_2"		  						position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_order_3"			  					position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_order_4"		  						position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_order_5"			 					position = { x = @x_5 y = @y_1 } }
-	
 	positionType = { name = "tr_est_piracy_1"						  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_piracy_2"		  						position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_piracy_3"			  					position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_piracy_4"		  						position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_piracy_5"					 			position = { x = @x_5 y = @y_1 } }
-	
 	positionType = { name = "tr_prosperity_administrative_operations" 		position = { x = @x_2 y = @y_1 } }
 	positionType = { name = "tr_prosperity_pursuit_of_profit"         		position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_prosperity_interstellar_franchising"		position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_prosperity_sct"                       		position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_prosperity_public_works"    				position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_supremacy_master_shipwrights"         		position = { x = @x_1 y = @y_1 } }	
 	positionType = { name = "tr_supremacy_war_games"                  		position = { x = @x_2 y = @y_2 } }
 	positionType = { name = "tr_supremacy_fleet_logistical_corps"      		position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_supremacy_overwhelming_force"         		position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_supremacy_great_game"                 		position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_spaceborn_1"					  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_spaceborn_2"		  					position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_spaceborn_3"		  					position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_spaceborn_4"			  				position = { x = @x_1 y = @y_2 } }
 	positionType = { name = "tr_est_spaceborn_5"				 			position = { x = @x_5 y = @y_2 } }
-	
 	positionType = { name = "tr_est_coll_indv_1"					  		position = { x = @x_1 y = @y_1 } }
 	positionType = { name = "tr_est_coll_indv_2"		  					position = { x = @x_5 y = @y_1 } }
 	positionType = { name = "tr_est_coll_indv_3"		  					position = { x = @x_3 y = @y_1 } }
 	positionType = { name = "tr_est_coll_indv_4"			  				position = { x = @x_3 y = @y_2 } }
 	positionType = { name = "tr_est_coll_indv_5"				 			position = { x = @x_1 y = @y_2 } }
-	
 	################################################################
 	# ASCENSION PERKS ENTRY POSITIONS
 	################################################################
-	
-	positionType = { name = "ap_0"	position = { x = 15 y = 50 } }
-	positionType = { name = "ap_1"	position = { x = 73 y = 50 } }
-	positionType = { name = "ap_2"	position = { x = 131 y = 50 } }
-	positionType = { name = "ap_3"	position = { x = 189 y = 50 } }
-	positionType = { name = "ap_4"	position = { x = 44 y = 99 } }
-	positionType = { name = "ap_5"	position = { x = 102 y = 99 } }
-	positionType = { name = "ap_6"	position = { x = 160 y = 99 } }
-	positionType = { name = "ap_7"	position = { x = 218 y = 99 } }	
-	
-	positionType = { name = "ap_8"	position = { x = 15 y = 148 } }
-	positionType = { name = "ap_9"	position = { x = 73 y = 148 } }
-	positionType = { name = "ap_10"	position = { x = 131 y = 148 } }
-	positionType = { name = "ap_11"	position = { x = 189 y = 148 } }
-	
-	positionType = { name = "ap_12"	position = { x = 44 y = 197 } }
-	positionType = { name = "ap_13"	position = { x = 102 y = 197 } }
-	positionType = { name = "ap_14"	position = { x = 160 y = 197 } }
-	positionType = { name = "ap_15"	position = { x = 218 y = 197 } }
-	
-	positionType = { name = "ap_16"	position = { x = 15 y = 246 } }
-	positionType = { name = "ap_17"	position = { x = 73 y = 246 } }
-	positionType = { name = "ap_18"	position = { x = 131 y = 246 } }
-	positionType = { name = "ap_19"	position = { x = 189 y = 246 } }
-	
-	positionType = { name = "ap_20"	position = { x = 44 y = 295 } }
-	positionType = { name = "ap_21"	position = { x = 102 y = 295 } }
-	positionType = { name = "ap_22"	position = { x = 160 y = 295 } }
-	positionType = { name = "ap_23"	position = { x = 218 y = 295 } }
-	
+	positionType = { name = "ap_0" position = { x = 0     y = 35 } }
+	positionType = { name = "ap_1" position = { x = 58    y = 35 } }
+	positionType = { name = "ap_2" position = { x = 116   y = 35 } }
+	positionType = { name = "ap_3" position = { x = 174   y = 35 } }
+	positionType = { name = "ap_4" position = { x = 29    y = 84 } }
+	positionType = { name = "ap_5" position = { x = 87    y = 84 } }
+	positionType = { name = "ap_6" position = { x = 145   y = 84 } }
+	positionType = { name = "ap_7" position = { x = 0     y = 133 } }
+	positionType = { name = "ap_8" position = { x = 58    y = 133 } }
+	positionType = { name = "ap_9" position =  { x = 116  y = 133 } }
+	positionType = { name = "ap_10" position = { x = 174  y = 133 } }
+	positionType = { name = "ap_11" position = { x = 29   y = 182 } }
+	positionType = { name = "ap_12" position = { x = 87   y = 182 } }
+	positionType = { name = "ap_13" position = { x = 145  y = 182 } }
+	positionType = { name = "ap_14" position = { x = 0    y = 231 } }
+	positionType = { name = "ap_15" position = { x = 58   y = 231 } }
+	positionType = { name = "ap_16" position = { x = 116  y = 231 } }
+	positionType = { name = "ap_17" position = { x = 174  y = 231 } }
+	positionType = { name = "ap_18" position = { x = 29   y = 280 } }
+	positionType = { name = "ap_19" position = { x = 87   y = 280 } }
+	positionType = { name = "ap_20" position = { x = 145  y = 280 } }
+	positionType = { name = "ap_21" position = { x = 0    y = 329 } }
+	positionType = { name = "ap_22" position = { x = 58   y = 329 } }
+	positionType = { name = "ap_23" position = { x = 116  y = 329 } }
+	positionType = { name = "ap_24" position = { x = 174  y = 329 } }
+	positionType = { name = "ap_25" position = { x = 29   y = 378 } }
+	positionType = { name = "ap_26" position = { x = 87   y = 378 } }
+	positionType = { name = "ap_27" position = { x = 145  y = 378 } }
+	positionType = { name = "ap_28" position = { x = 0    y = 427 } }
+	positionType = { name = "ap_29" position = { x = 58   y = 427 } }
+	positionType = { name = "ap_30" position = { x = 116  y = 427 } }
+	positionType = { name = "ap_31" position = { x = 174  y = 427 } }
+	positionType = { name = "ap_32" position = { x = 29   y = 476 } }
+	positionType = { name = "ap_33" position = { x = 87   y = 476 } }
+	positionType = { name = "ap_34" position = { x = 145  y = 476 } }
+	positionType = { name = "ap_35" position = { x = 0    y = 525 } }
+	positionType = { name = "ap_36" position = { x = 58   y = 525 } }
+	positionType = { name = "ap_37" position = { x = 116  y = 525 } }
+	positionType = { name = "ap_38" position = { x = 174  y = 525 } }
+	positionType = { name = "ap_39" position = { x = 29   y = 574 } }
+	positionType = { name = "ap_40" position = { x = 87   y = 574 } }
+	positionType = { name = "ap_41" position = { x = 145  y = 574 } }
+	positionType = { name = "ap_42" position = { x = 0    y = 623 } }
+	positionType = { name = "ap_43" position = { x = 58   y = 623 } }
+	positionType = { name = "ap_44" position = { x = 116  y = 623 } }
+	positionType = { name = "ap_45" position = { x = 174  y = 623 } }
+	positionType = { name = "ap_46" position = { x = 29   y = 672 } }
+	positionType = { name = "ap_47" position = { x = 87   y = 672 } }
+	positionType = { name = "ap_48" position = { x = 145  y = 672 } }
+	positionType = { name = "ap_49" position = { x = 0    y = 722 } }
+	positionType = { name = "ap_50" position = { x = 58   y = 722 } }
+	positionType = { name = "ap_51" position = { x = 116  y = 722 } }
+	positionType = { name = "ap_52" position = { x = 174  y = 722 } }
+	positionType = { name = "ap_53" position = { x = 29   y = 771 } }
+	positionType = { name = "ap_54" position = { x = 87   y = 771 } }
+	positionType = { name = "ap_55" position = { x = 145  y = 771 } }
+	positionType = { name = "ap_56" position = { x = 0    y = 820 } }
+	positionType = { name = "ap_57" position = { x = 58   y = 820 } }
+	positionType = { name = "ap_58" position = { x = 116  y = 820 } }
+	positionType = { name = "ap_59" position = { x = 174  y = 820 } }
+	positionType = { name = "ap_60" position = { x = 29   y = 869 } }
+	positionType = { name = "ap_61" position = { x = 87   y = 869 } }
+	positionType = { name = "ap_62" position = { x = 145  y = 869 } }
+	positionType = { name = "ap_63" position = { x = 0    y = 918 } }
+	positionType = { name = "ap_64" position = { x = 58   y = 918 } }
+	positionType = { name = "ap_65" position = { x = 116  y = 918 } }
+	positionType = { name = "ap_66" position = { x = 174  y = 918 } }
+	positionType = { name = "ap_67" position = { x = 29   y = 967 } }
+	positionType = { name = "ap_68" position = { x = 87   y = 967 } }
+	positionType = { name = "ap_69" position = { x = 145  y = 967 } }
+	positionType = { name = "ap_70" position = { x = 0    y = 1016 } }
+	positionType = { name = "ap_71" position = { x = 58   y = 1016 } }
+	positionType = { name = "ap_72" position = { x = 116  y = 1016 } }
+	positionType = { name = "ap_73" position = { x = 174  y = 1016 } }
+	positionType = { name = "ap_74" position = { x = 29   y = 1065 } }
+	positionType = { name = "ap_75" position = { x = 87   y = 1065 } }
+	positionType = { name = "ap_76" position = { x = 145  y = 1065 } }
+	positionType = { name = "ap_77" position = { x = 0    y = 1114 } }
+	positionType = { name = "ap_78" position = { x = 58   y = 1114 } }
+	positionType = { name = "ap_79" position = { x = 116  y = 1114 } }
+	positionType = { name = "ap_80" position = { x = 174  y = 1114 } }
+	positionType = { name = "ap_81" position = { x = 29   y = 1163 } }
+	positionType = { name = "ap_82" position = { x = 87   y = 1163 } }
+	positionType = { name = "ap_83" position = { x = 145  y = 1163 } }
+	positionType = { name = "ap_84" position = { x = 0    y = 1212 } }
+	positionType = { name = "ap_85" position = { x = 58   y = 1212 } }
+	positionType = { name = "ap_86" position = { x = 116  y = 1212 } }
+	positionType = { name = "ap_87" position = { x = 174  y = 1212 } }
+	positionType = { name = "ap_88" position = { x = 29   y = 1261 } }
+	positionType = { name = "ap_89" position = { x = 87   y = 1261 } }
+	positionType = { name = "ap_90" position = { x = 145  y = 1261 } }
+	positionType = { name = "ap_91" position = { x = 0    y = 1310 } }
+	positionType = { name = "ap_92" position = { x = 58   y = 1310 } }
+	positionType = { name = "ap_93" position = { x = 116  y = 1310 } }
+	positionType = { name = "ap_94" position = { x = 174  y = 1310 } }
+	positionType = { name = "ap_95" position = { x = 29   y = 1359 } }
+	positionType = { name = "ap_96" position = { x = 87   y = 1359 } }
+	positionType = { name = "ap_97" position = { x = 145  y = 1359 } }
+	positionType = { name = "ap_98" position = { x =  0   y = 1408 } }
+	positionType = { name = "ap_99" position =  { x = 58  y = 1408 } }
+	positionType = { name = "ap_100" position = { x = 116 y = 1408 } }
+	positionType = { name = "ap_101" position = { x = 174 y = 1408 } }
+	positionType = { name = "ap_102" position = { x = 29  y = 1457 } }
+	positionType = { name = "ap_103" position = { x = 87  y = 1457 } }
+	positionType = { name = "ap_104" position = { x = 145 y = 1457 } }
+	positionType = { name = "ap_105" position = { x = 0   y = 1506 } }
+	positionType = { name = "ap_106" position = { x = 58  y = 1506 } }
+	positionType = { name = "ap_107" position = { x = 116 y = 1506 } }
+	positionType = { name = "ap_108" position = { x = 174 y = 1506 } }
 	containerWindowType = {
 		name = "traditions_ascension_perk_entry"
 		size = { width = 44 height = 44 }
-
 		iconType = {
 			name = "icon"
 			position = { x = 9 y = 5 }
@@ -288,7 +326,6 @@ guiTypes = {
 			alwaystransparent = yes
 			scale = 1.0
 		}
-
 		buttonType = {
 			name = "ascension_perk_button"
 			spriteType = "GFX_flag_64_frame"
@@ -296,18 +333,13 @@ guiTypes = {
 			clicksound = click
 			oversound = no_sound
 		}
-	
 	}
-
 	################################################################
 	# TRADITION ENTRY
 	################################################################
-
 	containerWindowType = {
 		name = "tradition_entry"
 		size = { width = 44 height = 44 }
-		verticalScrollbar = "right_vertical_slider"
-
 		buttonType = {
 			name = "adopt_button"
 			spriteType = "GFX_event_button_452"
@@ -315,7 +347,6 @@ guiTypes = {
 			clicksound = select_click
 			oversound = no_sound
 		}
-		
 		#Need to hook this in
 		#Orange frame to show available traditions
 		iconType = {
@@ -325,207 +356,204 @@ guiTypes = {
 			position = { x = -22 y = -22}
 		}
 	}
-
 	################################################################
 	# TRADITION VIEW
 	################################################################
-
+	@bigwindow_w = 1526
 	containerWindowType = {
 		name = "traditions_view"
-		size = { width = 1272 height = 610 } 
-		verticalScrollbar = "right_vertical_slider"
-
-		position = { x = -1270 y = 40 }
+		size = { width = @bigwindow_w height = 900 }
+		position = { x = -1526 y = 40 }
 		show_position = { x = 35 y = 40 }
-		hide_position = { x = -1270 y = 40 }
+		hide_position = { x = -1526 y = 40 }
 		animation_time = 200
 		animation_type = decelerated
-
+		if_resolution = {
+			min_height = 1440
+			size = { width = @bigwindow_w height = 1255 }
+			show_position = { x = 55 y = 40 }
+		}
 		orientation = upper_left
 		moveable = no
 		clipping = no
 		show_sound = "interface"
-
 		background = {
 			name = "background"
-			spriteType = "GFX_tile_outliner_bg"
+			spriteType = "GFX_tile_large_bg_plain"
 		}
-
 		iconType = {
 			name = "hex_bg"
 			spriteType = "GFX_hex_bg"
-			position = { x = -23 y = -18 }
+			position = { x = 0 y = -12 }
+			if_resolution = {
+				min_width = 2560
+				position = { x = -10 y = -12 }
+			}
 			alwaysTransparent = yes
 		}
-
 		iconType = {
-			name = "header_line"
-			spriteType = "GFX_line_medium"
+			name = "empire_header_line"
+			quadTextureSprite = "GFX_line_long"
 			position = { x = 6 y = 21 }
-			alwaystransparent = yes
 		}
-
 		instantTextBoxType={
 			name = "header"
 			font = "malgun_goth_24"
 			text = "TRADITIONS"
-			position = { x = 65 y = 5 }
+			position = { x = 35 y = 5 }
+			if_resolution = {
+				min_width = 2560
+				position = { x = 25 y = 5 }
+			}
 			maxWidth = 300
 			maxHeight = 20
 			fixedSize = yes
 			format = left
 		}
-
 		buttonType = {
 			name = "close"
 			spriteType = "GFX_close"
-			position = { x = -45 y = 16 }
+			position = { x = -45 y = 7 }
 			orientation = upper_right
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
 			pdx_tooltip = "CLOSE_TITLE"
 		}	
-
 		########################
 		# TABS
 		########################
-		@tabHeight = -3
-		@tab_x1 = 895
-		@tab_x2 = 1024
-
+		@tabHeight = -2
 		buttonType = {
 			name = "tab_traditions"
 			quadTextureSprite = "GFX_tab_1_inactive"
-			position = { x = @tab_x1 y = @tabHeight }
+			position = { x = -20 y = @tabHeight }
+			orientation = lower_left
 			font = "cg_16b"
 			buttonText = "TRADITIONS"
 			buttonFont = "cg_16b"
 			shortcut = "z"
 			clicksound = "tab_click"
 		}
-
 		buttonType = {
 			name = "tab_traditions_active"
 			quadTextureSprite = "GFX_tab_1_active"
-			position = { x = @tab_x1 y = @tabHeight }
+			position = { x = -20 y = @tabHeight }
+			orientation = lower_left
 			font = "cg_16b"
 			buttonText = "TRADITIONS"
 			buttonFont = "cg_16b"
 			shortcut = "z"
 			clicksound = "tab_click"
 		}
-
 		buttonType = {
 			name = "tab_relics"
 			quadTextureSprite = "GFX_tab_2_inactive"
-			position = { x = @tab_x2 y = @tabHeight }
+			position = { x = 109 y = @tabHeight }
+			orientation = lower_left
 			font = "cg_16b"
 			buttonText = "RELICS"
 			buttonFont = "cg_16b"
 			shortcut = "x"
 			clicksound = "tab_click"
 		}
-
 		buttonType = {
 			name = "tab_relics_active"
 			quadTextureSprite = "GFX_tab_2_active"
-			position = { x = @tab_x2 y = @tabHeight }
+			position = { x = 109 y = @tabHeight }
+			orientation = lower_left
 			font = "cg_16b"
 			buttonText = "RELICS"
 			buttonFont = "cg_16b"
 			shortcut = "x"
 			clicksound = "tab_click"
 		}
-
 		################################################################
 		# TRADITION TAB
 		################################################################
-
 		containerWindowType = {
 			name = "traditions_window"
-			size = { width = 1283 height = 1450 } 
-			moveable = no
-			orientation = upper_left
-			position = { x = 0 y = 0 }
-
+			size = { width = @bigwindow_w height = 859 }
+			if_resolution = {
+				min_height = 1440
+				size = { width = @bigwindow_w height = 1214 }
+			}
+			position = { x = 0 y = 46 }
+			verticalScrollbar = "right_vertical_slider"
+			margin = { top = 0 bottom = 10 }
+			clipping = yes
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_window_transparent"
+			}
 			containerWindowType = {
 				name = "tradition_box"
-				size = { width = 600 height = 100 }
-				position = { x = 370 y = 20 }
-
+				size = { width = 610 height = 36 }
+				position = { x = -431 y = 0 }
+				orientation = center_up
+				iconType = {
+					name = "progress"
+					spriteType = "GFX_ui_progressbar_609"
+					position = { x = 0 y = 0 }
+				}
 				instantTextBoxType = {
 					name = "tradition_cost"
 					font = "malgun_goth_24"
-					position = { x = 0 y = -3 }
-					maxWidth = 140
+					position = { x = -100 y = 5 }
+					orientation = center_up
+					maxWidth = 200
 					maxHeight = 20
 					fixedSize = yes
-					format = right
+					format = center
 				}
-
-				iconType = {
-					name = "progress"
-					spriteType = "GFX_tech_research_progressbar"
-					position = { x = 150 y = -10 }
-				}
-
 				instantTextBoxType = {
 					name = "time_to_next_tradition"
 					font = "malgun_goth_24"
 					text = "11 months"
-					position = { x = 390 y = -3 }
-					maxWidth = 300
+					position = { x = -131 y = 5 }
+					orientation = upper_right
+					maxWidth = 120
 					maxHeight = 20
 					fixedSize = yes
-					format = left
+					format = right
 				}
 			}
-		
 			################################################################
 			# TRADITION CATEGORY ACADEMY
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_academy"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column1 y = @entries_row1_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_academy"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_academy"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_academy"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -537,7 +565,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -551,33 +578,29 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_academy_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
@@ -585,52 +608,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY administratum
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_administratum"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column2 y = @entries_row1_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_administratum"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_administratum"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_administratum"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -642,7 +656,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -656,33 +669,29 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_administratum_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_2 y = @y_arrow_down }
 					}		
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_merge_wide"
@@ -690,52 +699,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY AESTHETICS
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_aesthetics"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column3 y = @entries_row1_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_aesthetics"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_aesthetics"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_aesthetics"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -747,7 +747,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -761,33 +760,29 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_aesthetics_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_merge"
 						position = { x = @x_arrow_merge_3 y = 100 }
 					}
-	
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right_long"
@@ -795,52 +790,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY Archivist
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_archivist"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column1 y = @entries_row2_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_archivist"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_archivist"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_archivist"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -852,7 +838,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -866,93 +851,78 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_archivist_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_split_wide"
 						position = { x = @x_arrow_split_wide y = @y_arrow_split_wide }
 					}
-	
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side }
 					}
-	
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_left"
 						position = { x = @x_arrow_left_2 y = @y_arrow_side }
 					}
-	
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY Chivalry
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_chivalry"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column2 y = @entries_row2_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_chivalry"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_chivalry"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_chivalry"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -964,7 +934,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -978,39 +947,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_chivalry_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side_lower }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_2 y = @y_arrow_side_lower }
 					}
-	
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_2 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_left"
@@ -1018,52 +982,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY COMMERCE
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_commerce"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column3 y = @entries_row2_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_commerce"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_commerce"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_commerce"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -1075,7 +1030,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -1089,39 +1043,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_commerce_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side_lower }
 					}
-					
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_left"
@@ -1129,52 +1078,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY CYBERNETICS
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_cybernetics"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column1 y = @entries_row3_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_cybernetics"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_cybernetics"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_cybernetics"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -1186,7 +1126,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -1200,39 +1139,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_cybernetics_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_2 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side }
 					}
-	
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_right"
@@ -1240,52 +1174,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY DIPLOMACY
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_diplomacy"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column2 y = @entries_row3_y }
-	
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_blue"
 					alwaysTransparent = yes
 				}
-	
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_blue"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-	
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_diplomacy"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-					
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -1297,7 +1222,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-	
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -1311,27 +1235,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-	
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_diplomacy_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = 77 y = 100 }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_double"
@@ -1339,52 +1260,43 @@ guiTypes = {
 					}
 				}
 			}
-	
 			################################################################
 			# TRADITION CATEGORY DISCOVERY
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_discovery"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column3 y = @entries_row3_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_gray"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_gray"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_discovery"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -1396,7 +1308,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -1410,33 +1321,29 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_discovery_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_2 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
@@ -1444,52 +1351,43 @@ guiTypes = {
 					}
 				}
 			}
-	
 			################################################################
 			# TRADITION CATEGORY DOMINATION
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_domination"
 				size = { width = @entry_w height = @entry_h }
-				position = { x = @entries_column4 y = @entries_row3_y }
-				
+				position = { x = @entries_column4 y = @entries_row1_y }
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_orange"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_orange"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType = {
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_domination"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -1501,7 +1399,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -1515,27 +1412,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-	
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_domination_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_merge"
 						position = { x = 82 y = 100 }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
@@ -1543,52 +1437,43 @@ guiTypes = {
 					}
 				}
 			}
-	
 			################################################################
 			# TRADITION CATEGORY EXPANSION
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_expansion"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column1 y = @entries_row4_y }
-	
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_green"
 					alwaysTransparent = yes
 				}
-	
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_green"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-	
 				instantTextBoxType = {
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_expansion"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -1600,7 +1485,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-	
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -1614,27 +1498,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-	
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_expansion_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_double"
 						position = { x = 76 y = 100 }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
@@ -1642,52 +1523,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY FAITH
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_faith"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column2 y = @entries_row4_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_faith"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_faith"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_faith"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -1699,7 +1571,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -1713,39 +1584,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_faith_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"	
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_est_left"
 						position = { x = @x_arrow_left_1 y = @y_arrow_side_lower }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_2 y = @y_arrow_side_lower }
 					}			
-									
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_single"
@@ -1753,52 +1619,43 @@ guiTypes = {
 					}
 				}
 			}
-					
 			################################################################
 			# TRADITION CATEGORY FOUNDATION
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_foundation"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column3 y = @entries_row4_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_foundation"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_foundation"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_foundation"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -1810,7 +1667,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -1824,39 +1680,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_foundation_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_2 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_left"
 						position = { x = @x_arrow_left_1 y = @y_arrow_side }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_left"
 						position = { x = @x_arrow_left_1 y = @y_arrow_side_lower }
 					}
-					
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_right"
@@ -1864,52 +1715,43 @@ guiTypes = {
 					}
 				}
 			}		
-					
 			################################################################
 			# TRADITION CATEGORY FRIENDSHIP
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_friendship"
 				size = { width = @entry_w height = @entry_h }
-				position = { x = @entries_column4 y = @entries_row4_y }
-				
+				position = { x = @entries_column4 y = @entries_row2_y }
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_friendship"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_friendship"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_friendship"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -1921,7 +1763,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -1935,39 +1776,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_friendship_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_3 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side }
 					}
-	
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_left"
@@ -1975,52 +1811,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY HARMONY
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_harmony"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column1 y = @entries_row5_y }
-			
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_turqoise"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_turqoise"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-			
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_harmony"
 				}
-				
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-					
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2032,7 +1859,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-	
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2046,27 +1872,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-	
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_harmony_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_merge"
 						position = { x = 82 y = 100 }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
@@ -2074,52 +1897,43 @@ guiTypes = {
 					}
 				}
 			}
-					
 			################################################################
 			# TRADITION CATEGORY GREED
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_greed"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column2 y = @entries_row5_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_greed"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_greed"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_greed"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2131,7 +1945,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2145,33 +1958,29 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_greed_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_merge_wide"
 						position = { x = @x_arrow_merge_wide y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
@@ -2179,52 +1988,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY INDUSTRY
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_industry"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column3 y = @entries_row5_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_industry"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_industry"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_industry"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2236,7 +2036,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2250,39 +2049,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_industry_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_3 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side }
 					}
-	
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_right"
@@ -2290,52 +2084,43 @@ guiTypes = {
 					}
 				}
 			}
-					
 			################################################################
 			# TRADITION CATEGORY ISOLATION
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_isolation"
 				size = { width = @entry_w height = @entry_h }
-				position = { x = @entries_column4 y = @entries_row5_y }
-				
+				position = { x = @entries_column4 y = @entries_row3_y }
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_isolation"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_isolation"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_isolation"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2347,7 +2132,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2361,33 +2145,29 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_isolation_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_merge"
 						position = { x = @x_arrow_merge_2 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_2 y = @y_arrow_side }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_left"
@@ -2395,52 +2175,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY JUSTICE
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_justice"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column1 y = @entries_row6_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_justice"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_justice"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_justice"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2452,7 +2223,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2466,39 +2236,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_justice_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side_lower }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side }
 					}
-	
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_right"
@@ -2506,52 +2271,43 @@ guiTypes = {
 					}
 				}
 			}
-					
 			################################################################
 			# TRADITION CATEGORY LIBERTY
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_liberty"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column2 y = @entries_row6_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_liberty"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_liberty"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_liberty"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2563,7 +2319,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2577,27 +2332,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_liberty_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}	
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_merge_wide"
@@ -2605,52 +2357,43 @@ guiTypes = {
 					}
 				}
 			}
-					
 			################################################################
 			# TRADITION CATEGORY MECHANICUM
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_mechanicum"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column3 y = @entries_row6_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_mechanicum"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_mechanicum"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_mechanicum"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2662,7 +2405,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2676,33 +2418,29 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_mechanicum_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side }
 					}
-	
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_double"
@@ -2710,52 +2448,43 @@ guiTypes = {
 					}
 				}
 			}
-					
 			################################################################
 			# TRADITION CATEGORY MILITARISM
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_militarism"
 				size = { width = @entry_w height = @entry_h }
-				position = { x = @entries_column4 y = @entries_row6_y }
-				
+				position = { x = @entries_column4 y = @entries_row4_y }
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_militarism"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_militarism"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_militarism"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2767,7 +2496,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2781,33 +2509,29 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_militarism_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_2 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_right"
@@ -2815,52 +2539,43 @@ guiTypes = {
 					}
 				}
 			}
-					
 			################################################################
 			# TRADITION CATEGORY MYSTICISM
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_mysticism"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column1 y = @entries_row7_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_mysticism"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_mysticism"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_mysticism"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2872,7 +2587,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2886,33 +2600,29 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_mysticism_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_double"
 						position = { x = @x_arrow_split_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_2 y = @y_arrow_side }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_single"
@@ -2920,52 +2630,43 @@ guiTypes = {
 					}
 				}
 			}
-					
 			################################################################
 			# TRADITION CATEGORY NATURAL
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_natural"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column2 y = @entries_row7_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_natural"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_natural"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_natural"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -2977,7 +2678,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -2991,27 +2691,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_natural_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_double"
 						position = { x = @x_arrow_split_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_double"
@@ -3019,52 +2716,43 @@ guiTypes = {
 					}
 				}
 			}
-					
 			################################################################
 			# TRADITION CATEGORY ORDER
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_order"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column3 y = @entries_row7_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_order"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_order"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_order"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -3076,7 +2764,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -3090,27 +2777,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_order_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
@@ -3118,52 +2802,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY Piracy
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_piracy"
 				size = { width = @entry_w height = @entry_h }
-				position = { x = @entries_column4 y = @entries_row7_y }
-				
+				position = { x = @entries_column4 y = @entries_row5_y }
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_piracy"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_piracy"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_piracy"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -3175,7 +2850,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -3189,27 +2863,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_piracy_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_1 y = @y_arrow_down }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_right"
@@ -3217,52 +2888,43 @@ guiTypes = {
 					}
 				}
 			}
-	
 			################################################################
 			# TRADITION CATEGORY PROSPERITY
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_prosperity"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column1 y = @entries_row8_y }
-			
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_yellow"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_yellow"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_prosperity"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-					
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -3274,7 +2936,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -3288,27 +2949,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-	
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_prosperity_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_double"
 						position = { x = 76 y = 100 }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
@@ -3316,52 +2974,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY SPACEBORN
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_spaceborn"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column2 y = @entries_row8_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_spaceborn"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_spaceborn"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_spaceborn"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -3373,7 +3022,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -3387,39 +3035,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_spaceborn_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side_lower }
 					}
-									
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
 						position = { x = @x_arrow_down_2 y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_est_left"
 						position = { x = @x_arrow_left_1 y = @y_arrow_side }
 					}
-					
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_right"
@@ -3427,52 +3070,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY SUPREMACY
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_supremacy"
 				size = { width = @entry_w height = @entry_h }
 				position = { x = @entries_column3 y = @entries_row8_y }
-				
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_red"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_red"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_supremacy"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-					
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -3484,7 +3118,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-	
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -3498,27 +3131,24 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-	
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_supremacy_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-	
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_merge"
 						position = { x = 82 y = 100 }
 					}
-	
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_single"
@@ -3526,52 +3156,43 @@ guiTypes = {
 					}
 				}
 			}
-			
 			################################################################
 			# TRADITION CATEGORY COLLECTIVISM/INDIVIDUALISM
 			################################################################
-	
 			containerWindowType = {
 				name = "tradition_est_coll_indv"
 				size = { width = @entry_w height = @entry_h }
-				position = { x = @entries_column4 y = @entries_row8_y }
-				
+				position = { x = @entries_column4 y = @entries_row6_y }
 				background = {
 					name = "black"
 					spriteType = "GFX_tradition_category_tile_est_coll_indv"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_tradition_hex_bg_est_coll_indv"
 					position = { x = -23 y = -18 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType={
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "tradition_est_coll_indv"
 				}
-	
 				containerWindowType = {
 					name = "adopted_count"
 					size = { width = 150 height = 40 }
 					position = { x = 163 y = -2 }
-	
 					background = {
 						name = "adopted_hitbox"
 						spriteType = "GFX_invisible"
 					}
-					
 					iconType = {
 						name = "adopted"
 						spriteType = "GFX_adopted_tradition_category_bg_orange"
 						alwaysTransparent = yes
 					}
-					
 					instantTextBoxType = {
 						name = "value"
 						font = "cg_16b"
@@ -3583,7 +3204,6 @@ guiTypes = {
 						alwaysTransparent = yes
 					}
 				}
-				
 				buttonType = {
 				#	id = "change"
 					name = "adopt_button"
@@ -3597,39 +3217,34 @@ guiTypes = {
 				#	navUp = "terraform_button"
 				#	navRight = "edicts_list"
 				}
-				
 				instantTextBoxType = {
 					name = "category_desc"
 					font = "cg_16b"
-					position = { x = 10 y = 35 }
+					position = { x = 10 y = 37 }
 					maxWidth = 280
+					maxHeight = 140
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
 					text = "tradition_est_coll_indv_desc"
 				}
-	
 				containerWindowType = {
 					name = "tree"
-					
 					iconType = {
 						name = "arrow_1"
 						spriteType = "GFX_arrow_est_right"
 						position = { x = @x_arrow_right_1 y = @y_arrow_side_lower }
 					}
-					
 					iconType = {
 						name = "arrow_2"
 						spriteType = "GFX_arrow_est_left"
 						position = { x = @x_arrow_left_2 y = @y_arrow_side_lower }
 					}
-					
 					iconType = {
 						name = "arrow_3"
 						spriteType = "GFX_arrow_merge_wide"
 						position = { x = @x_arrow_merge_wide y = @y_arrow_down }
 					}
-					
 					iconType = {
 						name = "arrow_4"
 						spriteType = "GFX_arrow_est_left"
@@ -3637,104 +3252,131 @@ guiTypes = {
 					}
 				}
 			}
-
 			################################################################
 			# TRADITION ASCENSION PERKS
 			################################################################
-
 			containerWindowType = {
 				name = "ascension_perks"
-				size = { width = @entry_w height = 382 }
-				position = { x = @entries_column4 y = @entries_row1_y }
-				
+				size = { width = 244 height = 1614 }
+				position = { x = 1268 y = 0 }
 				background = {
 					name = "black"
 					spriteType = "GFX_plain_bg_tile"
 					alwaysTransparent = yes
 				}
-				
 				iconType = {
 					name = "hex_bg"
 					spriteType = "GFX_hex_bg"
 					position = { x = -15 y = -15 }
 					alwaysTransparent = yes
 				}
-				
 				instantTextBoxType = {
 					name = "ascension_perks_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
 					text = "ASCENSION_PERKS"
 				}
-				
 				containerWindowType = {
 					name = "tradition_box"
-					size = { width = 300 height = 200 }
-					position = { x = 15 y = 70 }
-				}
-			}
-		
-			################################################################
-			# EXTRA
-			################################################################
-			
-			containerWindowType = {
-				name = "NotVisible"
-				size = { width = 1705 height = 80 } #width = 1272
-				position = { x = 11 y = 1200 }
-				
-				containerWindowType = {
-					name = "tradition_box"
-					size = { width = 300 height = 200 }
+					size = { width = 244 height = 260 }
 					position = { x = 15 y = 70 }
 				}
 			}
 		}
-
 		###############################
 		# RELICS TAB
 		###############################
-		
 		containerWindowType = {
 			name = "relics_window"
-			size = { width = 1272 height = 600 } 
+			size = { width = @bigwindow_w height = 859 } 
+			if_resolution = {
+				min_height = 1440
+				size = { width = @bigwindow_w height = 1214 }
+			}
 			moveable = no
 			orientation = upper_left
 			position = { x = 0 y = 0 }
-
 			###############################
 			# RELICS
 			###############################
-
-			@relicsWidth = 738
+			@relicsWidth = 994
 			@relicsWidthWide = 1248
-
 			###############################
 			# RELICS BOX
 			###############################
-
 			containerWindowType = {
 				name = "relics_box"
-				size = { width = @relicsWidth height = 536 }
+				size = { width = @relicsWidth height = 840 }
+				if_resolution = {
+					min_height = 1440
+					size = { width = @relicsWidth height = 1195 }
+				}
 				position = { x = 10 y = 50 }
-
 				background = {
 					name = "bg"
-					quadTextureSprite = "GFX_relics_panel_bg"
+					quadTextureSprite = "GFX_tiled_window_transparent"
 				}
-
+				containerWindowType = {
+					name = "relics_box_bg"
+					size = { width = @relicsWidth height = 780 }
+					if_resolution = {
+						min_height = 1440
+						size = { width = @relicsWidth height = 1135 }
+					}
+					position = { x = 0 y = 60 }
+					background = {
+						name = "planet_bg"
+						spriteType = "GFX_ui_relics_panel_background"
+						alwaysTransparent = yes
+					}
+				}
+				# RELICS CONTENT
+				containerWindowType = {
+					name = "relics_content"
+					size = { width = @relicsWidth height = 774 }
+					if_resolution = {
+						min_height = 1440
+						size = { width = @relicsWidth height = 1129 }
+					}
+					position = { x = 0 y = 62 }
+					verticalScrollbar = "right_vertical_slider"
+					margin = { top = 0 bottom = 0 }
+					background = {
+						name = "bg"
+						quadTextureSprite = "GFX_tiled_window_transparent"
+					}
+					gridBoxType = {
+						name = "relics_grid"
+						position = { x = -459 y = 0 }
+						orientation = center_up
+						size = { width = 918 height = 614 }
+						if_resolution = {
+							min_height = 1440
+							size = { width = 918 height = 1060 }
+						}
+						slotsize = {
+							width = 184
+							height = 194
+						}
+						format = "UPPER_LEFT"
+						max_slots_horizontal = 5
+					}
+				}
+				iconType = {
+					name = "relics_header"
+					spriteType = "GFX_ui_relics_panel_header"
+					position = { x = 0 y = 0 }
+				}
 				# TOP BAR
 				containerWindowType = {
 					name = "relics_topbar"
 					size = { width = @relicsWidth height = 65 }
 					position = { x = 0 y = 0 }
-
 					# LEFT SIDE
 					containerWindowType = {
 						name = "relics_topbar_left"
 						size = { width = 170 height = 65 }
 						position = { x = 0 y = 0 }
-
 						instantTextBoxType = {
 							name = "relics_found_text"
 							font = "cg_16b"
@@ -3746,7 +3388,6 @@ guiTypes = {
 							format = centre
 							text_color_code = "H"
 						}
-
 						instantTextBoxType = {
 							name = "relics_found_value"
 							font = "cg_16b"
@@ -3757,13 +3398,16 @@ guiTypes = {
 							format = centre
 						}
 					}
-
 					# RIGHT SIDE
 					containerWindowType = {
 						name = "relics_topbar_right"
-						size = { width = 575 height = 65 }
+						size = { width = 674 height = 65 }
 						position = { x = 175 y = 0 }
-
+						iconType = {
+							name = "progressbar"
+							spriteType = "GFX_ui_progressbar_609"
+							position = { x = 65 y = 12 }
+						}
 						instantTextBoxType = {
 							name = "no_triumph_text"
 							font = "cg_16b"
@@ -3774,88 +3418,90 @@ guiTypes = {
 							fixedSize = yes
 							text_color_code = "Y"
 						}
-
 						instantTextBoxType = {
 							name = "active_triumph_text"
-							font = "cg_16b"
-							position = { x = 50 y = 10 }
+							font = "malgun_goth_24"
+							position = { x = 108 y = 17 }
 							text = "ACTIVE_TRIUMPH_TEXT"
-							maxWidth = 150
+							maxWidth = 302
 							maxHeight = 22
 							fixedSize = yes
+							format = right
 							text_color_code = "H"
 						}
-
 						instantTextBoxType = {
 							name = "active_triumph_value"
-							font = "cg_16b"
-							position = { x = 200 y = 10 }
-							maxWidth = 60
+							font = "malgun_goth_24"
+							position = { x = -258 y = 17 }
+							orientation = upper_right
+							maxWidth = 70
 							maxHeight = 30
 							fixedSize = yes
-							format = centre
-						}
-
-						iconType = {
-							name = "progressbar"
-							spriteType = "GFX_queue_progressbar"
-							position = { x = 50 y = 30 }
+							format = left
 						}
 					}
 				}
-
+			}
+			###############################
+			# RELICS BOX WIDE
+			###############################
+			containerWindowType = {
+				name = "relics_box_wide"
+				size = { width = @relicsWidthWide height = 537 }
+				position = { x = 10 y = 50 }
+				background = {
+					name = "bg"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+				}
+				containerWindowType = {
+					name = "relics_box_bg"
+					size = { width = @relicsWidth height = 476 }
+					position = { x = 0 y = 60 }
+					background = {
+						name = "planet_bg"
+						spriteType = "GFX_ui_relics_panel_background"
+						alwaysTransparent = yes
+					}
+				}
 				# RELICS CONTENT
 				containerWindowType = {
 					name = "relics_content"
-					size = { width = @relicsWidth height = 470 }
-					position = { x = 0 y = 60 }
+					size = { width = @relicsWidthWide height = 473 }
+					position = { x = 0 y = 61 }
 					verticalScrollbar = "right_vertical_slider"
-					margin = { top = 10 bottom = 0 }
-
+					margin = { top = 0 bottom = 0 }
 					background = {
 						name = "bg"
 						quadTextureSprite = "GFX_tiled_window_transparent"
 					}
-
 					gridBoxType = {
 						name = "relics_grid"
-						position = { x = 95 y = 30 }
-						size = { width = 200 height = 400 }
+						position = { x = -459 y = 0 }
+						orientation = center_up
+						size = { width = 918 height = 400 }
 						slotsize = {
 							width = 184
 							height = 194
 						}
-						max_slots_horizontal = 3
+						format = "UPPER_LEFT"
+						max_slots_horizontal = 5
 					}
 				}
-			}
-
-			###############################
-			# RELICS BOX WIDE
-			###############################
-
-			containerWindowType = {
-				name = "relics_box_wide"
-				size = { width = @relicsWidthWide height = 536 }
-				position = { x = 10 y = 50 }
-
-				background = {
-					name = "bg"
-					quadTextureSprite = "GFX_relics_panel_bg_wide"
+				iconType = {
+					name = "relics_header"
+					spriteType = "GFX_ui_relics_panel_header"
+					position = { x = 0 y = 0 }
 				}
-
 				# TOP BAR
 				containerWindowType = {
 					name = "relics_topbar"
 					size = { width = @relicsWidthWide height = 65 }
 					position = { x = 0 y = 0 }
-
 					# LEFT SIDE
 					containerWindowType = {
 						name = "relics_topbar_left"
 						size = { width = 170 height = 65 }
 						position = { x = 0 y = 0 }
-
 						instantTextBoxType = {
 							name = "relics_found_text"
 							font = "cg_16b"
@@ -3867,7 +3513,6 @@ guiTypes = {
 							format = centre
 							text_color_code = "H"
 						}
-
 						instantTextBoxType = {
 							name = "relics_found_value"
 							font = "cg_16b"
@@ -3878,13 +3523,16 @@ guiTypes = {
 							format = centre
 						}
 					}
-
 					# RIGHT SIDE
 					containerWindowType = {
 						name = "relics_topbar_right"
-						size = { width = 575 height = 65 }
-						position = { x = 465 y = 0 }
-
+						size = { width = 674 height = 65 }
+						position = { x = 175 y = 0 }
+						iconType = {
+							name = "progressbar"
+							spriteType = "GFX_ui_progressbar_609"
+							position = { x = 65 y = 12 }
+						}
 						instantTextBoxType = {
 							name = "no_triumph_text"
 							font = "cg_16b"
@@ -3895,84 +3543,52 @@ guiTypes = {
 							fixedSize = yes
 							text_color_code = "Y"
 						}
-
 						instantTextBoxType = {
 							name = "active_triumph_text"
-							font = "cg_16b"
-							position = { x = 50 y = 10 }
+							font = "malgun_goth_24"
+							position = { x = 108 y = 17 }
 							text = "ACTIVE_TRIUMPH_TEXT"
-							maxWidth = 150
+							maxWidth = 302
 							maxHeight = 22
 							fixedSize = yes
+							format = right
 							text_color_code = "H"
 						}
-
 						instantTextBoxType = {
 							name = "active_triumph_value"
-							font = "cg_16b"
-							position = { x = 200 y = 10 }
-							maxWidth = 60
+							font = "malgun_goth_24"
+							position = { x = -258 y = 17 }
+							orientation = upper_right
+							maxWidth = 70
 							maxHeight = 30
 							fixedSize = yes
-							format = centre
+							format = left
 						}
-
-						iconType = {
-							name = "progressbar"
-							spriteType = "GFX_queue_progressbar"
-							position = { x = 50 y = 30 }
-						}
-					}
-				}
-
-				# RELICS CONTENT
-				containerWindowType = {
-					name = "relics_content"
-					size = { width = @relicsWidthWide height = 470 }
-					position = { x = 0 y = 60 }
-					verticalScrollbar = "right_vertical_slider"
-					margin = { top = 10 bottom = 0 }
-
-					background = {
-						name = "bg"
-						quadTextureSprite = "GFX_tiled_window_transparent"
-					}
-
-					gridBoxType = {
-						name = "relics_grid"
-						position = { x = 255 y = 30 }
-						size = { width = 200 height = 400 }
-						slotsize = {
-							width = 184
-							height = 194
-						}
-						max_slots_horizontal = 4
 					}
 				}
 			}
-
 			###############################
 			# ARTIFACTS
 			###############################
-
-			@artifactsWidth = 502 
-
+			@artifactsWidth = 502
 			containerWindowType = {
 				name = "artifacts_box"
-				size = { width = @artifactsWidth height = 516 }
-				position = { x = 757 y = 70 }
-
+				size = { width = @artifactsWidth height = 820 }
+				if_resolution = {
+					min_height = 1440
+					size = { width = @artifactsWidth height = 1175 }
+				}
+				position = { x = -512 y = 70 }
+				orientation = upper_right
 				background = {
 					name = "bg"
 					quadTextureSprite = "GFX_artifacts_panel_bg"
 				}
-
 				# TOP BAR
 				containerWindowType = {
 					name = "artifacts_topbar"
 					size = { width = @artifactsWidth height = 65 }
 					position = { x = 0 y = 0 }
-
 					instantTextBoxType = {
 						name = "artifacts_header"
 						font = "cg_16b"
@@ -3984,7 +3600,6 @@ guiTypes = {
 						format = left
 						text_color_code = "H"
 					}
-
 					instantTextBoxType = {
 						name = "artifacts_count_value"
 						font = "cg_16b"
@@ -3995,26 +3610,30 @@ guiTypes = {
 						format = right
 						text = "45"
 					}
-
 				}
-
 				# CONTENT
 				containerWindowType = {
 					name = "artifacts_content"
-					size = { width = 493 height = 474 }
+					size = { width = 493 height = 780 }
+					if_resolution = {
+						min_height = 1440
+						size = { width = 493 height = 1135 }
+					}
 					position = { x = 10 y = 50 }
 					verticalScrollbar = "right_vertical_slider"
 					margin = { top = 0 bottom = 15 }
-
 					background = {
 						name = "bg"
 						quadTextureSprite = "GFX_tiled_window_transparent"
 					}
-
 					gridBoxType = {
 						name = "artifact_actions_grid"
 						position = { x = 0 y = 0 }
-						size = { width = 480 height = 450 }
+						size = { width = 480 height = 765 }
+						if_resolution = {
+							min_height = 1440
+							size = { width = 480 height = 1120 }
+						}
 						slotsize = {
 							width = 480
 							height = 43
@@ -4025,7 +3644,6 @@ guiTypes = {
 			}
 		}
 	}
-
 	# RELIC GRID BOX ENTRY
 	containerWindowType = {
 		name = "relic_grid_entry"
@@ -4033,27 +3651,23 @@ guiTypes = {
 			width = 182
 			height = 194
 		}
-
 		background = {
 			name = "bg"
 			quadTextureSprite = "GFX_tiled_window_transparent"
 			no_clicksound = yes # this will be manually set by the relic type and played in the UI via code
 		}
-
 		iconType = {
 			name = "frame"
 			position = { x = 0 y = 0 }
 			quadTextureSprite = "GFX_relics_frame"
 			alwaysTransparent = yes
 		}
-
 		iconType = {
 			name = "frame_unused"
 			position = { x = 0 y = 0 }
 			quadTextureSprite = "GFX_relics_frame_unused"
 			alwaysTransparent = yes
 		}
-
 		iconType = {
 			name = "relic_portrait"
 			position = { x = 10 y = 15 }
@@ -4061,7 +3675,6 @@ guiTypes = {
 			alwaysTransparent = yes
 		}
 	}
-
 	# ARTIFACT ACTION GRID BOX ENTRY
 	containerWindowType = {
 		name = "artifact_action_grid_entry"
@@ -4069,12 +3682,10 @@ guiTypes = {
 			width =  482
 			height = 40
 		}
-
 		background = {
 			name = "bg"
 			quadTextureSprite = "GFX_tiles_dark_area_cut_8"
 		}
-
 		instantTextBoxType = {
 			name = "title"
 			font = "cg_16b"
@@ -4086,7 +3697,6 @@ guiTypes = {
 			format = left
 			alwaysTransparent = yes
 		}
-
 		instantTextBoxType = {
 			name = "cost"
 			font = "cg_16b"
@@ -4098,7 +3708,6 @@ guiTypes = {
 			text = "45"
 			alwaysTransparent = yes
 		}
-
 		buttonType = {
 			name = "button"
 			quadTextureSprite = "GFX_button_light"
