@@ -1,0 +1,1449 @@
+##########################################################################
+# Empire Policies
+#
+# #####
+#
+# AI:
+# Base AI-weight is 100, if unchanged
+# AI will grab whatever policy-option has the highest weight
+#
+# #####
+#
+##########################################################################
+
+
+### Federation Focus ###
+
+kiyo_diplo_influence_federation_focus = {
+
+	potential = { has_federation = yes }
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_focus_unity"
+		policy_flags = { kiyo_diplo_influence_federation_focus_unity }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_focus_unity
+						}
+					}
+				}
+			}
+		}
+		AI_weight = {
+			modifier = {
+				factor = 5
+				is_spiritualist = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_focus_knowledge"
+		policy_flags = { kiyo_diplo_influence_federation_focus_knowledge }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_focus_knowledge
+						}
+					}
+				}
+			}
+		}
+		AI_weight = {
+			modifier = {
+				factor = 5
+				is_materialist = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_focus_trade"
+		policy_flags = { kiyo_diplo_influence_federation_focus_trade }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_focus_trade
+						}
+					}
+				}
+			}
+		}
+		AI_weight = {
+			modifier = {
+				factor = 2
+				is_megacorp = yes
+			}
+			modifier = {
+				factor = 3
+				is_at_war = no
+			}
+			modifier = {
+				factor = 0.01
+				has_ethic = ethic_gestalt_consciousness
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_focus_war"
+		policy_flags = { kiyo_diplo_influence_federation_focus_war }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_focus_war
+						}
+					}
+				}
+			}
+		}
+		AI_weight = {
+			modifier = {
+				factor = 2
+				is_militarist = yes
+			}
+			modifier = {
+				factor = 5
+				is_at_war = yes
+			}
+		}
+	}
+
+}
+
+### Unification Policies ###
+
+# Federation Ideals
+kiyo_diplo_influence_federation_unity_ideals = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_unity
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_ideals_culture"
+		policy_flags = { kiyo_diplo_influence_federation_unity_ideals_culture }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_ideals_culture
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			trade_value_mult = 0.10
+			pop_growth_speed = 0.10
+			pop_ethic_xenophile_attraction_mult = 0.20
+			pop_ethic_xenophobe_attraction_mult = 0.20
+		}
+		AI_weight = {
+			modifier = {
+				weight = 1
+				OR = {
+					is_xenophile = yes
+					is_xenophobe = yes
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_ethic = ethic_fanatic_xenophile
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_ideals_responsibility"
+		policy_flags = { kiyo_diplo_influence_federation_unity_ideals_responsibility }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_ideals_responsibility
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_jobs_worker_produces_mult = 0.05
+			pop_factions_influence_produces_mult = 0.25
+			pop_ethic_egalitarian_attraction_mult = 0.20
+			pop_ethic_authoritarian_attraction_mult = 0.20
+		}
+		AI_weight = {
+			modifier = {
+				weight = 2
+				OR = {
+					is_egalitarian = yes
+					is_authoritarian = yes
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_ethic = ethic_fanatic_egalitarian
+					has_ethic = ethic_fanatic_authoritarian
+				}
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_ideals_security"
+		policy_flags = { kiyo_diplo_influence_federation_unity_ideals_security }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_ideals_security
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_stability_add = 3
+			ship_fire_rate_mult = 0.05
+			pop_ethic_militarist_attraction_mult = 0.20
+			pop_ethic_pacifist_attraction_mult = 0.20
+		}
+		AI_weight = {
+			modifier = {
+				weight = 4
+				OR = {
+					is_militarist = yes
+					is_pacifist = yes
+					has_ethic = ethic_gestalt_consciousness
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_ethic = ethic_fanatic_militarist
+					has_ethic = ethic_fanatic_pacifist
+					has_ethic = ethic_gestalt_consciousness
+					is_at_war = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_ideals_introspection"
+		policy_flags = { kiyo_diplo_influence_federation_unity_ideals_introspection }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_ideals_introspection
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			edicts_cost_mult = -0.10
+			all_technology_research_speed = 0.05
+			pop_ethic_materialist_attraction_mult = 0.20
+			pop_ethic_spiritualist_attraction_mult = 0.20
+		}
+		AI_weight = {
+			modifier = {
+				weight = 3
+				OR = {
+					is_materialist = yes
+					is_spiritualist = yes
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_ethic = ethic_fanatic_materialist
+					has_ethic = ethic_fanatic_spiritualist
+				}
+			}
+		}
+	}
+	
+}
+
+# Federation Media
+kiyo_diplo_influence_federation_unity_media = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_unity
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_media_diplomacy"
+		policy_flags = { kiyo_diplo_influence_federation_unity_media_diplomacy }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_media_diplomacy
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			country_influence_produces_add = 0.5
+		}
+		AI_weight = {
+			modifier = {
+				weight = 4
+				OR = {
+					is_militarist = yes
+					is_pacifist = yes
+					has_ethic = ethic_gestalt_consciousness
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_ethic = ethic_fanatic_militarist
+					has_ethic = ethic_fanatic_pacifist
+					has_ethic = ethic_gestalt_consciousness
+					is_at_war = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_media_culture"
+		policy_flags = { kiyo_diplo_influence_federation_unity_media_culture }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_media_culture
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			country_unity_produces_mult = 0.10
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_media_amenities"
+		policy_flags = { kiyo_diplo_influence_federation_unity_media_amenities }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_media_amenities
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_amenities_mult = 0.10
+		}
+		AI_weight = {
+			modifier = {
+				weight = 2
+				always = yes
+			}
+		}
+	}
+	
+}
+
+# Federation Affairs
+kiyo_diplo_influence_federation_unity_affairs = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_unity
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_affairs_involved"
+		policy_flags = { kiyo_diplo_influence_federation_unity_affairs_involved }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_affairs_involved
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			pop_environment_tolerance = 0.05
+			country_claim_influence_cost_mult = -0.10
+		}
+		AI_weight = {
+			modifier = {
+				weight = 4
+				OR = {
+					is_xenophile = yes
+					is_pacifist = yes
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_ethic = ethic_fanatic_xenophile
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_affairs_neutral"
+		policy_flags = { kiyo_diplo_influence_federation_unity_affairs_neutral }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_affairs_neutral
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			leader_skill_levels = 1
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_unity_affairs_uninvolved"
+		policy_flags = { kiyo_diplo_influence_federation_unity_affairs_uninvolved }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_unity_affairs_uninvolved
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			pop_housing_usage_mult = -0.10
+		}
+		AI_weight = {
+			modifier = {
+				weight = 5
+				always = yes
+			}
+		}
+	}
+	
+}
+
+### Knowledge Policies ###
+
+# Federation Tech Focus
+kiyo_diplo_influence_federation_knowledge_focus = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_knowledge
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_knowledge_focus_physics"
+		policy_flags = { kiyo_diplo_influence_federation_knowledge_focus_physics }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_knowledge_focus_physics
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			country_physics_tech_research_speed = 0.15
+			country_society_tech_research_speed = -0.05
+			country_engineering_tech_research_speed = -0.05
+		}
+		AI_weight = {	# Physics tech generally not the best
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_knowledge_focus_society"
+		policy_flags = { kiyo_diplo_influence_federation_knowledge_focus_society }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_knowledge_focus_society
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			country_physics_tech_research_speed = -0.05
+			country_society_tech_research_speed = 0.15
+			country_engineering_tech_research_speed = -0.05
+		}
+		AI_weight = {
+			modifier = {
+				weight = 4
+				OR = {
+					is_xenophile = yes
+					is_pacifist = yes
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_ethic = ethic_fanatic_xenophile
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_knowledge_focus_engineering"
+		policy_flags = { kiyo_diplo_influence_federation_knowledge_focus_engineering }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_knowledge_focus_engineering
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			country_physics_tech_research_speed = -0.05
+			country_society_tech_research_speed = -0.05
+			country_engineering_tech_research_speed = 0.15
+		}
+		AI_weight = {	# Engineering Tech is generally the best
+			modifier = {
+				weight = 5
+				always = yes
+			}
+		}
+	}
+	
+}
+
+# Federation Inside Knowledge
+kiyo_diplo_influence_federation_knowledge_insider = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_knowledge
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_knowledge_insider_market"
+		policy_flags = { kiyo_diplo_influence_federation_knowledge_insider_market }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_knowledge_insider_market
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			country_trade_fee = -0.10
+		}
+		AI_weight = {
+			modifier = {
+				factor = 3
+				is_megacorp = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_knowledge_insider_politics"
+		policy_flags = { kiyo_diplo_influence_federation_knowledge_insider_politics }
+		potential = { NOR = { is_megacorp = yes has_ethic = ethic_gestalt_consciousness } }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_knowledge_insider_politics
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_administrators_energy_produces_add = -3
+			planet_administrators_physics_research_produces_add = 1.5
+			planet_administrators_society_research_produces_add = 1.5
+			planet_administrators_engineering_research_produces_add = 1.5
+		}
+		AI_weight = {
+			modifier = {
+				weight = 2
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_knowledge_insider_politics_corp"
+		policy_flags = { kiyo_diplo_influence_federation_knowledge_insider_politics }
+		potential = { is_megacorp = yes NOT = { has_ethic = ethic_gestalt_consciousness } }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_knowledge_insider_politics
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_executives_energy_produces_add = -3
+			planet_executives_physics_research_produces_add = 1.5
+			planet_executives_society_research_produces_add = 1.5
+			planet_executives_engineering_research_produces_add = 1.5
+		}
+		AI_weight = {
+			modifier = {
+				weight = 2
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_knowledge_insider_politics_gestalt"
+		policy_flags = { kiyo_diplo_influence_federation_knowledge_insider_politics }
+		potential = { has_ethic = ethic_gestalt_consciousness }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_knowledge_insider_politics
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_researchers_energy_produces_add = -2
+			planet_researchers_physics_research_produces_add = 0.5
+			planet_researchers_society_research_produces_add = 0.5
+			planet_researchers_engineering_research_produces_add = 0.5
+		}
+		AI_weight = {
+			modifier = {
+				weight = 2
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_knowledge_insider_sensor"
+		policy_flags = { kiyo_diplo_influence_federation_knowledge_insider_sensor }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_knowledge_insider_sensor
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			ship_sensor_range_add = 2
+			planet_sensor_range_add = 2
+			ship_disengage_chance_mult = 0.20
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	
+}
+
+### Trade Policies ###
+
+# Federation Production Focus
+kiyo_diplo_influence_federation_trade_focus = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_trade
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_focus_artisans"
+		policy_flags = { kiyo_diplo_influence_federation_trade_focus_artisans }
+		potential = { NOT = { has_ethic = ethic_gestalt_consciousness } }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_focus_artisans
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_artisans_consumer_goods_produces_add = 2
+			planet_artisans_energy_produces_add = 2
+		}
+		AI_weight = {
+			modifier = {
+				factor = 2
+				OR = {
+					is_xenophile = yes
+					is_pacifist = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_focus_maintenance"
+		policy_flags = { kiyo_diplo_influence_federation_trade_focus_artisans }
+		potential = { has_ethic = ethic_gestalt_consciousness }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_focus_artisans
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_amenities_mult = 0.10
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_focus_merchants"
+		policy_flags = { kiyo_diplo_influence_federation_trade_focus_merchants }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_focus_merchants
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			trade_value_mult = 0.20
+			planet_jobs_complex_drone_produces_mult = 0.10
+		}
+		AI_weight = {
+			modifier = {
+				factor = 5
+				OR = {
+					is_megacorp = yes
+					has_ethic = ethic_gestalt_consciousness
+				}
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_focus_workers"
+		policy_flags = { kiyo_diplo_influence_federation_trade_focus_workers }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_focus_workers
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_jobs_worker_produces_mult = 0.10
+			planet_jobs_simple_drone_produces_mult = 0.10
+		}
+		AI_weight = {
+			modifier = {
+				weight = 5
+				always = yes
+			}
+		}
+	}
+	
+}
+
+# Federation Citizen Provisions
+kiyo_diplo_influence_federation_trade_provisions = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_trade
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_provisions_high"
+		policy_flags = { kiyo_diplo_influence_federation_trade_provisions_high }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_provisions_high
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_pops_upkeep_mult = 0.25
+			planet_stability_add = 5
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_provisions_normal"
+		policy_flags = { kiyo_diplo_influence_federation_trade_provisions_normal }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_provisions_normal
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			# NOTHING
+		}
+		AI_weight = {
+			modifier = {
+				factor = 5
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_provisions_low"
+		policy_flags = { kiyo_diplo_influence_federation_trade_provisions_low }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_provisions_low
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_pops_upkeep_mult = -0.15
+			planet_stability_add = -5
+		}
+		AI_weight = {
+			modifier = {
+				weight = 0
+				always = yes
+			}
+		}
+	}
+	
+}
+
+# Federation Maintenance Focus
+kiyo_diplo_influence_federation_trade_maintenance = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_trade
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_maintenance_energy"
+		policy_flags = { kiyo_diplo_influence_federation_trade_maintenance_energy }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_maintenance_energy
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			country_energy_upkeep_mult = -0.10
+		}
+		AI_weight = {
+			modifier = {
+				factor = 5
+				is_robot_empire = yes
+				is_at_war = no
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_maintenance_admin"
+		policy_flags = { kiyo_diplo_influence_federation_trade_maintenance_admin }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_maintenance_admin
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			empire_size_penalty_mult = -0.15
+		}
+		AI_weight = {
+			modifier = {
+				weight = 5
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_trade_maintenance_ships"
+		policy_flags = { kiyo_diplo_influence_federation_trade_maintenance_ships }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_trade_maintenance_ships
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			ships_upkeep_mult = -0.05
+		}
+		AI_weight = {
+			modifier = {
+				factor = 5
+				OR = {
+					is_xenophobe = yes
+					is_militarist = yes
+					is_at_war = yes
+				}
+			}
+		}
+	}
+	
+}
+
+### Military Policies ###
+
+# Federation Army Contributions
+kiyo_diplo_influence_federation_war_army = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_war
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_war_army_enforcers"
+		policy_flags = { kiyo_diplo_influence_federation_war_army_enforcers }
+		potential = { NOT = { has_ethic = ethic_gestalt_consciousness } }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_war_army_enforcers
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_enforcers_minerals_produces_add = 2
+			planet_enforcers_energy_produces_add = 2
+			planet_enforcers_food_produces_add = 2
+			planet_enforcers_physics_research_produces_add = 1.5
+			planet_enforcers_society_research_produces_add = 1.5
+			planet_enforcers_engineering_research_produces_add = 1.5
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_war_army_enforcers_gestalt"
+		policy_flags = { kiyo_diplo_influence_federation_war_army_enforcers }
+		potential = { has_ethic = ethic_gestalt_consciousness }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_war_army_enforcers
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_crime_no_happiness_mult = -0.15
+			planet_jobs_simple_drone_produces_mult = 0.10
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_war_army_soldiers"
+		policy_flags = { kiyo_diplo_influence_federation_war_army_soldiers }
+		potential = { NOT = { has_ethic = ethic_gestalt_consciousness } }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_war_army_soldiers
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			planet_soldiers_minerals_produces_add = 1
+			planet_soldiers_energy_produces_add = 1
+			planet_soldiers_food_produces_add = 1
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_war_army_soldiers_gestalt"
+		policy_flags = { kiyo_diplo_influence_federation_war_army_soldiers }
+		potential = { has_ethic = ethic_gestalt_consciousness }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_war_army_soldiers
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			country_naval_cap_mult = 0.10
+			federation_naval_cap_contribution_mult = 0.50
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_war_army_guerilla"
+		policy_flags = { kiyo_diplo_influence_federation_war_army_guerilla }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_war_army_guerilla
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			ship_fire_rate_mult = 0.05
+			ship_home_territory_fire_rate_mult = 0.15
+		}
+		AI_weight = {
+			modifier = {
+				factor = 5
+				always = yes
+			}
+		}
+	}
+	
+}
+
+# Federation Navy Specialization
+kiyo_diplo_influence_federation_war_navy = {
+
+	potential = {
+		has_federation = yes
+		has_policy_flag = kiyo_diplo_influence_federation_focus_war
+	}
+	
+	option = {
+		name = "kiyo_diplo_influence_federation_war_navy_repair"
+		policy_flags = { kiyo_diplo_influence_federation_war_navy_repair }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_war_navy_repair
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			ship_hull_regen_add_perc = 0.10
+			ship_armor_regen_add_perc = 0.10
+		}
+		AI_weight = {
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_war_navy_weakness"
+		policy_flags = { kiyo_diplo_influence_federation_war_navy_weakness }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_war_navy_weakness
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			ship_armor_penetration_mult = 0.10
+			ship_shield_penetration_mult = 0.10
+			ship_hull_damage_mult = 0.10
+		}
+		AI_weight = {
+			modifier = {
+				weight = 5
+				always = yes
+			}
+		}
+	}
+	option = {
+		name = "kiyo_diplo_influence_federation_war_navy_life"
+		policy_flags = { kiyo_diplo_influence_federation_war_navy_life }
+		valid = {
+			custom_tooltip = {
+				fail_text = kiyo_diplo_influence_policies_not_federation_president
+				OR = {
+					is_federation_leader = yes
+					AND = {
+						is_federation_leader = no
+						any_country = {
+							is_in_federation_with = prev
+							is_federation_leader = yes
+							has_policy_flag = kiyo_diplo_influence_federation_war_navy_life
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			ship_speed_mult = 0.10
+			ship_disengage_chance_mult = 0.33
+		}
+		AI_weight = {
+			modifier = {
+				factor = 5
+				OR = {
+					is_xenophobe = yes
+					is_militarist = yes
+					is_at_war = yes
+				}
+			}
+		}
+	}
+	
+}

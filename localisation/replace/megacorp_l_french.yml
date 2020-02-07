@@ -1,0 +1,110 @@
+﻿l_french:
+
+ # Gestalt Jobs
+ job_mining_drone_effect_desc:0 "Les £job_mining_drone£ drones miniers produisent §G+4§! £minerals£§Yminéraux§!"
+
+ job_warrior_drone_effect_desc:0 "(les £job_warrior_drone£ drones de combat accroissent §G+4§! la £mod_country_naval_cap_add£§Ycapacité navale§! et sont la base des £defense_army£§Yarmées défensives§!)"
+
+ job_crystal_mining_drone_effect_desc:0 "(les £job_crystal_mining_drone£drones miniers de cristaux produisent §G+2§! £rare_crystals£§Ycristaux rares§! pour §R-1§! £energy£ §Y$energy$§!)"
+
+ job_mote_harvesting_drone_effect_desc:1 "(les £job_mote_harvesting_drone£drones collecteurs de particules produisent §G+2§! £volatile_motes£§Yparticules volatiles§! pour §R-1§! £energy£ §Y$energy$§!)"
+
+ job_gas_extraction_drone_effect_desc:0 "(les £job_gas_extraction_drone£drones d'extraction gazière produisent §G+4§! £exotic_gases£§Ygaz exotiques§! pour §R-1§! £energy£ §Y$energy$§!)"
+
+ job_agri_drone_effect_desc:0 "(les £job_agri_drone£agridrones produisent §G+6§! £food£§Ynourriture§!)"
+
+ job_technician_drone_effect_desc:0 "(les £job_technician_drone£technidrones produisent §G+6§! £energy£§Yénergie§!)"
+
+ job_spawning_drone_effect_desc:0 "(les £job_spawning_drone£drones de reproduction produisent §G+5§! £mod_planet_amenities_no_happiness_add£§Yservices§! et accélèrent de §G+25%§! la £mod_pop_growth_speed£§Yvitesse de développement des pops§!)"
+
+ job_replicator_effect_desc:1 "(les £job_replicator£réplicateurs augmentent §G+5§! £mod_planet_amenities_no_happiness_add£ services et transforment §R-5§! £minerals£§Yminéraux§! en §G+1§! nouvelles £pop£pops §Yartificielles§!"
+
+ job_synapse_drone_effect_desc:0 "(les £job_synapse_drone£drones synaptiques transforment §R-2§! £energy£§Yénergie§! et §R-2§! £food£§Ynourriture§! en §G+3§! £unity£§Yunité§! et §G+3§! £society£§Yrecherches sociétales§!)"
+
+ job_coordinator_effect_desc:0 "(les £job_coordinator£coordinateurs produisent §G+3§! l'£unity£§Yunité§! et §G+3§! £society£§Yrecherche sociétale§! pour §R-3§! £energy£ §Y$energy$§!)"
+
+ job_maintenance_drone_effect_desc:0 "(les £job_maintenance_drone£drones de maintenance ajoutent §G+5§! £mod_planet_amenities_no_happiness_add£§Yservices§!)"
+
+ job_brain_drone_effect_desc:1 "(les £job_brain_drone£drones cérébraux transforment §R-6§! £minerals£§Yminerais§! en §G+4§! recherche £physics£§Yphysique§!, £society£§Ysociétale§! et en £engineering£§Yingénierie§!)"
+
+ job_calculator_effect_desc:1 "(les £job_calculator£calculateurs transforment §R-6§! £minerals£§Yminéraux§! en §G+4§! recherche £physics£§Yphysique§!, £society£§Ysociétale§! et en £engineering£§Yingénierie§!)"
+
+ job_fabricator_effect_desc:0 "(les £job_fabricator£fabricateurs transforment §R-6§! £minerals£§Yminéraux§! en §G+3§! £alloys£§Yalliages§!)"
+
+ job_artisan_drone_effect_desc:1 "(les £job_artisan_drone£drones artisans transforment §R-6§! £minerals£§Yminéraux§! en §G+6§! £consumer_goods£§Ybiens de consommation§!)"
+
+ job_alloy_drone_effect_desc:0 "(les £job_alloy_drone£drones fondeurs transforment §R-6§! £minerals£§Yminéraux§! en §G+3§! £alloys£§Yalliages§!)"
+
+ job_patrol_drone_effect_desc:0 "(les £job_patrol_drone£drones chasseurs-chercheurs réduisent la £crime£§Ydéviance§! de §G-20§! £crime£ §Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§! et génèrent §G+2§! £defense_army£§Yarmées défensives§!)"
+
+ job_chemist_drone_effect_desc:0 "(les £job_chemist_drone£chimidrones transforment §R-10§! £minerals£§Yminéraux§! en §G+2§! £volatile_motes£§Yparticules volatiles§!)"
+
+ job_translucer_drone_effect_desc:0 "(les £job_translucer_drone£drones transluceurs transforment §R-10§! £minerals£§Yminéraux§! en §G+2§! £rare_crystals£§Ycristaux rares§!)"
+
+ job_gas_refiner_drone_effect_desc:0 "(les £job_gas_refiner_drone£drones raffineurs transforment §R-10§! £minerals£§Yminéraux§! en §G+2§! £exotic_gases£§Ygaz exotiques§!)"
+
+ job_colonist_effect_desc:0 "(les £job_colonist£colons produisent §G+1§! £food£§Ynourriture§!, §G+5§! £mod_planet_amenities_add£§Yservices§! et génèrent §G+1§! £defense_army£ §YDefense Army§!)"
+
+ job_miner_effect_desc:0 "(les £job_miner£mineurs produisent §G+4§! £minerals£§Yminéraux§!)"
+
+ job_crystal_miner_effect_desc:0 "(les £job_crystal_miner£mineurs de cristaux produisent §G+2§! £rare_crystals£§Ycristaux rares§!)"
+
+ job_mote_harvester_effect_desc:1 "(les £job_mote_harvester£collecteurs de particules produisent §G+2§! £volatile_motes£§Yparticules volatiles§!)"
+
+ job_gas_extractor_effect_desc:1 "(les £job_gas_extractor£extracteurs de gaz produisent §G+2§! £exotic_gases£§Ygaz exotiques§!)"
+
+ job_farmer_effect_desc:0 "(les £job_farmer£fermiers produisent §G+6§! £food£§Ynourriture§!)"
+
+ job_technician_effect_desc:0 "(les £job_technician£techniciens produisent §G+4§! £energy£§Yénergie§!)"
+
+ job_clerk_effect_desc:0 "(les £job_clerk£administratifs produisent §G+2§! £mod_trade_value_add£§Yvaleur commerciale§! et des £mod_planet_amenities_add£§Yservices§!)"
+
+ job_preacher_effect_desc:0 "(les £job_preacher£prêcheurs de prospérité suscitent §G+1§! £unity£§Yunité§!, §G+3§! £mod_trade_value_add£§Yvaleur commerciale§! et §G+3§! £mod_planet_amenities_add£§Yloisirs§!"
+
+ job_foundry_effect_desc:0 "(les £job_foundry£métallurgistes transforment §R-6§! £minerals£§Yminéraux§! en §G+3§! £alloys£§Yalliages§!)"
+
+ job_enforcer_effect_desc:1 "(les £job_enforcer£agents de sécurité produisent §G+1§! £unity£§Yunité§!, réduisent de §G-25§! la £crime£§Ycriminalité§! et génèrent §G+2§! £defense_army£ §YDefense Armies§!)"
+
+ job_slave_overseer_effect_desc:0 "(les £job_slave_overseer£surveillants diminuent de §G-25§!la £crime£§Ycriminalité§! et produit §G+2§! £defense_army£§YArmées de défense§!)"
+
+ job_telepath_effect_desc:0 "(les £job_telepath£ télépathes suscitent §G+3§! £unity£§Yunité§! et réduisent de §G-352§! la £crime£§Ycriminalité§!)"
+
+ job_soldier_effect_desc:0 "(les £job_soldier£soldats accroissent de §G+2§! la £mod_country_naval_cap_add£§Ycapacité navale§! et génèrent §G+3§! £defense_army£§Yarmées défensives§!)"
+
+ job_artisan_effect_desc:1 "(les £job_artisan£artisans transforment §R-6§! £minerals£§Yminéraux§! en §G+6§! £consumer_goods£§Ybiens de consommation§!)"
+
+ job_entertainer_effect_desc:0 "(les £job_entertainer£artistes transforment §R-1§! £consumer_goods£§Ybiens de consommation§! en §G+2§! £unity£§Yunité§! et §G+10§! £mod_planet_amenities_add£§Yservices§!)"
+
+ job_healthcare_effect_desc:0 "(les £job_healthcare£personnels de santé transforment §R-1§! £consumer_goods£§Ybiens de consommation§! en §G+5§! £mod_planet_amenities_add£§Yservices§! et accélèrent de §G+5%§! la £mod_pop_growth_speed£§Yvitesse de développement des pops§!)"
+
+ job_culture_worker_effect_desc:0 "(les £job_culture_worker£travailleurs culturels transforment §R-2§! £consumer_goods£§Ybiens de consommation§! en §G+3§! £unity£§Yunité§! et §G+3§! £society£§Yrecherche sociétale§!)"
+
+ job_head_researcher_effect_desc:1 "(les £job_head_researcher£directeurs scientifiques produisent §G+5§! £mod_planet_amenities_add£§Yservices§! et §G+5§! recherche £physics£§Yphysique§!, £society£§Ysociétale§! et en £engineering£§Yingénierie§!)"
+
+ job_researcher_effect_desc:0 "(les £job_researcher£chercheurs transforment §R-2§! £consumer_goods£§Ybiens de consommation§! en §G+4§! recherche £physics£§Yphysique§!, £society£§Ysociétale§! et en £engineering£§Yingénierie§!)"
+
+ job_high_priest_effect_desc:0 "(les £job_high_priest£Grands Prêtres produisent §G+5§! £unity£§Yunité§! et §G+5§! £mod_planet_amenities_add£§Yservices§!)"
+
+ job_priest_effect_desc:0 "(les £job_priest£prêtres transforment les £consumer_goods£§Ybiens de consommation§! en §G+3§! £unity£§Yunité§!, en §G+2§! £society£§Yrecherche sociétale§! et §G+5§! £mod_planet_amenities_add£§Yservices§!)"
+
+ job_chemist_effect_desc:0 "(les £job_chemist£chimistes transforment §R-10§! £minerals£§Yminéraux§! en §G+2§! £volatile_motes£§Yparticules volatiles§!)"
+
+ job_translucer_effect_desc:0 "(les £job_translucer£transluceurs transforment §R-10§! £minerals£§Yminéraux§! en §G+2§! £rare_crystals£§Ycristaux rares§!)"
+
+ job_gas_refiner_effect_desc:0 "(les £job_gas_refiner£raffineurs de gaz transforment §R-10§! £minerals£§Yminéraux§! en §G+2§! £exotic_gases£§Ygaz exotiques§!)"
+
+ job_roboticist_effect_desc:0 "(les £job_roboticist£roboticiens transforment §R-6§! £minerals£§Yminéraux§! en §G+2§! nouvelles £pop£pops£ de §Yrobots§!)"
+
+ job_manager_effect_desc:1 "(les £job_manager£cadres transforment §R-2§! £consumer_goods£§Ybiens de consommation§! en §G+3§! £unity£§Yunité§!, §G+2§! £mod_trade_value_add£§Yvaleur commerciale§! et §G+2§! £society£§Yrecherche sociale§!)"
+
+ job_administrator_effect_desc:0 "(les £job_administrator£administrateurs produisent §G+3§! £unity£§Yunité§! et §G+8§! £mod_planet_amenities_add£§Yservices§!)"
+
+ job_noble_effect_desc:0 "(les £job_noble£nobles produisent §G+5§! £mod_planet_stability_add£§Ystabilité§! et §G+5§! £mod_planet_amenities_add£§Yservices§!)"
+
+ job_merchant_effect_desc:0 "(les £job_merchant£marchands produisent §G+8§! £mod_trade_value_add£§Yvaleur commerciale§! et §G+5§! £mod_planet_amenities_add£§Yservices§!)"
+
+ job_executive_effect_desc:1 "(les £job_executive£directeurs produisent §G+2§! £unity£§Yunité§!, §G+5§! £mod_planet_amenities_add£§Yservices§! et §G+4§! £mod_trade_value_add£§Yvaleur commerciale§!)"
+
+ building_overseer_homes_desc:0 "Ces habitations sont réservées aux relativement privilégiés surveillants d'esclaves. \n (les £job_slave_overseer£surveillants diminuent de §G-25§!la £crime£§Ycriminalité§! et produit §G+2§! £defense_army£§YArmées de défense§!)"
+ 
+ job_duelist_effect_desc:0 "(les £job_duelist£duellistes transforment les §R-1§! £alloys£§Yalliages§! en §G+3§! £unity£§Yunité§!, en §G+12§! £mod_planet_amenities_add£§Yservices§! et en §G+2§! £mod_country_naval_cap_add£§Ycapacité navale§!)"

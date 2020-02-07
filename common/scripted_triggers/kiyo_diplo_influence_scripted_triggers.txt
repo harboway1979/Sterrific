@@ -1,0 +1,51 @@
+# THIS = COUNTRY
+kiyo_diplo_influence_has_added_influence = {
+	OR = {
+		kiyo_diplo_influence_has_valid_diplo_relations = yes
+		AND = {
+			kiyo_diplo_influence_has_valid_diplo_relations = no
+			kiyo_diplo_influence_has_diplo_modifiers = yes
+		}
+	}
+}
+
+# THIS = COUNTRY
+kiyo_diplo_influence_has_valid_diplo_relations = {
+	any_country = {
+		NOT = { is_country = prev }
+		OR = {
+			has_non_aggression_pact = prev
+			has_association_status = prev
+			AND = {
+				prev = { is_guaranteeing = prev }
+				NOT = { is_guaranteeing = prev }
+			}
+		}
+	}
+}
+
+kiyo_diplo_influence_has_diplo_modifiers = {
+	OR = {
+		has_modifier = kiyo_diplo_influence_nap_1
+		has_modifier = kiyo_diplo_influence_nap_2
+		has_modifier = kiyo_diplo_influence_nap_3
+		has_modifier = kiyo_diplo_influence_nap_4
+		has_modifier = kiyo_diplo_influence_nap_5
+		has_modifier = kiyo_diplo_influence_nap_6
+		has_modifier = kiyo_diplo_influence_nap_7
+		has_modifier = kiyo_diplo_influence_nap_8
+		has_modifier = kiyo_diplo_influence_nap_9
+		has_modifier = kiyo_diplo_influence_nap_10
+		
+		has_modifier = kiyo_diplo_influence_guarantee_1
+		has_modifier = kiyo_diplo_influence_guarantee_2
+		has_modifier = kiyo_diplo_influence_guarantee_3
+		has_modifier = kiyo_diplo_influence_guarantee_4
+		has_modifier = kiyo_diplo_influence_guarantee_5
+		has_modifier = kiyo_diplo_influence_guarantee_6
+		has_modifier = kiyo_diplo_influence_guarantee_7
+		has_modifier = kiyo_diplo_influence_guarantee_8
+		has_modifier = kiyo_diplo_influence_guarantee_9
+		has_modifier = kiyo_diplo_influence_guarantee_10
+	}
+}

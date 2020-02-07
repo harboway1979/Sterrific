@@ -1,0 +1,254 @@
+﻿### NOT TRANSLATED ###
+
+l_polish:
+ 
+ planet_kiyo_diplo_influence:0 "Diplomatic Affairs"
+ 
+ ### Deposit ###
+ 
+ d_kiyo_diplo_influence:1 "Diplomatic Council"
+ d_kiyo_diplo_influence_desc:0 "This building is dedicated to deal with diplomatic affairs with various intergalactic powers."
+ 
+ ### Modifiers ###
+ 
+ kiyo_diplo_influence_enabled:0 "Gain Resources from Diplomatic Relations (Enabled)"
+ 
+ kiyo_diplo_influence_nap_1:0 "Non-Aggression Pact(s)"
+ kiyo_diplo_influence_nap_2:1 "$kiyo_diplo_influence_nap_1$"
+ kiyo_diplo_influence_nap_3:1 "$kiyo_diplo_influence_nap_1$"
+ kiyo_diplo_influence_nap_4:1 "$kiyo_diplo_influence_nap_1$"
+ kiyo_diplo_influence_nap_5:1 "$kiyo_diplo_influence_nap_1$"
+ kiyo_diplo_influence_nap_6:1 "$kiyo_diplo_influence_nap_1$"
+ kiyo_diplo_influence_nap_7:1 "$kiyo_diplo_influence_nap_1$"
+ kiyo_diplo_influence_nap_8:1 "$kiyo_diplo_influence_nap_1$"
+ kiyo_diplo_influence_nap_9:1 "$kiyo_diplo_influence_nap_1$"
+ kiyo_diplo_influence_nap_10:1 "$kiyo_diplo_influence_nap_1$"
+ 
+ kiyo_diplo_influence_guarantee_1:0 "One-Way Guarantee(s)"
+ kiyo_diplo_influence_guarantee_2:1 "$kiyo_diplo_influence_guarantee_1$"
+ kiyo_diplo_influence_guarantee_3:1 "$kiyo_diplo_influence_guarantee_1$"
+ kiyo_diplo_influence_guarantee_4:1 "$kiyo_diplo_influence_guarantee_1$"
+ kiyo_diplo_influence_guarantee_5:1 "$kiyo_diplo_influence_guarantee_1$"
+ kiyo_diplo_influence_guarantee_6:1 "$kiyo_diplo_influence_guarantee_1$"
+ kiyo_diplo_influence_guarantee_7:1 "$kiyo_diplo_influence_guarantee_1$"
+ kiyo_diplo_influence_guarantee_8:1 "$kiyo_diplo_influence_guarantee_1$"
+ kiyo_diplo_influence_guarantee_9:1 "$kiyo_diplo_influence_guarantee_1$"
+ kiyo_diplo_influence_guarantee_10:1 "$kiyo_diplo_influence_guarantee_1$"
+ 
+ mod_guarantees_alloys_produces_add:0 "£alloys£ Alloys from £trade_protection£ One-Way Guarantees"
+ mod_non_aggression_pacts_unity_produces_add:0 "£unity£ Unity from £political_power£ Non-Aggression Pacts"
+ 
+ mod_planet_administrators_energy_produces_add:0 "£energy£ Energy from £job_administrator£ Administrators"
+ mod_planet_administrators_physics_research_produces_add:0 "£physics£ Physics Research from £job_administrator£ Administrators"
+ mod_planet_administrators_society_research_produces_add:0 "£society£ Society Research from £job_administrator£ Administrators"
+ mod_planet_administrators_engineering_research_produces_add:0 "£engineering£ Engineering Research from £job_administrator£ Administrators"
+ 
+ mod_planet_executives_energy_produces_add:0 "£energy£ Energy from £job_executive£ Executives"
+ mod_planet_executives_physics_research_produces_add:0 "£physics£ Physics Research from £job_executive£ Executives"
+ mod_planet_executives_society_research_produces_add:0 "£society£ Society Research from £job_executive£ Executives"
+ mod_planet_executives_engineering_research_produces_add:0 "£engineering£ Engineering Research from £job_executive£ Executives"
+ 
+ mod_planet_enforcers_energy_produces_add:0 "£energy£ Energy from £job_enforcer£ Enforcers"
+ mod_planet_enforcers_minerals_produces_add:0 "£minerals£ Minerals from £job_enforcer£ Enforcers"
+ mod_planet_enforcers_food_produces_add:0 "£food£ Food from £job_enforcer£ Enforcers"
+ mod_planet_enforcers_physics_research_produces_add:0 "£physics£ Physics Research from £job_enforcer£ Enforcers"
+ mod_planet_enforcers_society_research_produces_add:0 "£society£ Society Research from £job_enforcer£ Enforcers"
+ mod_planet_enforcers_engineering_research_produces_add:0 "£engineering£ Engineering Research from £job_enforcer£ Enforcers"
+ 
+ mod_planet_soldiers_energy_produces_add:0 "£energy£ Energy from £job_soldier£ Soldiers"
+ mod_planet_soldiers_minerals_produces_add:0 "£minerals£ Minerals from £job_soldier£ Soldiers"
+ mod_planet_soldiers_food_produces_add:0 "£food£ Food from £job_soldier£ Soldiers"
+ 
+ mod_planet_artisans_energy_produces_add:0 "£energy£ Energy from £job_artisan£ Artisans"
+ mod_country_energy_upkeep_mult:0 "£energy£ Energy Upkeep"
+ 
+ ### Policies ###
+ 
+ kiyo_diplo_influence_policies_change_focus_warning:0 "§RWARNING: Changing the Federation's Focus will unlock other policies at the cost of disabling your other Federation policies!§!"
+ kiyo_diplo_influence_policies_not_federation_president:0 "$TRIGGER_FAIL$You must be the federation president to change federation policies."
+ 
+ ## Federation Focus ##
+ policy_kiyo_diplo_influence_federation_focus:0 "Federation Focus"
+ policy_kiyo_diplo_influence_federation_focus_desc:0 "Our federation was built to bring other powers together and our federation president has shown us what we need to focus on.\n\n§RWARNING: Changing this policy will severely change your available Federation policies!§!\n"
+ kiyo_diplo_influence_federation_focus_unity:0 "Unification and Stability"
+ kiyo_diplo_influence_federation_focus_unity_name:1 "$kiyo_diplo_influence_federation_focus_unity$"
+ kiyo_diplo_influence_federation_focus_unity_desc:0 "Our federation must focus on making sure the denizens of the federation know what it stands for.\n"
+ kiyo_diplo_influence_federation_focus_knowledge:0 "Pursuit of Knowledge"
+ kiyo_diplo_influence_federation_focus_knowledge_name:1 "$kiyo_diplo_influence_federation_focus_knowledge$"
+ kiyo_diplo_influence_federation_focus_knowledge_desc:0 "Our federation must focus on finding the answers to unanswered questions and unexplored questions.\n"
+ kiyo_diplo_influence_federation_focus_trade:0 "Trade and Prosperity"
+ kiyo_diplo_influence_federation_focus_trade_name:1 "$kiyo_diplo_influence_federation_focus_trade$"
+ kiyo_diplo_influence_federation_focus_trade_desc:0 "Our federation must focus on maintaining the flow of trade between our members.\n"
+ kiyo_diplo_influence_federation_focus_war:0 "Collective Firepower"
+ kiyo_diplo_influence_federation_focus_war_name:1 "$kiyo_diplo_influence_federation_focus_war$"
+ kiyo_diplo_influence_federation_focus_war_desc:0 "Our federation must focus on stopping all threats to our members.\n"
+ 
+ # Unity Focus Policies #
+ # Focus on ethics, unity/amenity/influence, and diplomatic affairs
+ 
+ # Ideals
+ policy_kiyo_diplo_influence_federation_unity_ideals:0 "Federation Ideals"
+ policy_kiyo_diplo_influence_federation_unity_ideals_desc:1 "Every empire in our federation have their own rules and principles, but our federation president has shown us that we must all live up to certain ideals in order to keep us together.\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_unity_ideals_culture:0 "Preservation of Cultures"
+ kiyo_diplo_influence_federation_unity_ideals_culture_name:1 "$kiyo_diplo_influence_federation_unity_ideals_culture$"
+ kiyo_diplo_influence_federation_unity_ideals_culture_desc:0 "All federation members must work together in order to learn, preserve, and enhance traditions and customs. Every new thing we find could open up more possibilities.\n"
+ kiyo_diplo_influence_federation_unity_ideals_responsibility:0 "Responsibility and Organization"
+ kiyo_diplo_influence_federation_unity_ideals_responsibility_name:1 "$kiyo_diplo_influence_federation_unity_ideals_responsibility$"
+ kiyo_diplo_influence_federation_unity_ideals_responsibility_desc:0 "With great power comes great responsibility. Our federation members must maintain their empires' stability and sense of duty.\n"
+ kiyo_diplo_influence_federation_unity_ideals_security:0 "Secure our Futures"
+ kiyo_diplo_influence_federation_unity_ideals_security_name:1 "$kiyo_diplo_influence_federation_unity_ideals_security$"
+ kiyo_diplo_influence_federation_unity_ideals_security_desc:0 "Our federation must pay a great deal to make sure that the future of all its members will always shine bright. Stability and security is of utmost importance.\n"
+ kiyo_diplo_influence_federation_unity_ideals_introspection:0 "Introspection of the Known"
+ kiyo_diplo_influence_federation_unity_ideals_introspection_name:1 "$kiyo_diplo_influence_federation_unity_ideals_introspection$"
+ kiyo_diplo_influence_federation_unity_ideals_introspection_desc:0 "In order to make progress in our individual endeavors, our federation reminds us that we must look deeper into what we already know and love. Realizing the full potential of what we already have will let us reach greater heights.\n"
+ 
+ # Media
+ policy_kiyo_diplo_influence_federation_unity_media:0 "Federation Media"
+ policy_kiyo_diplo_influence_federation_unity_media_desc:1 "Spreading news about the affairs of our federation is paramount for presenting our stances toward domestic and foreign affairs. How we present this is the question...\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_unity_media_diplomacy:0 "Traditional News"
+ kiyo_diplo_influence_federation_unity_media_diplomacy_name:1 "$kiyo_diplo_influence_federation_unity_media_diplomacy$"
+ kiyo_diplo_influence_federation_unity_media_diplomacy_desc:0 "We've already known how to convey regional news to the populace of our empires. We can simply use the same methods but for a larger scale.\n"
+ kiyo_diplo_influence_federation_unity_media_culture:0 "Cultural Teachings"
+ kiyo_diplo_influence_federation_unity_media_culture_name:1 "$kiyo_diplo_influence_federation_unity_media_culture$"
+ kiyo_diplo_influence_federation_unity_media_culture_desc:0 "Our cultures have taught us that different people can prosper together. Reminding our federation's citizens of this will surely get our message across.\n"
+ kiyo_diplo_influence_federation_unity_media_amenities:0 "Federation Amenities"
+ kiyo_diplo_influence_federation_unity_media_amenities_name:1 "$kiyo_diplo_influence_federation_unity_media_amenities$"
+ kiyo_diplo_influence_federation_unity_media_amenities_desc:0 "Our federation has the resources to keep our people content with their lives. As long as our population is content, they should listen to us.\n"
+ 
+ # Affairs
+ policy_kiyo_diplo_influence_federation_unity_affairs:0 "Federation Affairs"
+ policy_kiyo_diplo_influence_federation_unity_affairs_desc:1 "Our federation has focused on the unification and stability of our members, but does that mean we should only focus on ourselves?\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_unity_affairs_involved:0 "Galactic Involvement"
+ kiyo_diplo_influence_federation_unity_affairs_involved_name:1 "$kiyo_diplo_influence_federation_unity_affairs_involved$"
+ kiyo_diplo_influence_federation_unity_affairs_involved_desc:0 "Our federation is not the only galactic power in the galaxy. We must never ignore other empires, no matter how small or different they are compared to us.\n"
+ kiyo_diplo_influence_federation_unity_affairs_neutral:0 "Mixed Politics"
+ kiyo_diplo_influence_federation_unity_affairs_neutral_name:1 "$kiyo_diplo_influence_federation_unity_affairs_neutral$"
+ kiyo_diplo_influence_federation_unity_affairs_neutral_desc:0 "We cannot ignore other empires in the galaxy but we also cannot ignore the outcries of our federation members. The best approach is to try and focus our attention on as much as we can.\n"
+ kiyo_diplo_influence_federation_unity_affairs_uninvolved:0 "Inward Development"
+ kiyo_diplo_influence_federation_unity_affairs_uninvolved_name:1 "$kiyo_diplo_influence_federation_unity_affairs_uninvolved$"
+ kiyo_diplo_influence_federation_unity_affairs_uninvolved_desc:0 "Our federation was created for the sake of our members and helping them grow is a large priority.\n"
+ 
+ # Knowledge Focus Policies #
+ # Focus on research and knowledge
+ 
+ # Tech Focus
+ policy_kiyo_diplo_influence_federation_knowledge_focus:0 "Federation Tech Focus"
+ policy_kiyo_diplo_influence_federation_knowledge_focus_desc:1 "Our federation's research efforts must have some kind of direction. Are we looking for the mysteries of the universe or are we simply trying to make the galaxy's first megastructures?\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_knowledge_focus_physics:0 "Physics Focus"
+ kiyo_diplo_influence_federation_knowledge_focus_physics_name:1 "$kiyo_diplo_influence_federation_knowledge_focus_physics$"
+ kiyo_diplo_influence_federation_knowledge_focus_physics_desc:0 "\n"
+ kiyo_diplo_influence_federation_knowledge_focus_society:0 "Society Focus"
+ kiyo_diplo_influence_federation_knowledge_focus_society_name:1 "$kiyo_diplo_influence_federation_knowledge_focus_society$"
+ kiyo_diplo_influence_federation_knowledge_focus_society_desc:0 "\n"
+ kiyo_diplo_influence_federation_knowledge_focus_engineering:0 "Engineering Focus"
+ kiyo_diplo_influence_federation_knowledge_focus_engineering_name:1 "$kiyo_diplo_influence_federation_knowledge_focus_engineering$"
+ kiyo_diplo_influence_federation_knowledge_focus_engineering_desc:0 "\n"
+ 
+ # Inside Knowledge
+ policy_kiyo_diplo_influence_federation_knowledge_insider:0 "Federation Inside Knowledge"
+ policy_kiyo_diplo_influence_federation_knowledge_insider_desc:1 "Knowledge is king and our federation recognizes this. We must try to focus on gaining knowledge wherever we can in order to survive this harsh galaxy.\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_knowledge_insider_market:0 "Market Insiders"
+ kiyo_diplo_influence_federation_knowledge_insider_market_name:1 "$kiyo_diplo_influence_federation_knowledge_insider_market$"
+ kiyo_diplo_influence_federation_knowledge_insider_market_desc:0 "The marketplace is the best place to trade information and goods. We give them the info and they give us the good stuff.\n"
+ 
+ kiyo_diplo_influence_federation_knowledge_insider_politics:0 "Whistleblowers"
+ kiyo_diplo_influence_federation_knowledge_insider_politics_name:1 "$kiyo_diplo_influence_federation_knowledge_insider_politics$"
+ kiyo_diplo_influence_federation_knowledge_insider_politics_desc:0 "Knowing empire secrets about your friends helps everyone, right? Don't take it personally. It's for the greater good in the end.\n"
+ 
+ kiyo_diplo_influence_federation_knowledge_insider_politics_corp:1 "$kiyo_diplo_influence_federation_knowledge_insider_politics$"
+ kiyo_diplo_influence_federation_knowledge_insider_politics_corp_name:2 "$kiyo_diplo_influence_federation_knowledge_insider_politics_name$"
+ kiyo_diplo_influence_federation_knowledge_insider_politics_corp_desc:1 "$kiyo_diplo_influence_federation_knowledge_insider_politics_desc$"
+ 
+ kiyo_diplo_influence_federation_knowledge_insider_politics_gestalt:1 "$kiyo_diplo_influence_federation_knowledge_insider_politics$"
+ kiyo_diplo_influence_federation_knowledge_insider_politics_gestalt_name:2 "$kiyo_diplo_influence_federation_knowledge_insider_politics_name$"
+ kiyo_diplo_influence_federation_knowledge_insider_politics_gestalt_desc:1 "$kiyo_diplo_influence_federation_knowledge_insider_politics_desc$"
+ 
+ kiyo_diplo_influence_federation_knowledge_insider_sensor:0 "Scouting Focus"
+ kiyo_diplo_influence_federation_knowledge_insider_sensor_name:1 "$kiyo_diplo_influence_federation_knowledge_insider_sensor$"
+ kiyo_diplo_influence_federation_knowledge_insider_sensor_desc:0 "The more we know about what's around us, the more time we have to prepare for any potential mishaps.\n"
+ 
+ # Trade Focus Policies #
+ # Focus on buffing merchant/artisan jobs and economic growth in general
+ 
+ # Production Focus
+ policy_kiyo_diplo_influence_federation_trade_focus:0 "Federation Production Focus"
+ policy_kiyo_diplo_influence_federation_trade_focus_desc:1 "A strong empire begins with a robust economy. Not every resource is valued equally and we should try to focus on the ones that we value more.\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_trade_focus_artisans:0 "Artisan Focus"
+ kiyo_diplo_influence_federation_trade_focus_artisans_name:1 "$kiyo_diplo_influence_federation_trade_focus_artisans$"
+ kiyo_diplo_influence_federation_trade_focus_artisans_desc:0 "The people love their everyday goodies and trinkets. The more we have, the better their lives will be.\n"
+ 
+ kiyo_diplo_influence_federation_trade_focus_maintenance:0 "Maintenance Focus"
+ kiyo_diplo_influence_federation_trade_focus_maintenance_name:1 "$kiyo_diplo_influence_federation_trade_focus_maintenance$"
+ kiyo_diplo_influence_federation_trade_focus_maintenance_desc:0 "The drones always need some form of amenities for them to do their job well.\n"
+ 
+ kiyo_diplo_influence_federation_trade_focus_merchants:0 "Trade Focus"
+ kiyo_diplo_influence_federation_trade_focus_merchants_name:1 "$kiyo_diplo_influence_federation_trade_focus_merchants$"
+ kiyo_diplo_influence_federation_trade_focus_merchants_desc:0 "Trade is the cornerstone of civilization because it helps two parties get what they want. Our empire's trash could be a huge boon for another empire.\n"
+ kiyo_diplo_influence_federation_trade_focus_workers:0 "Worker Focus"
+ kiyo_diplo_influence_federation_trade_focus_workers_name:1 "$kiyo_diplo_influence_federation_trade_focus_workers$"
+ kiyo_diplo_influence_federation_trade_focus_workers_desc:0 "Workers are our main foundation in terms of production. It simply makes sense to focus on the basics.\n"
+ 
+ # Citizen Provisions
+ policy_kiyo_diplo_influence_federation_trade_provisions:0 "Federation Citizen Provisions"
+ policy_kiyo_diplo_influence_federation_trade_provisions_desc:1 "Our people are what drive our federation. Providing them resources would be beneficial for their production but we could also enforce rationing resources if we are in a dire situation.\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_trade_provisions_high:0 "Give Provisions"
+ kiyo_diplo_influence_federation_trade_provisions_high_name:1 "$kiyo_diplo_influence_federation_trade_provisions_high$"
+ kiyo_diplo_influence_federation_trade_provisions_high_desc:0 "\n"
+ kiyo_diplo_influence_federation_trade_provisions_normal:0 "No Provisions"
+ kiyo_diplo_influence_federation_trade_provisions_normal_name:1 "$kiyo_diplo_influence_federation_trade_provisions_normal$"
+ kiyo_diplo_influence_federation_trade_provisions_normal_desc:0 "\n"
+ kiyo_diplo_influence_federation_trade_provisions_low:0 "Ration Resources"
+ kiyo_diplo_influence_federation_trade_provisions_low_name:1 "$kiyo_diplo_influence_federation_trade_provisions_low$"
+ kiyo_diplo_influence_federation_trade_provisions_low_desc:0 "\n"
+ 
+ # Maintenance Focus
+ policy_kiyo_diplo_influence_federation_trade_maintenance:0 "Federation Maintenance Focus"
+ policy_kiyo_diplo_influence_federation_trade_maintenance_desc:1 "Our federation highly values resources and upkeep seems to be an issue regarding wasted resources. We need to show our people that these resources should not be put to waste.\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_trade_maintenance_energy:0 "Energy Conservation"
+ kiyo_diplo_influence_federation_trade_maintenance_energy_name:1 "$kiyo_diplo_influence_federation_trade_maintenance_energy$"
+ kiyo_diplo_influence_federation_trade_maintenance_energy_desc:0 "Energy has been used as both power and money. The less we waste, the more power we have.\n"
+ kiyo_diplo_influence_federation_trade_maintenance_admin:0 "Centralized Administration"
+ kiyo_diplo_influence_federation_trade_maintenance_admin_name:1 "$kiyo_diplo_influence_federation_trade_maintenance_admin$"
+ kiyo_diplo_influence_federation_trade_maintenance_admin_desc:0 "Our administration efforts need to be more centralized in order to help all of our people focus on the bigger picture.\n"
+ kiyo_diplo_influence_federation_trade_maintenance_ships:0 "Replaceable Ship Parts"
+ kiyo_diplo_influence_federation_trade_maintenance_ships_name:1 "$kiyo_diplo_influence_federation_trade_maintenance_ships$"
+ kiyo_diplo_influence_federation_trade_maintenance_ships_desc:0 "If we were to waste our precious alloys on simple ship maintenance, we would be behind economically. We should focus on preparing leftover resources to make spare parts so that we won't have to worry about maintenance as much.\n"
+ 
+ # War Focus Policies #
+ # Focus on buffing defense army jobs and navy specializations
+ 
+ # Army Contributions
+ policy_kiyo_diplo_influence_federation_war_army:0 "Federation Army Contribution"
+ policy_kiyo_diplo_influence_federation_war_army_desc:1 "Our federation's military strength is what carries us to victory. We need to make sure that our defense force can better utilize the might of our collective firepower.\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_war_army_enforcers:0 "Police Force Archives"
+ kiyo_diplo_influence_federation_war_army_enforcers_name:1 "$kiyo_diplo_influence_federation_war_army_enforcers$"
+ kiyo_diplo_influence_federation_war_army_enforcers_desc:0 "Our local police force should always have important items and information stored in case of emergencies. We'll never know when we'll need to open up the archives.\n"
+ 
+ kiyo_diplo_influence_federation_war_army_enforcers_gestalt:0 "Deviancy Controls"
+ kiyo_diplo_influence_federation_war_army_enforcers_gestalt_name:1 "$kiyo_diplo_influence_federation_war_army_enforcers_gestalt$"
+ kiyo_diplo_influence_federation_war_army_enforcers_gestalt_desc:0 "Deviancy from the Consciousness is always a problem. Let us make sure that all our workers are able to to their jobs without question.\n"
+ 
+ kiyo_diplo_influence_federation_war_army_soldiers:0 "Military-Grade Supplies"
+ kiyo_diplo_influence_federation_war_army_soldiers_name:1 "$kiyo_diplo_influence_federation_war_army_soldiers$"
+ kiyo_diplo_influence_federation_war_army_soldiers_desc:0 "Our military gear is made from raw materials that could also be used for non-war purposes. We need to make sure that we can store them for federation usage.\n"
+ 
+ kiyo_diplo_influence_federation_war_army_soldiers_gestalt:1 "Drone Defense Protocols"
+ kiyo_diplo_influence_federation_war_army_soldiers_gestalt_name:1 "$kiyo_diplo_influence_federation_war_army_soldiers_gestalt$"
+ kiyo_diplo_influence_federation_war_army_soldiers_gestalt_desc:0 "Our drones should focus more on going into the front lines and bolstering our federation's collective firepower.\n"
+ 
+ kiyo_diplo_influence_federation_war_army_guerilla:0 "Guerilla Tactics"
+ kiyo_diplo_influence_federation_war_army_guerilla_name:1 "$kiyo_diplo_influence_federation_war_army_guerilla$"
+ kiyo_diplo_influence_federation_war_army_guerilla_desc:0 "If our civilians can fight back for our sovereignty, then they can better defend our federation. Having the people learn basic ship operations could potentially save us.\n"
+ 
+ # Naval Specialization
+ policy_kiyo_diplo_influence_federation_war_navy:0 "Federation Navy Specialization"
+ policy_kiyo_diplo_influence_federation_war_navy_desc:1 "Our federation's prominent admirals have strongly argued for stronger naval tactics and better coordination. Battles in space are what decide our fates so we'd need to choose our strategies carefully.\n\n$kiyo_diplo_influence_policies_change_focus_warning$\n"
+ kiyo_diplo_influence_federation_war_navy_repair:0 "Field Repairs"
+ kiyo_diplo_influence_federation_war_navy_repair_name:1 "$kiyo_diplo_influence_federation_war_navy_repair$"
+ kiyo_diplo_influence_federation_war_navy_repair_desc:0 "Our naval officers are specifically trained to always know the ins and outs of our ships, making sure that they can fix any damages that their ships have taken on the fly.\n"
+ kiyo_diplo_influence_federation_war_navy_weakness:0 "Exploit Weaknesses"
+ kiyo_diplo_influence_federation_war_navy_weakness_name:1 "$kiyo_diplo_influence_federation_war_navy_weakness$"
+ kiyo_diplo_influence_federation_war_navy_weakness_desc:0 "The enemy always has some kind of weakness. Our naval strategists were trained to gain information on the enemy's ships and use their weaknesses to our advantage.\n"
+ kiyo_diplo_influence_federation_war_navy_life:0 "Minimal Losses"
+ kiyo_diplo_influence_federation_war_navy_life_name:1 "$kiyo_diplo_influence_federation_war_navy_life$"
+ kiyo_diplo_influence_federation_war_navy_life_desc:0 "Losing valuable ships means losing the war. Our federation ships must make sure that there as as litle casualties as possible and make sure that they live to see a better tomorrow.\n"

@@ -1,0 +1,98 @@
+kiyo_diplo_influence_enabled = {
+	icon = "gfx/interface/icons/modifiers/mod_country_diplomacy_influence_cost.dds"
+	non_aggression_pacts_unity_produces_add = 1
+}
+
+# NAP Modifiers
+kiyo_diplo_influence_nap_1 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.025
+}
+kiyo_diplo_influence_nap_2 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.05
+}
+kiyo_diplo_influence_nap_3 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.075
+}
+kiyo_diplo_influence_nap_4 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.10
+}
+kiyo_diplo_influence_nap_5 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.125
+}
+kiyo_diplo_influence_nap_6 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.15
+}
+kiyo_diplo_influence_nap_7 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.175
+}
+kiyo_diplo_influence_nap_8 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.20
+}
+kiyo_diplo_influence_nap_9 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.225
+}
+kiyo_diplo_influence_nap_10 = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_political_power.dds"
+	country_unity_produces_mult = 0.25
+}
+
+# One-Way Guarantee Modifiers
+kiyo_diplo_influence_guarantee_1 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 3
+	ships_upkeep_mult = -0.025
+}
+kiyo_diplo_influence_guarantee_2 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 6
+	ships_upkeep_mult = -0.05
+}
+kiyo_diplo_influence_guarantee_3 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 9
+	ships_upkeep_mult = -0.075
+}
+kiyo_diplo_influence_guarantee_4 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 12
+	ships_upkeep_mult = -0.10
+}
+kiyo_diplo_influence_guarantee_5 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 15
+	ships_upkeep_mult = -0.125
+}
+kiyo_diplo_influence_guarantee_6 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 18
+	ships_upkeep_mult = -0.15
+}
+kiyo_diplo_influence_guarantee_7 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 21
+	ships_upkeep_mult = -0.175
+}
+kiyo_diplo_influence_guarantee_8 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 24
+	ships_upkeep_mult = -0.20
+}
+kiyo_diplo_influence_guarantee_9 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 27
+	ships_upkeep_mult = -0.225
+}
+kiyo_diplo_influence_guarantee_10 = {
+	icon = "gfx/interface/icons/modifiers/mod_country_local_trade_protection_add.dds"
+	country_alloys_produces_add = 30
+	ships_upkeep_mult = -0.25
+}

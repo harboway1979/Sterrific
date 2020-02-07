@@ -1,0 +1,108 @@
+﻿l_spanish:
+ job_mining_drone_effect_desc:0 "Los £job_mining_drone£ $job_mining_drone_plural$ producen §G+4§! £minerals£ §Y$minerals$§!"
+ 
+ job_warrior_drone_effect_desc:0 "Los £job_warrior_drone£ $job_warrior_drone_plural$ aumentan £mod_country_naval_cap_add£ §G+4§! §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! y generan §G+3§! £defense_army£ §Yejércitos de defensa§!"
+ 
+ job_crystal_mining_drone_effect_desc:0 "Los £job_crystal_mining_drone£ $job_crystal_mining_drone_plural$ producen §G+2§! £rare_crystals£ §Y$rare_crystals$§!"
+ 
+ job_mote_harvesting_drone_effect_desc:1 "Los £job_mote_harvesting_drone£ $job_mote_harvesting_drone_plural$ producen §G+2§! £volatile_motes£ §Y$volatile_motes$§!"
+ 
+ job_gas_extraction_drone_effect_desc:0 "Los £job_gas_extraction_drone£ $job_gas_extraction_drone_plural$ producen §G+2§! £exotic_gases£ §Y$exotic_gases$§!"
+ 
+ job_agri_drone_effect_desc:0 "Los £job_agri_drone£ $job_agri_drone_plural$ producen §G+6§! £food£ §Y$food$§!"
+ 
+ job_technician_drone_effect_desc:0 "Los £job_technician_drone£ $job_technician_drone_plural$ producen §G+6§! £energy£ §Y$energy$§!"
+ 
+ job_spawning_drone_effect_desc:0 "Los £job_spawning_drone£ $job_spawning_drone_plural$ aumentan §G+5§! £mod_planet_amenities_no_happiness_add£ §G+5§! §Y$PLANET_AMENITIES_TITLE$§! y §G+25%§! £mod_pop_growth_speed£ §Y$MOD_POP_GROWTH_SPEED$§!"
+ 
+ job_replicator_effect_desc:1 "Los £job_replicator£ $job_replicator_plural$ aumentan §G+5§! £mod_planet_amenities_no_happiness_add£ y convierten los §R-5§! £minerals£ §Y$minerals$§! en nuevas §G+1§! £pop£ §Ypoblaciones de máquinas§!"
+ 
+ job_synapse_drone_effect_desc:0 "Los £job_synapse_drone£ $job_synapse_drone_plural$ convierten §R-2§! £energy£ §Y$energy$§! y §R-2§! £food£ §Y$food$§! en §G+3§! £unity£ §Y$unity$§! y §G+3§! £society£ §Y$society_research$§!"
+ 
+ job_coordinator_effect_desc:0 "Los £job_coordinator£ $job_coordinator_plural$ producen §G+3§! £unity£ §Y$unity$§! y §G+3§! £society£ §Y$society_research$§!"
+ 
+ job_maintenance_drone_effect_desc:0 "Los £job_maintenance_drone£ $job_maintenance_drone_plural$ aumentan §G+5§! £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_brain_drone_effect_desc:1 "Los £job_brain_drone£ $job_brain_drone_plural$ convierten §R-6§! £minerals£ §Y$minerals$§! en §Ypuntos de investigación§! de §G+4§! £physics£ £society£ £engineering£ para nuevas tecnologías"
+ 
+ job_calculator_effect_desc:1 "Los £job_calculator£ $job_calculator_plural$ convierten §R-6§! £minerals£ §Y$minerals$§! en §Ypuntos de investigación§! de §G+4§! £physics£ £society£ £engineering£ para nuevas tecnologías"
+ 
+ job_fabricator_effect_desc:0 "Los £job_fabricator£ $job_fabricator_plural$ convierten §R-6§! £minerals£ §Y$minerals$§! en §G+3§! £alloys£ §Y$alloys$§!"
+ 
+ job_artisan_drone_effect_desc:1 "Los £job_artisan_drone£ $job_artisan_drone_plural$ convierten §R-6§! £minerals£ §Y$minerals$§! en §G+6§! £consumer_goods£ §Y$consumer_goods$§!"
+ 
+ job_alloy_drone_effect_desc:0 "Los £job_alloy_drone£ $job_alloy_drone_plural$ convierten §R-6§! £minerals£ §Y$minerals$§! en §G+3§! £alloys£ §Y$alloys$§!"
+ 
+ job_patrol_drone_effect_desc:0 "Los £job_patrol_drone£ $job_patrol_drone_plural$ reducen §G-20§! £crime£ §Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§! y generan §G+2§! £defense_army£ §Yejércitos defensivos§!"
+ 
+ job_chemist_drone_effect_desc:0 "Los £job_chemist_drone£ $job_chemist_drone_plural$ convierten §R-10§! £minerals£ §Y$minerals$§! en §G+2§! £volatile_motes£ §Y$volatile_motes$§!"
+ 
+ job_translucer_drone_effect_desc:0 "Los £job_translucer_drone£ $job_translucer_drone_plural$ convierten §R-10§! £minerals£ §Y$minerals$§! en §G+2§! £rare_crystals£ §Y$rare_crystals$§!"
+ 
+ job_gas_refiner_drone_effect_desc:0 "Los £job_gas_refiner_drone£ $job_gas_refiner_drone_plural$ convierten §R-10§! £minerals£ §Y$minerals$§! en §G+2§! £exotic_gases£ §Y$exotic_gases$§!"
+ 
+ job_colonist_effect_desc:0 "Los £job_colonist£ $job_colonist_plural$ producen una pequeña cantidad de §G+1§! £food£ §Y$food$§! y §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! y §G+1§! £defense_army£ §Yejércitos de defensa§!"
+ 
+ job_miner_effect_desc:0 "£job_miner£ $job_miner_plural$ producen §G+4§! £minerals£ §Y$minerals$§!"
+ 
+ job_crystal_miner_effect_desc:0 "Los £job_crystal_miner£ $job_crystal_miner_plural$ producen §G+2§! £rare_crystals£ §Y$rare_crystals$§!"
+ 
+ job_mote_harvester_effect_desc:1 "Los £job_mote_harvester£ $job_mote_harvester_plural$ producen §G+2§! £volatile_motes£ §Y$volatile_motes$§!"
+ 
+ job_gas_extractor_effect_desc:1 "Los £job_gas_extractor£ $job_gas_extractor_plural$ producen §G+2§! £exotic_gases£ §Y$exotic_gases$§!"
+ 
+ job_farmer_effect_desc:0 "Los £job_farmer£ $job_farmer_plural$ producen §G+6§! £food£ §Y$food$§!"
+ 
+ job_technician_effect_desc:0 "Los £job_technician£ $job_technician_plural$ producen §G+6§! £energy£ §Y$energy$§!"
+ 
+ job_clerk_effect_desc:0 "Los £job_clerk£ $job_clerk_plural$ producen §G+2§! £mod_trade_value_add£ §Y$TRADE_VALUE$§! y §G+2§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_preacher_effect_desc:0 "Los £job_preacher£ $job_preacher_plural$ producen §G+1§! £unity£ §Y$unity$§!, §G+3§! £mod_trade_value_add£ §Y$TRADE_VALUE$§! y §G+3§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_foundry_effect_desc:0 "Los £job_foundry£ $job_foundry_plural$ convierten §R-6§! £minerals£ §Y$minerals$§! en §G+3§! £alloys£ §Y$alloys$§!"
+ 
+ job_enforcer_effect_desc:1 "Los £job_enforcer£ $job_enforcer_plural$ producen §G+1§! £unity£ §Y$unity$§!, §G-25§! £crime£ §Y$PLANET_CRIME_TITLE$§! y generan §G+2§! £defense_army£ §Yejércitos de defensa§!"
+ 
+ job_slave_overseer_effect_desc:0 "Los £job_slave_overseer£ $job_slave_overseer_plural$ reducen §G-25§! £crime£ §Y$PLANET_CRIME_TITLE$§! y generan §G+2§! £defense_army£ §Yejércitos de defensa§!"
+ 
+ job_telepath_effect_desc:0 "Los £job_telepath£ $job_telepath_plural$ producen §G+3§! £unity£ §Y$unity$§! y reducen §G-352§! £crime£ §Y$PLANET_CRIME_TITLE$§!"
+ 
+ job_soldier_effect_desc:0 "Los £job_soldier£ $job_soldier_plural$ aumentan §G+2§! £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! y generan §G+3§! £defense_army£ §Yejércitos de defensa§!"
+ 
+ job_artisan_effect_desc:1 "Los £job_artisan£ $job_artisan_plural$ convierten §R-6§! £minerals£ §Y$minerals$§! en §G+6§! £consumer_goods£ §Y$consumer_goods$§!"
+ 
+ job_entertainer_effect_desc:0 "Los £job_entertainer£ $job_entertainer_plural$ convierten §R-1§! £consumer_goods£ §Y$consumer_goods$§! en §G+2§! £unity£ §Y$unity$§! y £mod_planet_amenities_add£ §G+10§! §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_healthcare_effect_desc:0 "Los £job_healthcare£ $job_healthcare_plural$ convierten §R-1§! £consumer_goods£ §Y$consumer_goods$§! en §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! y §G+5§! £mod_pop_growth_speed£ §Y$MOD_POP_GROWTH_SPEED$§!"
+ 
+ job_culture_worker_effect_desc:0 "Los £job_culture_worker£ $job_culture_worker_plural$ convierten §R-2§! £consumer_goods£ §Y$consumer_goods$§! en §G+3§! £unity£ §Y$unity$§! y §G+3§! £society£ §Y$society_research$§!"
+ 
+ job_head_researcher_effect_desc:1 "Los £job_head_researcher $job_head_researcher_plural$ producen §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! y §G+5§! £physics£ £society£ £engineering£ §Ypuntos de investigación§! para nuevas tecnologías"
+ 
+ job_researcher_effect_desc:0 "Los £job_researcher£ $job_researcher_plural$ convierten §R-2§! £consumer_goods£ §Y$consumer_goods$§! en §G+4§! £physics£ £society£ £engineering£ §Ypuntos de investigación§! para nuevas tecnologías"
+ 
+ job_high_priest_effect_desc:0 "Los £job_high_priest£ $job_high_priest_plural$ producen §G+5§! £unity£ §Y$unity$§! y §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_priest_effect_desc:0 "Los £job_priest£ $job_priest_plural$ convierten  §R-1§! £consumer_goods£ §Y$consumer_goods$§! en §G+3§! £unity£ §Y$unity$§!, §G+2§! £society£ §Y$society_research$§! y §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_chemist_effect_desc:0 "Los £job_chemist£ $job_chemist_plural$ convierten §R-10§! £minerals£ §Y$minerals$§! en §G+2§! £volatile_motes£ §Y$volatile_motes$§!"
+ 
+ job_translucer_effect_desc:0 "Los £job_translucer£ $job_translucer_plural$ convierten §R-10§! £minerals£ §Y$minerals$§! en §G+2§! £rare_crystals£ §Y$rare_crystals$§!"
+ 
+ job_gas_refiner_effect_desc:0 "Los £job_gas_refiner£ $job_gas_refiner_plural$ convierten §R-10§! £minerals£ §Y$minerals$§! en §G+2§! £exotic_gases£ §Y$exotic_gases$§!"
+ 
+ job_roboticist_effect_desc:0 "Los £job_roboticist£ $job_roboticist_plural$ convierten §R-6§! £minerals£ §Y$minerals$§! en §G+2§! nuevas £pop£ §Ypoblaciones robot§!"
+ 
+ job_manager_effect_desc:1 "Los £job_manager£ $job_manager_plural$ convierten  §R-2§! £consumer_goods£ §Y$consumer_goods$§! en §G+3§! £unity£ §Y$unity$§!, §G+2§! £mod_trade_value_add£ §Y$TRADE_VALUE$§! y §G+2§! £society£ §Y$society_research$§!"
+ 
+ job_administrator_effect_desc:0 "Los £job_administrator£  §G+3§! $job_administrator_plural$ producen £unity£ §Y$unity$§! y §G+8§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_noble_effect_desc:0 "Los £job_noble£ $job_noble_plural$ producen §G+5§! £mod_planet_stability_add£ §Y$PLANET_STABILITY_TITLE$§! y §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_merchant_effect_desc:0 "Los £job_merchant£ $job_merchant_plural$ producen §G+8§! £mod_trade_value_add£ §Y$TRADE_VALUE$§! y §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ 
+ job_executive_effect_desc:1 "Los £job_executive£ $job_executive_plural$ producen §G+2§! £unity£ §Y$unity$§!, §G+5§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! y §G+4§! £mod_trade_value_add£ §Y$TRADE_VALUE$§!
+ 
+ building_overseer_homes_desc:0 "Hogares reservados para los relativamente privilegiados supervisores de esclavos. Los £job_slave_overseer£ $job_slave_overseer_plural$ reducen §G-25§! £crime£ §Y$PLANET_CRIME_TITLE$§! y generan §G+2§! £defense_army£ §Yejércitos de defensa§!"
+ 
+ job_duelist_effect_desc:0 "Los £job_duelist£ $job_duelist_plural$ convierten las §R-1§! £alloys£ §Y$alloys$§! en §G+3§! £unity£ §Y$unity$§!,  §G+12§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! y §G+2§! £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!"
