@@ -1,0 +1,27 @@
+Stellar = {
+	randomized = no
+
+	graphical_culture = stellar_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+Pristine = {
+	randomized = no
+
+	graphical_culture = pristine_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+Progenitor = {
+	randomized = no
+
+	graphical_culture = progenitor_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+Millennium = {
+	randomized = no
+
+	graphical_culture = millennium_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
