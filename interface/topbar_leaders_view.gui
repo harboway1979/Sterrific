@@ -67,36 +67,25 @@ guiTypes = {
 			pdx_tooltip = "CLOSE_TITLE"
 		}
 		@role_icon_y = 50
-		@role_hex_y = 38
 		@role_label_y = 55
 		@recruit_button_y = 35
-		containerWindowType = {
-			name = "governor_title_container"
-			position = { x = 25 y = 38 }
-			size = { width = 290 height = 30 }
-			iconType = {
-				name = "hex_bg"
-				spriteType = "GFX_hex_bg"
-				position = { x = 2 y = 0 }
-				alwaysTransparent = yes
-			}
-			buttonType = {
-				name = "governor_icon"
-				quadTextureSprite = "GFX_leader_icons"
-				frame = 4
-				position = { x = 0 y = 12 }
-				alwaysTransparent = yes
-			}
-			instantTextBoxType = {
-				name = "governor_title_lable"
-				font = "malgun_goth_24"
-				text = "GOVERNORS"
-				position = { x = 37 y = 17 }
-				maxWidth = 250
-				maxHeight = 20
-				format = left
-				fixedSize = yes
-			}
+		@reroll_button_y = 35
+		buttonType = {
+			name = "governor_icon"
+			quadTextureSprite = "GFX_leader_icons"
+			frame = 4
+			position = { x = 25 y = @role_icon_y }
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "governor_title_lable"
+			font = "malgun_goth_24"
+			text = "GOVERNORS"
+			position = { x = 62 y = @role_label_y }
+			maxWidth = 250
+			maxHeight = 20
+			format = left
+			fixedSize = yes
 		}
 		buttonType = {
 			name = "hire_new_governor"
@@ -107,33 +96,21 @@ guiTypes = {
 			oversound = mouse_over
 			clicksound = confirm_click
 		}
-		containerWindowType = {
-			name = "scientits_title_container"
-			position = { x = 530 y = 38 }
-			size = { width = 290 height = 30 }
-			iconType = {
-				name = "hex_bg"
-				spriteType = "GFX_hex_bg"
-				position = { x = 2 y = 0 }
-				alwaysTransparent = yes
-			}
-			buttonType = {
-				name = "scientist_icon"
-				quadTextureSprite = "GFX_leader_icons"
-				frame = 3
-				position = { x = 0 y = 12 }
-				alwaysTransparent = yes
-			}
-			instantTextBoxType = {
-				name = "scientits_title_lable"
-				font = "malgun_goth_24"
-				text = "SCIENTIST"
-				position = { x = 37 y = 17 }
-				maxWidth = 250
-				maxHeight = 20
-				format = left
-				fixedSize = yes
-			}
+		buttonType = {
+			name = "scientist_icon"
+			quadTextureSprite = "GFX_leader_icons"
+			frame = 3
+			position = { x = 530 y = @role_icon_y }
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "scientits_title_lable"
+			font = "malgun_goth_24"
+			text = "SCIENTIST"
+			position = { x = 567 y = @role_label_y }
+			maxWidth = 250
+			maxHeight = 20
+			format = left
 		}
 		buttonType = {
 			name = "hire_new_scientist"
@@ -144,33 +121,21 @@ guiTypes = {
 			oversound = mouse_over
 			clicksound = confirm_click
 		}
-		containerWindowType = {
-			name = "admiral_title_container"
-			position = { x = 1037 y = 38 }
-			size = { width = 290 height = 30 }
-			iconType = {
-				name = "hex_bg"
-				spriteType = "GFX_hex_bg"
-				position = { x = 2 y = 0 }
-				alwaysTransparent = yes
-			}
-			buttonType = {
-				name = "admiral_icon"
-				quadTextureSprite = "GFX_leader_icons"
-				frame = 1
-				position = { x = 0 y = 12 }
-				alwaysTransparent = yes
-			}
-			instantTextBoxType = {
-				name = "admirals_title_lable"
-				font = "malgun_goth_24"
-				text = "ADMIRALS"
-				position = { x = 37 y = 17 }
-				maxWidth = 250
-				maxHeight = 20
-				format = left
-				fixedSize = yes
-			}
+		buttonType = {
+			name = "admiral_icon"
+			quadTextureSprite = "GFX_leader_icons"
+			frame = 1
+			position = { x = 1037 y = @role_icon_y }
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "admirals_title_lable"
+			font = "malgun_goth_24"
+			text = "ADMIRALS"
+			position = { x = 1074 y = @role_label_y }
+			maxWidth = 250
+			maxHeight = 20
+			format = left
 		}
 		buttonType = {
 			name = "hire_new_admiral"
@@ -181,41 +146,37 @@ guiTypes = {
 			oversound = mouse_over
 			clicksound = confirm_click
 		}
-		containerWindowType = {
-			name = "generals_title_container"
-			position = { x = 1037 y = 618 }
+		buttonType = {
+			name = "general_icon"
+			quadTextureSprite = "GFX_leader_icons"
+			frame = 2
+			position = { x = 1037 y = 630 }
 			if_resolution = {
 				min_height = 1200
-				position = { x = 1037 y = 738 }
+				position = { x = 1037 y = 750 }
 			}
 			if_resolution = {
 				min_height = 1440
-				position = { x = 1037 y = 978 }
+				position = { x = 1037 y = 990 }
 			}
-			size = { width = 290 height = 30 }
-			iconType = {
-				name = "hex_bg"
-				spriteType = "GFX_hex_bg"
-				position = { x = 2 y = 0 }
-				alwaysTransparent = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "generals_title_lable"
+			font = "malgun_goth_24"
+			text = "GENERALS"
+			position = { x = 1074 y = 635 }
+			if_resolution = {
+				min_height = 1200
+				position = { x = 1074 y = 755 }
 			}
-			buttonType = {
-				name = "general_icon"
-				quadTextureSprite = "GFX_leader_icons"
-				frame = 2
-				position = { x = 0 y = 12 }
-				alwaysTransparent = yes
+			if_resolution = {
+				min_height = 1440
+				position = { x = 1074 y = 995 }
 			}
-			instantTextBoxType = {
-				name = "generals_title_lable"
-				font = "malgun_goth_24"
-				text = "GENERALS"
-				position = { x = 37 y = 17 }
-				maxWidth = 250
-				maxHeight = 20
-				format = left
-				fixedSize = yes
-			}
+			maxWidth = 250
+			maxHeight = 20
+			format = left
 		}
 		buttonType = {
 			name = "hire_new_general"
@@ -395,32 +356,88 @@ guiTypes = {
 			spacing = -5
 			autohide_scrollbar = no
 		}
-		# Fix errors in log
-		buttonType = {
-			name = "governor_icon"
-			quadTextureSprite = "GFX_invisible"
-			alwaysTransparent = yes
+		###################
+		# Mod Buttons
+		###################
+		###################
+		# Fire them ALL! Button
+		###################
+		effectbuttonType = {
+			name = "fta_button_effects_generals"
+			quadTextureSprite = "GFX_button_116_24"
+			position = { x = 1359 y = 4 }
+			buttonFont = "cg_16b"
+			buttonText = "FIRE"
+			oversound = mouse_over
+			clicksound = confirm_click
+			effect = fta_button_effects_start
 		}
-		buttonType = {
-			name = "scientist_icon"
-			quadTextureSprite = "GFX_invisible"
-			alwaysTransparent = yes
+		###################
+		# Governors button
+		###################
+		effectbuttonType = {
+			name = "rerolll_button_effects_governors"
+			quadTextureSprite = "GFX_standard_button_116_34"
+			position = { x = 221 y = @reroll_button_y }
+			buttonFont = "cg_16b"
+			buttonText = "REROLL"
+			oversound = mouse_over
+			clicksound = confirm_click
+			effect = rerolll_button_effects_governors
 		}
-		buttonType = {
-			name = "admiral_icon"
-			quadTextureSprite = "GFX_invisible"
-			alwaysTransparent = yes
+		###################
+		# Scientist button
+		###################
+		effectbuttonType = {
+			name = "rerolll_button_effects_scientists"
+			quadTextureSprite = "GFX_standard_button_116_34"
+			position = { x = 727 y = @reroll_button_y }
+			buttonFont = "cg_16b"
+			buttonText = "REROLL"
+			oversound = mouse_over
+			clicksound = confirm_click
+			effect = rerolll_button_effects_scientists
 		}
-		buttonType = {
-			name = "general_icon"
-			quadTextureSprite = "GFX_invisible"
-			alwaysTransparent = yes
+		###################
+		# Admirals button
+		###################
+		effectbuttonType = {
+			name = "rerolll_button_effects_admirals"
+			quadTextureSprite = "GFX_standard_button_116_34"
+			position = { x = 1233 y = @reroll_button_y }
+			buttonFont = "cg_16b"
+			buttonText = "REROLL"
+			oversound = mouse_over
+			clicksound = confirm_click
+			effect = rerolll_button_effects_admirals
+		}
+		###################
+		# Generals button
+		###################
+		effectbuttonType = {
+			name = "rerolll_button_effects_generals"
+			quadTextureSprite = "GFX_standard_button_116_34"
+			position = { x = 1233 y = 615 }
+			if_resolution = {
+				min_height = 1200
+				position = { x = 1233 y = 735 }
+			}
+			if_resolution = {
+				min_height = 1440
+				position = { x = 1233 y = 975 }
+			}
+			buttonFont = "cg_16b"
+			buttonText = "REROLL"
+			oversound = mouse_over
+			clicksound = confirm_click
+			effect = rerolll_button_effects_generals
 		}
 	}
 	# Leader entry
 	containerWindowType = {
 		name = "planet_list_leaders_entry"
-		size = { width = 475 height = 90 }		clipping = yes
+		size = { width = 475 height = 90 }
+		clipping = yes
 		background = {
 			name = "planet_list_leaders_entry_background"
 			quadTextureSprite = "GFX_start_screen_bg"
@@ -534,7 +551,7 @@ guiTypes = {
 		iconType = {
 			name = "leader_skill"
 			spriteType = "GFX_leader_skill"
-			position = { x = -226 y = 7 }
+			position = { x = -219 y = 6 }
 			orientation = "UPPER_RIGHT"
 		}
 		# traits black background
