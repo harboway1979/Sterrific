@@ -1,0 +1,153 @@
+namespace = machinedlcetc
+#beta feature control penal
+country_event = {
+    id = machinedlcetc.1
+	title = "machinedlcetc.1.name"
+	desc = "machinedlcetc.1.desc"
+	is_triggered_only = yes
+	picture = GFX_evt_machinedlc
+
+	trigger = {
+		is_ai = no 
+	}
+
+	#processing resources
+	option = {
+		name = machinedlcetc.1.2 #on, click to turn off
+		custom_tooltip = machinedlcetc.feature_on.tooltip #currently activated
+	
+		trigger = {
+			has_global_flag = machinedlc_new_feature_1
+		}
+
+		hidden_effect = {
+			remove_global_flag = machinedlc_new_feature_1
+			clear_mod_processing_power = yes
+			add_modifier = { modifier = processing_power_feature_off days = -1 }
+
+			country_event = { id = machinedlcetc.1 }
+		}
+	}
+	option = {
+		name = machinedlcetc.1.3 #off
+		custom_tooltip = machinedlcetc.feature_off.tooltip #currently deactivated
+
+		trigger = {
+			NOT = { has_global_flag = machinedlc_new_feature_1 }
+		}
+
+		hidden_effect = {
+			remove_modifier = processing_power_feature_off
+			set_global_flag = machinedlc_new_feature_1
+
+			country_event = { id = machinedlcpp.3 }
+			country_event = { id = machinedlcetc.1 }
+		}
+	}
+
+	#robot -> machine
+	option = {
+		name = machinedlcetc.1.4 #on, click to turn off
+		custom_tooltip = machinedlcetc.feature_on.tooltip #currently activated
+	
+		trigger = {
+			has_global_flag = machinedlc_new_feature_2
+		}
+
+		hidden_effect = {
+			remove_global_flag = machinedlc_new_feature_2
+			country_event = { id = machinedlcetc.1 }
+		}
+	}
+	option = {
+		name = machinedlcetc.1.5 #off
+		custom_tooltip = machinedlcetc.feature_off.tooltip #currently deactivated
+
+		trigger = {
+			NOT = { has_global_flag = machinedlc_new_feature_2 }
+		}
+
+		hidden_effect = {
+			set_global_flag = machinedlc_new_feature_2
+			country_event = { id = machinedlcetc.1 }
+		}
+	}
+
+	#machine -> robot
+	option = {
+		name = machinedlcetc.1.6 #on, click to turn off
+		custom_tooltip = machinedlcetc.feature_on.tooltip #currently activated
+	
+		trigger = {
+			has_global_flag = machinedlc_new_feature_3
+		}
+
+		hidden_effect = {
+			remove_global_flag = machinedlc_new_feature_3
+			country_event = { id = machinedlcetc.1 }
+		}
+	}
+	option = {
+		name = machinedlcetc.1.7 #off
+		custom_tooltip = machinedlcetc.feature_off.tooltip #currently deactivated
+
+		trigger = {
+			NOT = { has_global_flag = machinedlc_new_feature_3 }
+		}
+
+		hidden_effect = {
+			set_global_flag = machinedlc_new_feature_3
+			country_event = { id = machinedlcetc.1 }
+		}
+	}
+
+    #assimilation
+	option = {
+		name = machinedlcetc.1.8 #on, click to turn off
+		custom_tooltip = machinedlcetc.feature_on.tooltip #currently activated
+	
+		trigger = {
+			has_global_flag = machinedlc_new_feature_4
+		}
+
+		hidden_effect = {
+			remove_global_flag = machinedlc_new_feature_4
+			country_event = { id = machinedlcetc.1 }
+		}
+	}
+	option = {
+		name = machinedlcetc.1.9 #off
+		custom_tooltip = machinedlcetc.feature_off.tooltip #currently deactivated
+
+		trigger = {
+			NOT = { has_global_flag = machinedlc_new_feature_4 }
+		}
+
+		hidden_effect = {
+			set_global_flag = machinedlc_new_feature_4
+			country_event = { id = machinedlcetc.1 }
+		}
+	}
+
+	option = {
+		name = machinedlcetc.1.1
+	}
+}
+country_event = {
+	id = machinedlcetc.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		#every_planet = { surveyed = { set_surveyed = yes } }
+	}
+}
+planet_event = {
+	id = machinedlcetc.3
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		
+	}
+}
