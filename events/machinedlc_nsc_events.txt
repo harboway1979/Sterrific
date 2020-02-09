@@ -1,0 +1,11 @@
+namespace = machinedlc_nsc
+
+event = {
+	id = machinedlc_nsc.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_global_flag = machinedlc_nsc_patch_enabled
+	}
+}
