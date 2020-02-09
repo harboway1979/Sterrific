@@ -3603,7 +3603,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3631,7 +3631,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3659,7 +3659,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3687,7 +3687,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3715,7 +3715,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3743,7 +3743,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3771,7 +3771,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3799,7 +3799,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3827,7 +3827,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3855,7 +3855,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3883,7 +3883,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3911,7 +3911,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3939,7 +3939,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3967,7 +3967,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -3995,7 +3995,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -4023,7 +4023,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -4048,7 +4048,7 @@ country_event = {
 			has_valid_civic = civic_all_seeing_eye			
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -4075,7 +4075,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -4102,7 +4102,7 @@ country_event = {
 			}
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -4127,7 +4127,7 @@ country_event = {
 			has_valid_civic = civic_machine_terminator
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
@@ -4151,7 +4151,7 @@ country_event = {
 			has_valid_civic = civic_original_people
 		}
 		add_resource = { influence = 1000 }
-		give_technology = { tech = tech_fe_escorts }
+		# give_technology = { tech = tech_fe_escorts }
 		if = {
 			limit = { 
 				NOT = {
