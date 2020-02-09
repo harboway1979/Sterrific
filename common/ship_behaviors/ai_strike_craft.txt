@@ -6,9 +6,9 @@
 
 ship_behavior = {
 	name = "fighters_pd_behavior"
-	preferred_attack_range = 5
-	formation_distance = 90
-	return_to_formation_distance = 110
+	preferred_attack_range = 3
+	formation_distance = 15
+	return_to_formation_distance = 17
 
 	attack_move_pattern = none
 	passive_move_pattern = charge
