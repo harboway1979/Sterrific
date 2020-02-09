@@ -1,0 +1,169 @@
+@corvette_scale = 6.0
+@destroyer_scale = 7.0
+@cruiser_scale = 10.0
+@battleship_scale = 12.0
+@Battlecruiser_scale = 13.0
+@LightCarrier_scale = 15.0
+@Carrier_scale = 17.0
+@military_station_large = 20.0
+@Dreadnought_scale = 20.0
+@Superdreadnought_scale = 25.0
+@Flagship_scale = 30.0
+
+
+###################            FRIGATE             ########################
+
+# FRAME
+
+entity = {
+	name = "fallen_machine_Frigate_entity"
+	pdxmesh = "fallen_machine_empire_01_warship_small_mesh"
+	scale = 0.9
+	
+	locator = { name = "part1" }
+	locator = { name = "part2" }
+	
+	locator = { name = "part5"	position = { 0 0 -0.1 } rotation = { 0 0 90 } }
+	attach = { part5 = "fallen_machine_Frigate_main_entity" }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_medium_01" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_05" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_06" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_07" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_08" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+#		event = { time = 0 node = "engine_medium_09" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+#		event = { time = 0 node = "engine_medium_10" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+#		event = { time = 0 node = "engine_medium_11" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+#		event = { time = 0 node = "engine_medium_12" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_01" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }	
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_fallen_empire_warship_01" } }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_medium_01" particle = "mammalian_01_1_5_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "mammalian_01_1_5_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "mammalian_01_1_5_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "mammalian_01_1_5_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_05" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_06" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_07" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_08" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+#		event = { time = 0 node = "engine_medium_09" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+#		event = { time = 0 node = "engine_medium_10" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+#		event = { time = 0 node = "engine_medium_11" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+#		event = { time = 0 node = "engine_medium_12" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }		
+		event = { time = 0 node = "engine_large_01" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }				
+	}
+	state = { name = "death" chance = 1 looping = no state_time = 10 }			
+	
+	game_data = {
+		size = @destroyer_scale
+	}
+}
+
+
+# BOW
+
+entity = {
+	name = "fallen_machine_Frigate_bow_L1_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "large_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { -15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 15.66 3.38 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "fallen_machine_Frigate_bow_M1S2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "large_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { -15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 15.66 3.38 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "fallen_machine_Frigate_bow_S3_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "large_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { -15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 15.66 3.38 } rotation = { 0 0 0 } }
+}
+
+# STERN
+
+entity = {
+	name = "fallen_machine_Frigate_stern_S2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "large_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { -15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 15.66 3.38 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "fallen_machine_Frigate_stern_M1_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "large_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 -2.87 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { -15.66 0 3.38 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 15.66 3.38 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "fallen_machine_Frigate_main_entity"
+	pdxmesh = "fallen_machine_empire_01_warship_small_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_medium_01" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_05" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_06" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_07" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_08" particle = "mammalian_01_2_35_exhaust_oblong_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_01" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }	
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_fallen_empire_warship_01" } }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_medium_01" particle = "mammalian_01_1_5_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "mammalian_01_1_5_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "mammalian_01_1_5_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "mammalian_01_1_5_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_05" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_06" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_07" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_08" particle = "mammalian_01_2_35_ship_exhaust_oblong_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_01" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }				
+	}
+	state = { name = "death" chance = 1 looping = no state_time = 10 }
+}
