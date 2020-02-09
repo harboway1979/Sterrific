@@ -42,7 +42,7 @@ ap_galactic_ascendancy = {
 		}
 		custom_tooltip = {
 			fail_text = "requires_ascension_perks_6"
-			num_ascension_perks > 5					
+			num_ascension_perks > 9					
 		}
 		custom_tooltip = {
 			fail_text = "is_ascended_empire_subject"
@@ -139,7 +139,7 @@ ap_galactic_consciousness = {
 		}
 		custom_tooltip = {
 			fail_text = "requires_ascension_perks_6"
-			num_ascension_perks > 5
+			num_ascension_perks > 9
 		}
 		custom_tooltip = {
 			fail_text = "is_ascended_empire_subject"
@@ -224,7 +224,7 @@ ap_machine_ascendancy = {
 		}
 		custom_tooltip = {
 			fail_text = "requires_ascension_perks_6"
-			num_ascension_perks > 5
+			num_ascension_perks > 9
 		}
 		custom_tooltip = {
 			fail_text = "is_ascended_empire_subject"
