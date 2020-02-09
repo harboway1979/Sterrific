@@ -7,7 +7,7 @@ weapon_component_template = {
 	damage = { min = 10000 max = 16000 }
 	windup = { min = 80 max = 120 }
 	total_fire_time = 120
-	range = 200
+	range = 34.0
 	accuracy = 0.85
 	type = instant
 	power = -500
@@ -31,7 +31,7 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	firing_arc = 10.0
-	min_range = 30.0
+	min_range = 5.0
 	static_rotation = yes
 	use_ship_kill_target = no
 	
@@ -52,7 +52,7 @@ weapon_component_template = {
 	damage = { min = 12000 max = 18000 }
 	windup = { min = 30 max = 45 }
 	total_fire_time = 120
-	range = 150
+	range = 26.0
 	accuracy = 0.95
 	type = instant
 	power = -500
@@ -76,7 +76,7 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	firing_arc = 360.0
-	min_range = 30.0
+	min_range = 5.0
 	static_rotation = yes
 	use_ship_kill_target = no
 	ai_tags = { weapon_role_artillery }
@@ -93,7 +93,7 @@ weapon_component_template = {
 	damage = { min = 3000 max = 6000 }
 	windup = { min = 10 max = 20 }
 	total_fire_time = 70
-	range = 200
+	range = 34.0
 	accuracy = 0.85
 	type = instant
 	power = -350
@@ -140,7 +140,7 @@ weapon_component_template = {
 	windup = { min = 1 max = 19 }
 	total_fire_time = 90
 
-	range = 200
+	range = 34.0
 	accuracy = 1.0
 	missile_speed = 12 # 264 -- apparently, the game doesn't auto-convert speed for non-vanilla components
 	missile_evasion = 0.1
@@ -194,7 +194,7 @@ weapon_component_template = {
 	damage = { min = 15 max = 55 }
 	windup = { min = 1.0 max = 15.0 }
 	total_fire_time = 20
-	range = 100
+	range = 17.0
 	accuracy = 0.90
 	power = -35
 	
@@ -231,7 +231,7 @@ weapon_component_template = {
 	damage = { min = 600 max = 1000 }
 	windup = { min = 10 max = 20 }
 	total_fire_time = 70
-	range = 120
+	range = 20.0
 	accuracy = 0.85
 	type = instant
 	power = -200
@@ -256,7 +256,7 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	firing_arc = 25.0
-	min_range = 10.0
+	min_range = 2.0
 	static_rotation = yes
 	use_ship_kill_target = no
 
@@ -277,7 +277,7 @@ weapon_component_template = {
 	damage = { min = 2000 max = 4000 }
 	windup = { min = 80 max = 120 }
 	total_fire_time = 120
-	range = 180
+	range = 30.0
 	accuracy = 0.85
 	type = instant
 	power = -300
@@ -302,7 +302,7 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	firing_arc = 10.0
-	min_range = 30.0
+	min_range = 5.0
 	static_rotation = yes
 	use_ship_kill_target = no
 	
